@@ -1,20 +1,18 @@
 "use strict";
 
-import { metaJSONSyntaxScheme } from "occam-colours";
-
-const { stringLiteralColour,
-        dependencyColour,
-        dependencyHoverColour,
-        faultyDependencyColour,
-        faultyDependencyHoverColour,
-        disabledDependencyColour,
-        disabledDependencyHoverColour,
-        repositoryColour,
-        repositoryHoverColour,
-        faultyRepositoryColour,
-        faultyRepositoryHoverColour,
-        disabledRepositoryColour,
-        disabledRepositoryHoverColour } = metaJSONSyntaxScheme;
+import { stringLiteralColour,
+         dependencyColour,
+         dependencyHoverColour,
+         faultyDependencyColour,
+         faultyDependencyHoverColour,
+         disabledDependencyColour,
+         disabledDependencyHoverColour,
+         repositoryColour,
+         repositoryHoverColour,
+         faultyRepositoryColour,
+         faultyRepositoryHoverColour,
+         disabledRepositoryColour,
+         disabledRepositoryHoverColour } from "../../scheme/syntax/metaJSON";
 
 const metaJSONSyntaxStyle = `
 

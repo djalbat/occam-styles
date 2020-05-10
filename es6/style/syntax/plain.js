@@ -1,8 +1,6 @@
 "use strict";
 
-import { plainSyntaxScheme } from "occam-colours";
-
-const { colour } = plainSyntaxScheme;
+import { colour } from "../../scheme/syntax/plain";
 
 const plainSyntaxStyle = `
 

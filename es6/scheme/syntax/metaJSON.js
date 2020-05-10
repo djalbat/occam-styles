@@ -2,44 +2,28 @@
 
 import { hokeyPokey, portica, terracotta, pablo, flamingo, hurricane } from "../../colours";
 
-const stringLiteralColour = hokeyPokey;
+export const stringLiteralColour = hokeyPokey;
 
-const dependencyColour = hokeyPokey;
+export const dependencyColour = hokeyPokey;
 
-const dependencyHoverColour = portica;
+export const dependencyHoverColour = portica;
 
-const faultyDependencyColour = terracotta;
+export const faultyDependencyColour = terracotta;
 
-const faultyDependencyHoverColour = flamingo;
+export const faultyDependencyHoverColour = flamingo;
 
-const disabledDependencyColour = pablo;
+export const disabledDependencyColour = pablo;
 
-const disabledDependencyHoverColour = hurricane;
+export const disabledDependencyHoverColour = hurricane;
 
-const repositoryColour = hokeyPokey;
+export const repositoryColour = hokeyPokey;
 
-const repositoryHoverColour = portica;
+export const repositoryHoverColour = portica;
 
-const faultyRepositoryColour = terracotta;
+export const faultyRepositoryColour = terracotta;
 
-const faultyRepositoryHoverColour = flamingo;
+export const faultyRepositoryHoverColour = flamingo;
 
-const disabledRepositoryColour = pablo;
+export const disabledRepositoryColour = pablo;
 
-const disabledRepositoryHoverColour = hurricane;
-
-export default {
-  stringLiteralColour,
-  dependencyColour,
-  dependencyHoverColour,
-  faultyDependencyColour,
-  faultyDependencyHoverColour,
-  disabledDependencyColour,
-  disabledDependencyHoverColour,
-  repositoryColour,
-  repositoryHoverColour,
-  faultyRepositoryColour,
-  faultyRepositoryHoverColour,
-  disabledRepositoryColour,
-  disabledRepositoryHoverColour
-};
+export const disabledRepositoryHoverColour = hurricane;

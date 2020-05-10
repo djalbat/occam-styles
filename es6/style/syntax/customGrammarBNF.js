@@ -1,8 +1,6 @@
 "use strict";
 
-import { customGrammarBNFSyntaxScheme } from "occam-colours";
-
-const { nameColour, typeColour, stringLiteralColour } = customGrammarBNFSyntaxScheme;
+import { nameColour, typeColour, stringLiteralColour } from "../../scheme/syntax/customGrammarBNF"
 
 const customGrammarBNFSyntaxStyle = `
 

@@ -1,27 +1,25 @@
 "use strict";
 
-import { florenceSyntaxScheme } from "occam-colours";
-
-const { customColour,
-        commentColour,
-        keywordColour,
-        stringLiteralColour,
-        typeNameColour,
-        contextNameColour,
-        variableNameColour,
-        metavariableNameColour,
-        labelNameColour,
-        labelNameHoverColour,
-        faultyLabelNameColour,
-        faultyLabelNameHoverColour,
-        disabledLabelNameColour,
-        disabledLabelNameHoverColour,
-        referenceNameColour,
-        referenceNameHoverColour,
-        faultyReferenceNameColour,
-        faultyReferenceNameHoverColour,
-        disabledReferenceNameColour,
-        disabledReferenceNameHoverColour } = florenceSyntaxScheme;
+import { customColour,
+         commentColour,
+         keywordColour,
+         stringLiteralColour,
+         typeNameColour,
+         contextNameColour,
+         variableNameColour,
+         metavariableNameColour,
+         labelNameColour,
+         labelNameHoverColour,
+         faultyLabelNameColour,
+         faultyLabelNameHoverColour,
+         disabledLabelNameColour,
+         disabledLabelNameHoverColour,
+         referenceNameColour,
+         referenceNameHoverColour,
+         faultyReferenceNameColour,
+         faultyReferenceNameHoverColour,
+         disabledReferenceNameColour,
+         disabledReferenceNameHoverColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
 

@@ -1,8 +1,6 @@
 "use strict";
 
-import { defaultSyntaxScheme } from "occam-colours";
-
-const { colour } = defaultSyntaxScheme;
+import { colour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 

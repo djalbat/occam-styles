@@ -2,65 +2,42 @@
 
 import { sushi, pablo, razzmatazz, hokeyPokey, regentGrey, cadetBlue, treePoppy, sycamore, celery, terracotta, flamingo, hurricane } from "../../colours";
 
-const customColour = sushi;
+export const customColour = sushi;
 
-const commentColour = pablo;
+export const commentColour = pablo;
 
-const keywordColour = razzmatazz;
+export const keywordColour = razzmatazz;
 
-const stringLiteralColour = hokeyPokey;
+export const stringLiteralColour = hokeyPokey;
 
-const typeNameColour = regentGrey;
+export const typeNameColour = regentGrey;
 
-const contextNameColour = cadetBlue;
+export const contextNameColour = cadetBlue;
 
-const variableNameColour = treePoppy;
+export const variableNameColour = treePoppy;
 
-const metavariableNameColour = cadetBlue;
+export const metavariableNameColour = cadetBlue;
 
-const labelNameColour = sycamore;
+export const labelNameColour = sycamore;
 
-const labelNameHoverColour = celery;
+export const labelNameHoverColour = celery;
 
-const faultyLabelNameColour = terracotta;
+export const faultyLabelNameColour = terracotta;
 
-const faultyLabelNameHoverColour = flamingo;
+export const faultyLabelNameHoverColour = flamingo;
 
-const disabledLabelNameColour = pablo;
+export const disabledLabelNameColour = pablo;
 
-const disabledLabelNameHoverColour = hurricane;
+export const disabledLabelNameHoverColour = hurricane;
 
-const referenceNameColour = sycamore;
+export const referenceNameColour = sycamore;
 
-const referenceNameHoverColour = celery;
+export const referenceNameHoverColour = celery;
 
-const faultyReferenceNameColour = terracotta;
+export const faultyReferenceNameColour = terracotta;
 
-const faultyReferenceNameHoverColour = flamingo;
+export const faultyReferenceNameHoverColour = flamingo;
 
-const disabledReferenceNameColour = pablo;
+export const disabledReferenceNameColour = pablo;
 
-const disabledReferenceNameHoverColour = hurricane;
-
-export default {
-  customColour,
-  commentColour,
-  keywordColour,
-  stringLiteralColour,
-  typeNameColour,
-  contextNameColour,
-  variableNameColour,
-  metavariableNameColour,
-  labelNameColour,
-  labelNameHoverColour,
-  faultyLabelNameColour,
-  faultyLabelNameHoverColour,
-  disabledLabelNameColour,
-  disabledLabelNameHoverColour,
-  referenceNameColour,
-  referenceNameHoverColour,
-  faultyReferenceNameColour,
-  faultyReferenceNameHoverColour,
-  disabledReferenceNameColour,
-  disabledReferenceNameHoverColour
-};
+export const disabledReferenceNameHoverColour = hurricane;

@@ -2,8 +2,4 @@
 
 import { gainsborough } from "../../colours";
 
-const colour = gainsborough;
-
-export default {
-  colour
-};
+export const colour = gainsborough;

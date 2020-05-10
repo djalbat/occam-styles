@@ -2,8 +2,4 @@
 
 import { springWood } from "../../colours";
 
-const colour = springWood;
-
-export default {
-  colour
-};
+export const colour = springWood;

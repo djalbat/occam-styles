@@ -2,14 +2,8 @@
 
 import { cadetBlue, treePoppy, hokeyPokey } from "../../colours";
 
-const nameColour = cadetBlue;
+export const nameColour = cadetBlue;
 
-const typeColour = treePoppy;
+export const typeColour = treePoppy;
 
-const stringLiteralColour = hokeyPokey;
-
-export default {
-  nameColour,
-  typeColour,
-  stringLiteralColour
-};
+export const stringLiteralColour = hokeyPokey;
