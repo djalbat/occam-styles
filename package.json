@@ -1,6 +1,6 @@
 {
   "name": "@jecs-imperial/occam-styles",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "dependencies": {
     "occam-colours": "^1.0.37"
   },
