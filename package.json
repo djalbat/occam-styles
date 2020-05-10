@@ -1,0 +1,28 @@
+{
+  "name": "@jecs-imperial/occam-styles",
+  "version": "0.0.1",
+  "dependencies": {
+    "occam-colours": "^1.0.37"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "browserify": "^16.5.0",
+    "chokidar-cli": "^1.2.0",
+    "watchful-cli": "^1.0.10"
+  },
+  "scripts": {
+    "clean": "rm -rf ./lib",
+    "watchful": "watchful --source-directory=./es6 --lib-directory=./lib --pause=100",
+    "batch": "npm run watchful batch --",
+    "batch-debug": "npm run watchful batch -- --debug",
+    "incremental": "npm run watchful incremental --",
+    "incremental-debug": "npm run watchful incremental -- --debug",
+    "build": "npm run clean && npm run batch",
+    "build-debug": "npm run clean && npm run batch-debug",
+    "watch": "npm run clean && npm run batch && npm run incremental",
+    "watch-debug": "npm run clean && npm run batch-debug && npm run incremental-debug"
+  },
+  "main": "./lib/index.js"
+}
