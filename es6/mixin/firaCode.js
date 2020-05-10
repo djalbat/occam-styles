@@ -12,7 +12,7 @@ const firaCodeMixin = `
 
 `;
 
-const lineHeight = LINE_HEIGHT;
+const lineHeight = LINE_HEIGHT; ///
 
 Object.assign(firaCodeMixin, {
   lineHeight
