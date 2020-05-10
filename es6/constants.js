@@ -1,4 +1,4 @@
 "use strict";
 
-export const FONT_SIZE = "1.3rem";
-export const LINE_HEIGHT = 20;
+export const FIRA_CODE_FONT_SIZE = "1.3rem";
+export const FIRA_CODE_LINE_HEIGHT = 20;
