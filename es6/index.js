@@ -1,4 +1,4 @@
 'use strict';
 
-export { default as addSyntaxStyle } from "./addSyntaxStyle";
-export { default as addFiraCodeStyle } from "./addFiraCodeStyle";
+export { default as renderSyntaxStyle } from "./renderSyntaxStyle";
+export { default as renderFiraCodeStyle } from "./renderFiraCodeStyle";

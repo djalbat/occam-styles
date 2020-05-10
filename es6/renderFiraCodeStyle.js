@@ -4,10 +4,10 @@ import withStyle from "easy-with-style";  ///
 
 import firaCodeStyle from "./style/firaCode";
 
-const { addStyle } = withStyle;
+const { renderStyle } = withStyle;
 
-export default function addFiraCodeStyle() {
-  addStyle(`
+export default function renderFiraCodeStyle() {
+  renderStyle(`
 
     ${firaCodeStyle()}
     
