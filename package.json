@@ -1,12 +1,13 @@
 {
-  "name": "@jecs-imperial/occam-styles",
-  "version": "0.0.10",
+  "name": "occam-styles",
+  "version": "0.0.11",
   "dependencies": {
     "occam-colours": "^1.0.37"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "@babel/preset-env": "^7.8.6",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
     "browserify": "^16.5.0",
     "chokidar-cli": "^1.2.0",
     "watchful-cli": "^1.0.10"
