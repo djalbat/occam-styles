@@ -7,25 +7,23 @@ import florenceSyntaxStyle from "../style/syntax/florence";
 import metaJSONeSyntaxStyle from "../style/syntax/metaJSON";
 import customGrammarBNFNeSyntaxStyle from "../style/syntax/customGrammarBNF";
 
-export default function (fontSize, lineHeight) {
-  const firaCodeStyle = firaCodeMixin(fontSize, lineHeight);
+const syntaxStyle = `
+    
+  .syntax,
+  .syntax > * {
+    ${firaCodeMixin}
+  }
 
-  return (`
-    
-    .syntax,
-    .syntax > * {
-      ${firaCodeStyle}
-    }
+  ${defaultSyntaxStyle}
   
-    ${defaultSyntaxStyle}
-    
-    ${plainSyntaxStyle}
-    
-    ${florenceSyntaxStyle}
-    
-    ${metaJSONeSyntaxStyle}
+  ${plainSyntaxStyle}
   
-    ${customGrammarBNFNeSyntaxStyle} 
-    
-  `);
-};
+  ${florenceSyntaxStyle}
+  
+  ${metaJSONeSyntaxStyle}
+
+  ${customGrammarBNFNeSyntaxStyle} 
+  
+`;
+
+export default syntaxStyle;

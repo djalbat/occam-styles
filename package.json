@@ -1,13 +1,11 @@
 {
   "name": "@jecs-imperial/occam-styles",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "dependencies": {
-    "easy-with-style": "^2.0.1",
     "occam-colours": "^1.0.37"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.8.6",
     "browserify": "^16.5.0",
     "chokidar-cli": "^1.2.0",
