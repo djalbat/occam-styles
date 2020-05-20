@@ -14,10 +14,13 @@ export const backgroundColour = hunterGreen;
 
 export const bulletPointColour = korma;
 
+export const logoBackgroundColour = bonjour;
+
 export default {
   colour,
   linkColour,
   borderColour,
   backgroundColour,
   bulletPointColour,
+  logoBackgroundColour
 };
