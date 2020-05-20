@@ -1,10 +1,9 @@
 "use strict";
 
-const commonMixin = `
+const commonFontMixin = `
 
-  font-weight: normal;
   font-family: 'DejaVu Sans Mono', Menlo, 'Lucida Console', Monaco, monospace;
 
 `;
 
-export default commonMixin;
+export default commonFontMixin;
