@@ -1,8 +1,8 @@
 "use strict";
 
-import { commonBorderColour } from "../common";
+import { commonBorderColour } from "./common";
 
-import { hunterGreen, stormDust, blackOlive, bonjour, korma, logCabin } from "../../colours";
+import { hunterGreen, stormDust, blackOlive, bonjour, korma, logCabin } from "../colours";
 
 export const borderColour = commonBorderColour; ///
 
