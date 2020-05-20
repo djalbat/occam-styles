@@ -6,7 +6,7 @@ import { bonjour, hunterGreen, hurricane, korma } from "../../colours";
 
 export const colour = bonjour;
 
-export const LinkColour = hurricane;
+export const linkColour = hurricane;
 
 export const borderColour = commonBorderColour; ///
 
@@ -16,7 +16,7 @@ export const bulletPointColour = korma;
 
 export default {
   colour,
-  LinkColour,
+  linkColour,
   borderColour,
   backgroundColour,
   bulletPointColour,
