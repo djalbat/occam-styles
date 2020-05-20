@@ -6,7 +6,7 @@ import { commonBorderColour, commonDisabledButtonColour, commonInputSelectButton
 
 const paneBorderColour = commonBorderColour;  ///
 
-const consoleColor =  gainsborough;
+const consoleColour =  gainsborough;
 
 const consoleHoverColour =  drivenSnow;
 
@@ -34,7 +34,7 @@ const settingsInputSelectButtonBackgroundColour = commonInputSelectButtonBackgro
 
 export default {
   paneBorderColour,
-  consoleColor,
+  consoleColour,
   consoleHoverColour,
   consoleBorderColour,
   consoleBackgroundColour,
