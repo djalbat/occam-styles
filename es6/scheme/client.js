@@ -1,6 +1,6 @@
 "use strict";
 
-import { gainsborough, drivenSnow, hunterGreen, pablo } from "../colours";
+import { emperor, gainsborough, drivenSnow, hunterGreen, pablo } from "../colours";
 
 import { commonBorderColour, commonDisabledButtonColour, commonInputSelectButtonBackgroundColour } from "./common";
 
