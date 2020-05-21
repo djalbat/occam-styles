@@ -2,9 +2,9 @@
 
 import { emperor, gainsborough, drivenSnow, hunterGreen, pablo } from "../colours";
 
-import { commonBorderColour, commonDisabledButtonColour, commonInputSelectButtonBackgroundColour } from "./common";
+import { commonBorderColour } from "./common";
 
-const paneBorderColour = commonBorderColour;  ///
+const refreshButtonColour = emperor;
 
 const consoleColour =  gainsborough;
 
@@ -18,24 +18,12 @@ const consoleOpenDocumentLinkColour =  pablo;
 
 const consoleOpenDocumentLinkHoverColour =  gainsborough;
 
-const settingsInputSelectButtonBorderColour = commonBorderColour;  ///
-
-const settingsRefreshButtonColour = emperor;
-
-const settingsDisabledButtonColour = commonDisabledButtonColour;  ///
-
-const settingsInputSelectButtonBackgroundColour = commonInputSelectButtonBackgroundColour;  ///
-
 export default {
-  paneBorderColour,
+  refreshButtonColour,
   consoleColour,
   consoleHoverColour,
   consoleBorderColour,
   consoleBackgroundColour,
   consoleOpenDocumentLinkColour,
-  consoleOpenDocumentLinkHoverColour,
-  settingsInputSelectButtonBorderColour,
-  settingsRefreshButtonColour,
-  settingsDisabledButtonColour,
-  settingsInputSelectButtonBackgroundColour
+  consoleOpenDocumentLinkHoverColour
 };
