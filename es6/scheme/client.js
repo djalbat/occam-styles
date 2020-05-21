@@ -18,12 +18,6 @@ const consoleOpenDocumentLinkColour =  pablo;
 
 const consoleOpenDocumentLinkHoverColour =  gainsborough;
 
-const footerInputButtonBorderColour = commonBorderColour;  ///
-
-const footerDisabledButtonColour = commonDisabledButtonColour;  ///
-
-const footerInputButtonBackgroundColour = commonInputSelectButtonBackgroundColour;  ///
-
 const settingsInputSelectButtonBorderColour = commonBorderColour;  ///
 
 const settingsRefreshButtonColour = emperor;
@@ -40,9 +34,6 @@ export default {
   consoleBackgroundColour,
   consoleOpenDocumentLinkColour,
   consoleOpenDocumentLinkHoverColour,
-  footerInputButtonBorderColour,
-  footerDisabledButtonColour,
-  footerInputButtonBackgroundColour,
   settingsInputSelectButtonBorderColour,
   settingsRefreshButtonColour,
   settingsDisabledButtonColour,
