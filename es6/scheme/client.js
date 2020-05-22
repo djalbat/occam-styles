@@ -1,24 +1,26 @@
 "use strict";
 
-import { emperor, gainsborough, drivenSnow, hunterGreen, pablo } from "../colours";
+import { commonBorderColour } from "./common";
+
+import { emperor, gainsborough, hunterGreen, pablo } from "../colours";
 
 const refreshButtonColour = emperor;
 
 const consoleColour =  gainsborough;
 
-const consoleHoverColour =  drivenSnow;
+const consoleBorderColour =  commonBorderColour;  ///
+
+const consoleButtonColour =  pablo;
 
 const consoleBackgroundColour =  hunterGreen;
 
-const consoleOpenDocumentLinkColour =  pablo;
-
-const consoleOpenDocumentLinkHoverColour =  gainsborough;
+const consoleButtonHoverColour =  gainsborough;
 
 export default {
   refreshButtonColour,
   consoleColour,
-  consoleHoverColour,
+  consoleBorderColour,
+  consoleButtonColour,
   consoleBackgroundColour,
-  consoleOpenDocumentLinkColour,
-  consoleOpenDocumentLinkHoverColour
+  consoleButtonHoverColour
 };
