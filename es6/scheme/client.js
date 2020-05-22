@@ -2,15 +2,11 @@
 
 import { emperor, gainsborough, drivenSnow, hunterGreen, pablo } from "../colours";
 
-import { commonBorderColour } from "./common";
-
 const refreshButtonColour = emperor;
 
 const consoleColour =  gainsborough;
 
 const consoleHoverColour =  drivenSnow;
-
-const consoleBorderColour =  commonBorderColour;  ///
 
 const consoleBackgroundColour =  hunterGreen;
 
