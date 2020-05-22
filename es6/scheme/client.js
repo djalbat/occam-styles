@@ -18,7 +18,6 @@ export default {
   refreshButtonColour,
   consoleColour,
   consoleHoverColour,
-  consoleBorderColour,
   consoleBackgroundColour,
   consoleOpenDocumentLinkColour,
   consoleOpenDocumentLinkHoverColour
