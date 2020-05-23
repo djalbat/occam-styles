@@ -17,13 +17,3 @@ export const disabledDependencyColour = pablo;
 export const disabledDependencyHoverColour = hurricane;
 
 export const repositoryColour = hokeyPokey;
-
-export const repositoryHoverColour = portica;
-
-export const faultyRepositoryColour = terracotta;
-
-export const faultyRepositoryHoverColour = flamingo;
-
-export const disabledRepositoryColour = pablo;
-
-export const disabledRepositoryHoverColour = hurricane;
