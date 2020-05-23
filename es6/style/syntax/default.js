@@ -7,9 +7,14 @@ const defaultSyntaxStyle = `
   .syntax, 
   .syntax > * { color: ${colour}; }
   
-  .syntax > a {
+  .syntax > * a {
+    cursor: pointer;
     pointer-events: auto;
     text-decoration: none;
+  }
+
+  .syntax > * a:hover {
+    text-decoration: underline;
   }
 
   .syntax > button {
