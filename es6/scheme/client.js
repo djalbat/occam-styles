@@ -1,26 +1,23 @@
 "use strict";
 
-import { commonBorderColour } from "./common";
+import { commonBorderColour, commonDisabledInputColour } from "./common";
 
-import { emperor, gainsborough, hunterGreen, pablo } from "../colours";
-
-const refreshButtonColour = emperor;
+import { emperor, gainsborough, hunterGreen } from "../colours";
 
 const consoleColour =  gainsborough;
 
 const consoleBorderColour =  commonBorderColour;  ///
 
-const consoleButtonColour =  pablo;
-
 const consoleBackgroundColour =  hunterGreen;
 
-const consoleButtonHoverColour =  gainsborough;
+const refreshButtonColour = emperor;
+
+const refreshButtonDisabledColour = commonDisabledInputColour;  ///
 
 export default {
-  refreshButtonColour,
   consoleColour,
   consoleBorderColour,
-  consoleButtonColour,
   consoleBackgroundColour,
-  consoleButtonHoverColour
+  refreshButtonColour,
+  refreshButtonDisabledColour
 };
