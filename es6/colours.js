@@ -1,6 +1,5 @@
 "use strict";
 
-export const drivenSnow = "#ffffff";
 export const springWood = "#f8f6f1";
 export const bonjour = "#e5e0e1";
 export const gainsborough = "#d5d8d2";
@@ -23,9 +22,7 @@ export const hunterGreen = "#161d10";
 
 export const regentGrey = "#899396";
 export const cadetBlue = "#5f9ea0";
-export const lapis = "#0030e6";
 
-export const phoenix = "#572686";
 export const razzmatazz = "#e3256b";
 export const flamingo = "#f34b44";
 export const terracotta = "#a83a25";
