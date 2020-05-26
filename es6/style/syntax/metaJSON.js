@@ -32,16 +32,6 @@ const metaJSONSyntaxStyle = `
 
   .meta-json.syntax > .repository, .meta-json.syntax > .repository a { color: ${repositoryColour}; }
 
-  .meta-json.syntax > .repository:hover, .meta-json.syntax > .repository a:hover { color: ${repositoryHoverColour}; }
-
-  .meta-json.syntax > .repository.faulty, .meta-json.syntax > .repository.faulty a { color: ${faultyRepositoryColour}; }
-
-  .meta-json.syntax > .repository.faulty:hover, .meta-json.syntax > .repository.faulty a:hover { color: ${faultyRepositoryHoverColour}; }
-
-  .meta-json.syntax > .repository.disabled, .meta-json.syntax > .repository.disabled a { color: ${disabledRepositoryColour}; }
-
-  .meta-json.syntax > .repository.disabled:hover, .meta-json.syntax > .repository.disabled a:hover { color: ${disabledRepositoryHoverColour}; }
-
 `;
 
 export default metaJSONSyntaxStyle;
