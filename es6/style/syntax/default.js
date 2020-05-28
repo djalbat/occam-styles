@@ -26,7 +26,7 @@ const defaultSyntaxStyle = `
   }
   
   .syntax > .error {
-    background-image: url("./image/squiggle.png");
+    background-image: url("/css/image/squiggle.png");
     background-repeat: repeat-x;
     background-position: bottom;
   } 
