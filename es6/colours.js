@@ -16,7 +16,7 @@ export const citron = "#86b923";
 export const sushi = "#7fa82f";
 export const oliveDrab = "#638829";
 export const rifleGreen = "#414833";
-export const logCabin = "#24301D";
+export const logCabin = "#24301d";
 export const blackOlive = "#1c2412";
 export const hunterGreen = "#161d10";
 
@@ -28,8 +28,8 @@ export const flamingo = "#f34b44";
 export const terracotta = "#a83a25";
 export const korma = "#99420f";
 
-export const portica = "#F7E75F";
-export const hokeyPokey = "#C6B624";
+export const portica = "#f7e75f";
+export const hokeyPokey = "#c6b624";
 export const celery = "#bcb852";
 export const sycamore = "#908d39";
 export const treePoppy = "#fc9620";
