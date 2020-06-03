@@ -1,7 +1,7 @@
 "use strict";
 
 import plainSyntaxStyle from "../style/syntax/plain";
-import firaCodeFontMixin from "../mixin/font/firaCode";
+import inheritedFontMixin from "../mixin/font/inherited";
 import defaultSyntaxStyle from "../style/syntax/default";
 import florenceSyntaxStyle from "../style/syntax/florence";
 import metaJSONeSyntaxStyle from "../style/syntax/metaJSON";
@@ -11,7 +11,9 @@ const syntaxStyle = `
     
   .syntax,
   .syntax > * {
-    ${firaCodeFontMixin}
+  
+    ${inheritedFontMixin}
+
   }
 
   ${defaultSyntaxStyle}
