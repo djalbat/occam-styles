@@ -10,4 +10,3 @@ export { default as editorScheme } from "./scheme/editor";
 export { default as commonScheme } from "./scheme/common";
 export { default as prettyPrinterScheme } from "./scheme/prettyPrinter";
 export { default as welcomeScreenScheme } from "./scheme/welcomeScreen";
-export { default as getFiraCodeLineHeight } from "./getFiraCodeLineHeight";
