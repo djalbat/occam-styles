@@ -5,7 +5,6 @@ export { default as syntaxStyle } from "./style/syntax";
 export { default as firaCodeStyle } from "./style/firaCode";
 export { default as commonFontMixin } from "./mixin/font/common";
 export { default as firaCodeFontMixin } from "./mixin/font/firaCode";
-export { default as inheritedFontMixin } from "./mixin/font/inherited";
 export { default as clientScheme } from "./scheme/client";
 export { default as editorScheme } from "./scheme/editor";
 export { default as commonScheme } from "./scheme/common";
