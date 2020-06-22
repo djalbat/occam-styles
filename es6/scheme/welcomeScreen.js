@@ -2,11 +2,11 @@
 
 import { commonBorderColour } from "./common";
 
-import { bonjour, gainsborough, hunterGreen, hurricane, korma } from "../colours";
+import { bonjour, gainsborough, hunterGreen, korma, pablo } from "../colours";
 
 export const colour = gainsborough;
 
-export const linkColour = hurricane;
+export const linkColour = pablo;
 
 export const borderColour = commonBorderColour; ///
 
