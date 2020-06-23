@@ -3,6 +3,7 @@
 import { customColour,
          commentColour,
          keywordColour,
+         reservedColour,
          stringLiteralColour,
          typeNameColour,
          contextNameColour,
@@ -28,6 +29,8 @@ const florenceSyntaxStyle = `
   .florence.syntax > .comment { color: ${commentColour}; }
   
   .florence.syntax > .keyword { color: ${keywordColour}; }
+  
+  .florence.syntax > .reserved { color: ${reservedColour}; }
   
   .florence.syntax > .string-literal { color: ${stringLiteralColour}; }
 

@@ -8,6 +8,8 @@ export const commentColour = pablo;
 
 export const keywordColour = razzmatazz;
 
+export const reservedColour = razzmatazz;
+
 export const stringLiteralColour = hokeyPokey;
 
 export const typeNameColour = regentGrey;
