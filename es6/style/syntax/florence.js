@@ -1,6 +1,7 @@
 "use strict";
 
 import { customColour,
+        specialColour,
          commentColour,
          keywordColour,
          reservedColour,
@@ -25,6 +26,8 @@ import { customColour,
 const florenceSyntaxStyle = `
 
   .florence.syntax > .custom { color: ${customColour}; }
+  
+  .florence.syntax > .special { color: ${specialColour}; }
   
   .florence.syntax > .comment { color: ${commentColour}; }
   

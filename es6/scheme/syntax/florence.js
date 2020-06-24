@@ -4,6 +4,8 @@ import { sushi, pablo, razzmatazz, hokeyPokey, regentGrey, cadetBlue, treePoppy,
 
 export const customColour = sushi;
 
+export const specialColour = sushi;
+
 export const commentColour = pablo;
 
 export const keywordColour = razzmatazz;
