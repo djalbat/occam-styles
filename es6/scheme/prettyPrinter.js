@@ -4,8 +4,6 @@ import { commonBorderColour } from "./common";
 
 import { hunterGreen, stormDust, blackOlive, bonjour, korma, logCabin } from "../colours";
 
-export const caretColour = bonjour;
-
 export const borderColour = commonBorderColour; ///
 
 export const backgroundColour = hunterGreen;
@@ -13,6 +11,8 @@ export const backgroundColour = hunterGreen;
 export const lineNumbersColour = stormDust;
 
 export const gutterBorderColour = stormDust;
+
+export const caretBackgroundColour = bonjour;
 
 export const gutterBackgroundColour = blackOlive;
 
@@ -23,11 +23,11 @@ export const selectionBackgroundColour = korma;
 export const otherSelectionsBackgroundColour = logCabin;
 
 export default {
-  caretColour,
   borderColour,
   backgroundColour,
   lineNumbersColour,
   gutterBorderColour,
+  caretBackgroundColour,
   gutterBackgroundColour,
   foldsLineBackgroundColour,
   selectionBackgroundColour,
