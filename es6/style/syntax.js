@@ -8,15 +8,6 @@ import customGrammarBNFNeSyntaxStyle from "../style/syntax/customGrammarBNF";
 
 const syntaxStyle = `
     
-  .syntax,
-  .syntax > * {
-    font-size: inherit;
-    line-height: inherit;
-    font-family: inherit;
-    text-rendering: inherit;
-    font-feature-settings: inherit;
-  }
-
   ${defaultSyntaxStyle}
   
   ${plainSyntaxStyle}
