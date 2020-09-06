@@ -5,7 +5,17 @@ import { colour } from "../../scheme/syntax/default";
 const defaultSyntaxStyle = `
 
   .syntax, 
-  .syntax > * { color: ${colour}; }
+  .syntax > * { 
+    color: ${colour}; 
+  }
+  
+  .syntax > * { 
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    text-rendering: inherit;
+    font-feature-settings: inherit;
+  }
   
   .syntax > * a {
     cursor: pointer;
