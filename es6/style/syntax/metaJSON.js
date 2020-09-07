@@ -7,12 +7,7 @@ import { stringLiteralColour,
          faultyDependencyHoverColour,
          disabledDependencyColour,
          disabledDependencyHoverColour,
-         repositoryColour,
-         repositoryHoverColour,
-         faultyRepositoryColour,
-         faultyRepositoryHoverColour,
-         disabledRepositoryColour,
-         disabledRepositoryHoverColour } from "../../scheme/syntax/metaJSON";
+         repositoryColour } from "../../scheme/syntax/metaJSON";
 
 const metaJSONSyntaxStyle = `
 

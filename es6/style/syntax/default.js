@@ -4,17 +4,17 @@ import { colour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
-  .syntax, 
-  .syntax > * { 
-    color: ${colour}; 
-  }
-  
-  .syntax > * { 
+  .syntax * { 
     font-size: inherit;
     line-height: inherit;
     font-family: inherit;
     text-rendering: inherit;
     font-feature-settings: inherit;
+  }
+  
+  .syntax, 
+  .syntax > * { 
+    color: ${colour}; 
   }
   
   .syntax > * a {

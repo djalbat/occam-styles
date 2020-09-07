@@ -1,7 +1,7 @@
 "use strict";
 
 import { customColour,
-        specialColour,
+         specialColour,
          commentColour,
          keywordColour,
          reservedColour,
