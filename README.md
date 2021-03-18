@@ -1,6 +1,6 @@
 # Occam Styles
 
-[Occam](https://github.com/jecs-imperial/occam)'s colours, syntax schemes and common styles.
+[Occam](https://github.com/djalbat/occam)'s colours, syntax schemes and common styles.
 
 ### Contents
 
@@ -23,4 +23,3 @@ This package contains colour definitions together with user interface and syntax
 ## Contact
 
 * james.smith@openmathematics.org
-* http://djalbat.com
