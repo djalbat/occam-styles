@@ -1,7 +1,7 @@
 {
   "name": "occam-styles",
   "author": "James Smith",
-  "version": "4.0.26",
+  "version": "4.0.27",
   "license": "MIT, Anti-996",
   "homepage": "https://github.com/djalbat/occam-styles",
   "description": "colours, syntax schemes and common styles.",
@@ -11,16 +11,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "@babel/preset-env": "^7.8.6",
-    "@babel/plugin-transform-react-jsx": "^7.8.3",
-    "browserify": "^16.5.0",
-    "chokidar-cli": "^1.2.0",
-    "watchful-cli": "^1.0.10"
+    "@swc/core": "^1.2.51",
+    "watchful-cli": "^1.6.15"
   },
   "scripts": {
     "clean": "rm -rf ./lib",
-    "watchful": "watchful --source-directory=./es6 --lib-directory=./lib --pause=100",
+    "watchful": "watchful -m --transpiler=swc --source-directory=./src --lib-directory=./lib --pause=100",
     "batch": "npm run watchful batch --",
     "batch-debug": "npm run watchful batch -- --debug",
     "incremental": "npm run watchful incremental --",
