@@ -1,6 +1,6 @@
 "use strict";
 
-const firaCodeStyle = (host) => `
+const firaCodeStyle = (host = "") => `
 
   @font-face {
     font-family: "Fira Code";
