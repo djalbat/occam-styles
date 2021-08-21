@@ -23,6 +23,7 @@ export const hunterGreen = "#161d10";
 export const regentGrey = "#899396";
 export const cadetBlue = "#5f9ea0";
 
+export const pomegranate = "#f52929";
 export const razzmatazz = "#e3256b";
 export const flamingo = "#f34b44";
 export const terracotta = "#a83a25";

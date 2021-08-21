@@ -1,6 +1,6 @@
 "use strict";
 
-import { colour } from "../../scheme/syntax/default";
+import { colour, errorUnderlingColour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
@@ -36,7 +36,8 @@ const defaultSyntaxStyle = `
   }
   
   .syntax > .error {
-    background-image: url("css/image/squiggle.png");
+    text-decoration-line: underline;
+    text-decoration-color: ${errorUnderlingColour};
     background-repeat: repeat-x;
     background-position: bottom;
   } 

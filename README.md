@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This package contains colour definitions together with user interface and syntax schemes. It also contains the squiggly PNG used as a background for error tokens and, for want of a better place to put it, the Occam logo, both as a conventional and a JavaScript SVG. A distribution of [FiraCode](https://github.com/tonsky/FiraCode) is also included.
+This package contains colour definitions together with user interface and syntax schemes. It also contains the Occam logo, both as a conventional and a JavaScript SVG. A distribution of [FiraCode](https://github.com/tonsky/FiraCode) is also included.
 
 ## Acknowledgements
 

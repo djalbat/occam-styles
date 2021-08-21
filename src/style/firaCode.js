@@ -1,6 +1,6 @@
 "use strict";
 
-import { DEFAULT_HOST } from "../constants";
+import { DEFAULT_HOST } from "../defaults";
 
 const firaCodeStyle = (host = DEFAULT_HOST) => `
 
