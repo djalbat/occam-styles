@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "./common";
 
-import { dawn, tuatara, stardust } from "../colours";
+import { dawn, tuatara, stardust, woodsmoke } from "../colours";
 
 export const tabsBorderColour = commonBorderColour; ///
 
@@ -12,7 +12,7 @@ export const tabsBackgroundColour = dawn;
 
 export const tabsWelcomeTabColour = tuatara;
 
-export const tabsArrowButtonColour = tuatara;
+export const tabsArrowButtonColour = woodsmoke;
 
 export const tabsActiveBackgroundColour = stardust;
 
