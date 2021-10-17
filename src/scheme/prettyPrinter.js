@@ -20,6 +20,8 @@ export const foldsLineBackgroundColour = stormDust;
 
 export const selectionBackgroundColour = korma;
 
+export const scrollbarBackgroundColour = stormDust;
+
 export const otherSelectionsBackgroundColour = logCabin;
 
 export default {
@@ -31,5 +33,6 @@ export default {
   gutterBackgroundColour,
   foldsLineBackgroundColour,
   selectionBackgroundColour,
+  scrollbarBackgroundColour,
   otherSelectionsBackgroundColour
 };
