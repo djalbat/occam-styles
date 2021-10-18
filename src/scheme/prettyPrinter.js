@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "./common";
 
-import { korma, bonjour, logCabin, stormDust, blackOlive, hunterGreen } from "../colours";
+import { korma, emperor, bonjour, logCabin, stormDust, blackOlive, hunterGreen } from "../colours";
 
 export const borderColour = commonBorderColour; ///
 
