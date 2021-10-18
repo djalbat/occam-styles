@@ -1,6 +1,6 @@
 "use strict";
 
-import { commonBorderColour, commonScrollbarBackgroundColour } from "./common";
+import { commonBorderColour } from "./common";
 
 import { korma, bonjour, logCabin, stormDust, blackOlive, hunterGreen } from "../colours";
 
@@ -20,7 +20,7 @@ export const foldsLineBackgroundColour = stormDust;
 
 export const selectionBackgroundColour = korma;
 
-export const scrollbarBackgroundColour = commonScrollbarBackgroundColour;
+export const scrollbarBackgroundColour = emperor;
 
 export const otherSelectionsBackgroundColour = logCabin;
 
