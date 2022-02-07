@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 export { default as LogoSVG } from "./svg/logo";
 export { default as syntaxStyle } from "./style/syntax";
