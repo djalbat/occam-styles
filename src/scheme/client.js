@@ -2,7 +2,7 @@
 
 import { commonBorderColour, commonDisabledInputColour } from "./common";
 
-import {emperor, gainsborough, pablo, woodsmoke } from "../colours";
+import { emperor, gainsborough, hunterGreen, pablo } from "../colours";
 
 const consoleColour =  gainsborough;
 
@@ -12,7 +12,7 @@ const consoleButtonHoverColour =  consoleColour;  ///
 
 const consoleBorderColour =  commonBorderColour;  ///
 
-const consoleBackgroundColour =  woodsmoke;
+const consoleBackgroundColour =  hunterGreen;
 
 const refreshButtonColour = emperor;
 
