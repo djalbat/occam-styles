@@ -2,15 +2,15 @@
 
 import { commonBorderColour } from "./common";
 
-import { korma, emperor, bonjour, logCabin, stormDust, blackOlive, hunterGreen } from "../colours";
+import { korma, emperor, bonjour, logCabin, stormDust, blackOlive, woodsmoke, hunterGreen } from "../colours";
 
 export const borderColour = commonBorderColour; ///
 
-export const backgroundColour = hunterGreen;
+export const backgroundColour = woodsmoke;
 
 export const lineNumbersColour = stormDust;
 
-export const gutterBorderColour = stormDust;
+export const gutterBorderColour = hunterGreen;
 
 export const caretBackgroundColour = bonjour;
 
