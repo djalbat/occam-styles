@@ -1,7 +1,11 @@
 "use strict";
 
-import { springWood, pomegranate } from "../../colours";
+import { dawn, springWood, pomegranate } from "../../colours";
 
 export const colour = springWood;
 
-export const errorUnderlingColour = pomegranate;
+export const errorColour = dawn;
+
+export const nonsenseColour = dawn;
+
+export const underlineColour = pomegranate;
