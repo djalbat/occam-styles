@@ -23,14 +23,15 @@ export const hunterGreen = "#161d10";
 export const regentGrey = "#899396";
 export const cadetBlue = "#5f9ea0";
 
-export const pomegranate = "#f52929";
 export const razzmatazz = "#e3256b";
-export const flamingo = "#f34b44";
+export const flamingo = "#CB2039";
 export const terracotta = "#a83a25";
 export const korma = "#99420f";
+
+export const pomegranate = "#f52929";
+export const treePoppy = "#E4902F";
 
 export const portica = "#f7e75f";
 export const hokeyPokey = "#c6b624";
 export const celery = "#bcb852";
 export const sycamore = "#908d39";
-export const treePoppy = "#fc9620";
