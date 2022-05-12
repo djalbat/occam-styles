@@ -1,8 +1,8 @@
 "use strict";
 
-import { cadetBlue, sycamore, hokeyPokey } from "../../colours";
+import { avocado, cadetBlue, hokeyPokey } from "../../colours";
 
-export const typeColour = sycamore;
+export const typeColour = avocado;
 
 export const nameColour = cadetBlue;
 
