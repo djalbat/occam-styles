@@ -1,5 +1,6 @@
 "use strict";
 
+export { default as colours } from "./colours";
 export { default as LogoSVG } from "./svg/logo";
 export { default as syntaxStyle } from "./style/syntax";
 export { default as firaCodeStyle } from "./style/firaCode";
