@@ -1,6 +1,6 @@
 "use strict";
 
-export const springWood = "#f8f6f1";
+export const springWood = "#fffdfc";
 export const bonjour = "#E5E2E0";
 export const gainsborough = "#D8D6D2";
 export const dawn = "#B8B3A8";
