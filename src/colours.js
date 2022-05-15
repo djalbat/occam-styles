@@ -34,3 +34,35 @@ export const hokeyPokey = "#c6b624";
 export const celery = "#bcb852";
 export const sycamore = "#908d39";
 export const avocado = "#908d69";
+
+export default {
+  springWood,
+  bonjour,
+  gainsborough,
+  dawn,
+  stardust,
+  hurricane,
+  pablo,
+  stormDust,
+  emperor,
+  tuatara,
+  woodsmoke,
+  pomegranate,
+  sushi,
+  lapis,
+  logCabin,
+  blackOlive,
+  hunterGreen,
+  cadetBlue,
+  regentGrey,
+  razzmatazz,
+  flamingo,
+  terracotta,
+  korma,
+  treePoppy,
+  portica,
+  hokeyPokey,
+  celery,
+  sycamore,
+  avocado
+};
