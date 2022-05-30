@@ -3,7 +3,7 @@
 const monospaceFontMixin = `
 
   font-size: 1.3rem;
-  line-height: 20px;
+  line-height: 2rem;
   font-family: "Menlo", "Lucida Sans Typewriter", monospace;
   text-rendering: optimizeLegibility;
   font-feature-settings: normal;
