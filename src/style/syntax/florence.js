@@ -41,10 +41,6 @@ const florenceSyntaxStyle = `
 
   .florence.syntax > .name.context { color: ${contextNameColour}; }
 
-  .florence.syntax > .name.variable { color: ${variableNameColour}; }
-
-  .florence.syntax > .name.metavariable { color: ${metavariableNameColour}; }
-  
   .florence.syntax > .name.label { color: ${labelNameColour}; }
   
   .florence.syntax > .name.label:hover { color: ${labelNameHoverColour}; }

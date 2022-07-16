@@ -1,6 +1,6 @@
 "use strict";
 
-import { sushi, pablo, razzmatazz, hokeyPokey, regentGrey, cadetBlue, treePoppy, sycamore, celery, terracotta, flamingo, hurricane } from "../../colours";
+import { sushi, pablo, razzmatazz, hokeyPokey, cadetBlue, sycamore, celery, terracotta, flamingo, hurricane } from "../../colours";
 
 export const customColour = sushi;
 
@@ -14,13 +14,9 @@ export const reservedColour = razzmatazz;
 
 export const stringLiteralColour = hokeyPokey;
 
-export const typeNameColour = regentGrey;
+export const typeNameColour = cadetBlue;
 
 export const contextNameColour = cadetBlue;
-
-export const variableNameColour = treePoppy;
-
-export const metavariableNameColour = cadetBlue;
 
 export const labelNameColour = sycamore;
 
