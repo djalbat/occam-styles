@@ -2,7 +2,9 @@
 
 import { sushi, pablo, razzmatazz, hokeyPokey, cadetBlue, sycamore, celery, terracotta, flamingo, hurricane } from "../../colours";
 
-export const customColour = sushi;
+export const typeColour = cadetBlue;
+
+export const operatorColour = sushi;
 
 export const specialColour = sushi;
 
@@ -13,8 +15,6 @@ export const keywordColour = razzmatazz;
 export const reservedColour = razzmatazz;
 
 export const stringLiteralColour = hokeyPokey;
-
-export const typeNameColour = cadetBlue;
 
 export const contextNameColour = cadetBlue;
 

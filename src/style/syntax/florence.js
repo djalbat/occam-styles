@@ -1,12 +1,12 @@
 "use strict";
 
-import { customColour,
+import { operatorColour,
          specialColour,
          commentColour,
          keywordColour,
          reservedColour,
          stringLiteralColour,
-         typeNameColour,
+         typeColour,
          contextNameColour,
          variableNameColour,
          metavariableNameColour,
@@ -25,7 +25,9 @@ import { customColour,
 
 const florenceSyntaxStyle = `
 
-  .florence.syntax > .custom { color: ${customColour}; }
+  .florence.syntax > .type { color: ${typeColour}; }
+
+  .florence.syntax > .operator { color: ${operatorColour}; }
   
   .florence.syntax > .special { color: ${specialColour}; }
   
@@ -36,8 +38,6 @@ const florenceSyntaxStyle = `
   .florence.syntax > .reserved { color: ${reservedColour}; }
   
   .florence.syntax > .string-literal { color: ${stringLiteralColour}; }
-
-  .florence.syntax > .name.type { color: ${typeNameColour}; }
 
   .florence.syntax > .name.context { color: ${contextNameColour}; }
 
