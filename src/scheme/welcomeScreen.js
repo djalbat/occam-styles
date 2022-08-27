@@ -19,7 +19,6 @@ export const bulletPointColour = korma;
 export const logoBackgroundColour = bonjour;
 
 export default {
-  colour,
   linkColour,
   borderColour,
   headingColour,
