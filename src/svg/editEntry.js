@@ -6,7 +6,7 @@ import { Element } from "easy";
 
 import { commonColour } from "../scheme/common";
 
-class PenSVG extends Element {
+class EditEntrySVG extends Element {
   childElements() {
     return (
 
@@ -21,11 +21,11 @@ class PenSVG extends Element {
 
   static defaultProperties = {
     viewBox: "0 0 25 25",
-    className: "pen"
+    className: "edit-entry"
   };
 }
 
-export default withStyle(PenSVG)`
+export default withStyle(EditEntrySVG)`
 
   stroke: ${commonColour};
   
