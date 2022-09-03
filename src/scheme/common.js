@@ -4,7 +4,7 @@ import { dawn, bonjour, woodsmoke, stormDust, terracotta } from "../colours";
 
 export const commonColour = woodsmoke;
 
-export const commonCloseColour = terracotta;
+export const clearConsoleColour = terracotta; ///
 
 export const commonBorderColour = stormDust;
 
@@ -22,7 +22,7 @@ export const commonDisabledInputColour = stormDust;
 
 export default {
   commonColour,
-  commonCloseColour,
+  clearConsoleColour,
   commonBorderColour,
   commonBackgroundColour,
   commonInputBackgroundColour,

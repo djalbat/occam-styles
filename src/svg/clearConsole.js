@@ -4,9 +4,9 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { commonColour } from "../scheme/common";
+import { clearConsoleColour } from "../scheme/common";
 
-class CloseSVG extends Element {
+class ClearConsoleSVG extends Element {
   childElements() {
     return (
 
@@ -21,12 +21,12 @@ class CloseSVG extends Element {
 
   static defaultProperties = {
     viewBox: "0 0 25 25",
-    className: "close"
+    className: "clear-console"
   };
 }
 
-export default withStyle(CloseSVG)`
+export default withStyle(ClearConsoleSVG)`
 
-  stroke: ${commonColour};
+  stroke: ${clearConsoleColour};
   
 `;

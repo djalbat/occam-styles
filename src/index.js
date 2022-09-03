@@ -14,7 +14,6 @@ export { default as welcomeScreenScheme } from "./scheme/welcomeScreen";
 
 export { default as LogoSVG } from "./svg/logo";
 export { default as FileSVG } from "./svg/file";
-export { default as CloseSVG } from "./svg/close";
 export { default as MarkerSVG } from "./svg/marker";
 export { default as AddFileSVG } from "./svg/addFile";
 export { default as DirectorySVG } from "./svg/directory";
@@ -22,6 +21,7 @@ export { default as EditEntrySVG } from "./svg/editEntry";
 export { default as AddDirectorySVG } from "./svg/addDirectory";
 export { default as DownTriangleSVG } from "./svg/triangle/down";
 export { default as LeftTriangleSVG } from "./svg/triangle/left";
+export { default as ClearConsoleSVG } from "./svg/clearConsole";
 export { default as RightTriangleSVG } from "./svg/triangle/right";
 export { default as OpenRubbishBinSVG } from "./svg/rubbishBin/open";
 export { default as ClosedRubbishBinSVG } from "./svg/rubbishBin/closed";
