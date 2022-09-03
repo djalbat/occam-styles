@@ -4,7 +4,7 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { commonColour } from "../../scheme/common";
+import { commonColour } from "../scheme/common";
 
 class AddDirectorySVG extends Element {
   childElements() {
