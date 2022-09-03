@@ -6,21 +6,15 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Acknowledgements](#acknowledgements)
 - [Building](#building)
+- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## Introduction
 
 This package contains colour definitions together with user interface and syntax schemes. It also contains various images, both in native and JSX form. A distribution of [FiraCode](https://github.com/tonsky/FiraCode) is also included.
 
-## Acknowledgements
-
-* The syntax colouring is based on the [Monokai](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme) theme.
-
-* Colours are courtesy of Chirag Mehta's [Name that Colour](http://chir.ag/projects/name-that-color/).
-
-* The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
+There is a small example application to view the images in JSX form.
 
 ## Installation
 
@@ -50,6 +44,14 @@ You can also start a small development server:
     npm start
 
 The example will then be available at http://localhost:8888 and will reload automatically when changes are made.
+
+## Acknowledgements
+
+* The syntax colouring is based on the [Monokai](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme) theme.
+
+* Colours are courtesy of Chirag Mehta's [Name that Colour](http://chir.ag/projects/name-that-color/).
+
+* The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
 ## Contact
 
