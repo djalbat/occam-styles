@@ -2,7 +2,7 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { woodsmoke } from "../colours";
+import { commonColour } from "../scheme/common";
 
 const PenSVG = (properties) => {
   const { className } = properties;
@@ -20,6 +20,6 @@ const PenSVG = (properties) => {
 
 export default withStyle(PenSVG)`
 
-  fill: ${woodsmoke};
+  fill: ${commonColour};
   
 `;

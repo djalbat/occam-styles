@@ -2,7 +2,7 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { woodsmoke } from "../colours";
+import { commonColour } from "../scheme/common";
 
 const MarkerSVG = (properties) => {
   const { className } = properties;
@@ -20,6 +20,6 @@ const MarkerSVG = (properties) => {
 
 export default withStyle(MarkerSVG)`
 
-  fill: ${woodsmoke};
+  fill: ${commonColour};
   
 `;

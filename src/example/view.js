@@ -11,10 +11,10 @@ import { LogoSVG,
          MarkerSVG,
          AddFileSVG,
          DirectorySVG,
-         UpTriangleSVG,
          OpenRubbishBin,
          DownTriangleSVG,
          AddDirectorySVG,
+         RightTriangleSVG,
          ClosedRubbishBin } from "../index";  ///
 
 class View extends Element {
@@ -27,8 +27,8 @@ class View extends Element {
       <FileSVG/>,
       <DirectorySVG/>,
       <MarkerSVG/>,
-      <UpTriangleSVG/>,
       <DownTriangleSVG/>,
+      <RightTriangleSVG/>,
       <AddFileSVG/>,
       <AddDirectorySVG/>,
       <ClosedRubbishBin/>,

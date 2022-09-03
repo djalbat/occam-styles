@@ -2,7 +2,7 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { woodsmoke } from "../colours";
+import { commonColour } from "../scheme/common";
 
 const FileSVG = (properties) => {
   const { className } = properties;
@@ -24,6 +24,6 @@ const FileSVG = (properties) => {
 
 export default withStyle(FileSVG)`
 
-  fill: ${woodsmoke};
+  fill: ${commonColour};
   
 `;

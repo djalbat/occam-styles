@@ -2,7 +2,7 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { woodsmoke } from "../../colours";
+import { commonColour } from "../../scheme/common";
 
 const OpenRubbishBinSVG = (properties) => {
   const { className } = properties;
@@ -32,6 +32,6 @@ const OpenRubbishBinSVG = (properties) => {
 
 export default withStyle(OpenRubbishBinSVG)`
 
-  fill: ${woodsmoke};
+  fill: ${commonColour};
   
 `;

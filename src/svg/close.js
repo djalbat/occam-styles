@@ -2,7 +2,7 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { terracotta } from "../colours";
+import { commonCloseColour } from "../scheme/common";
 
 const CloseSVG = (properties) => {
   const { className } = properties;
@@ -20,6 +20,6 @@ const CloseSVG = (properties) => {
 
 export default withStyle(CloseSVG)`
 
-  fill: ${terracotta};
+  fill: ${commonCloseColour};
   
 `;

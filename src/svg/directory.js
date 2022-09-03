@@ -2,7 +2,7 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { woodsmoke } from "../colours";
+import { commonColour } from "../scheme/common";
 
 const DirectorySVG = (properties) => {
   const { className } = properties;
@@ -25,6 +25,6 @@ const DirectorySVG = (properties) => {
 
 export default withStyle(DirectorySVG)`
 
-  fill: ${woodsmoke};
+  fill: ${commonColour};
   
 `;
