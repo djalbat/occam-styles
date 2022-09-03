@@ -27,6 +27,6 @@ class ClearConsoleSVG extends Element {
 
 export default withStyle(ClearConsoleSVG)`
 
-  stroke: ${clearConsoleColour};
+  fill: ${clearConsoleColour};
   
 `;
