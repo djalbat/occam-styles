@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="down.svg"
+   sodipodi:docname="right.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,12 +26,12 @@
      showgrid="true"
      inkscape:lockguides="true"
      inkscape:zoom="8.9408699"
-     inkscape:cx="37.46839"
+     inkscape:cx="37.580236"
      inkscape:cy="44.738376"
      inkscape:window-width="1723"
      inkscape:window-height="1052"
-     inkscape:window-x="2054"
-     inkscape:window-y="13"
+     inkscape:window-x="2127"
+     inkscape:window-y="50"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -55,7 +55,7 @@
        id="path3824" />
     <path
        style="fill:#808080;stroke:#000000;stroke-width:1.94165;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 12.37198,13.970825 H 5.5695679 l 3.4012067,6.814639 z"
+       d="M 12.988592,21.371981 V 14.569568 L 6.1739528,17.970775 Z"
        id="path192-3" />
   </g>
 </svg>

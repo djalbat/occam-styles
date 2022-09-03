@@ -5,57 +5,15 @@
    width="25mm"
    height="25mm"
    viewBox="0 0 25 25"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="toggle-up.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="false"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="true"
-     inkscape:lockguides="true"
-     inkscape:zoom="8.9408699"
-     inkscape:cx="38.195389"
-     inkscape:cy="44.738376"
-     inkscape:window-width="1723"
-     inkscape:window-height="1052"
-     inkscape:window-x="2098"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid3022"
-       originx="0"
-       originy="0"
-       units="mm"
-       spacingx="0.99999999"
-       spacingy="0.99999999" />
-  </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
+   xmlns="http://www.w3.org/2000/svg">
+  <g>
     <path
        style="fill:#000000;stroke-width:0.264583"
        d="M 5,8.9999999 8.9999999,13"
        id="path3824" />
     <path
-       style="fill:#000000;stroke-width:0.264583"
-       d="m 5,14 v 7.999999 l 8,-4 z"
-       id="path192" />
+       style="fill:#808080;stroke:#000000;stroke-width:1.94165;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 4.9708252,21.371981 v -6.802413 l 6.8146388,3.401207 z"
+       id="path192-3" />
   </g>
 </svg>

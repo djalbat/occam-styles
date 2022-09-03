@@ -10,8 +10,8 @@ const DownTriangleSVG = (properties) => {
   return (
 
     <svg width="25mm" height="25mm" viewBox="0 0 25 25" className={`${className} down-triangle`}>
-      <g stroke="none">
-        <path d="M 13,14 H 5 l 4,8 z"/>
+      <g>
+        <path style="stroke-width:1" d="M 12.37198,13.970825 H 5.5695679 l 3.4012067,6.814639 z" />
       </g>
     </svg>
 
@@ -20,6 +20,7 @@ const DownTriangleSVG = (properties) => {
 
 export default withStyle(DownTriangleSVG)`
 
-  fill: ${commonColour};
+  fill: none;
+  stroke: ${commonColour};
   
 `;

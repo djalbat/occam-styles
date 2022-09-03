@@ -10,8 +10,8 @@ const RightTriangleSVG = (properties) => {
   return (
 
     <svg width="25mm" height="25mm" viewBox="0 0 25 25" className={`${className} right-triangle`}>
-      <g stroke="none">
-        <path d="m 5,14 v 8 l 8,-4 z" />
+      <g>
+        <path style="stroke-width:1" d="m 4.9708252,21.371981 v -6.802413 l 6.8146388,3.401207 z" />
       </g>
     </svg>
 
@@ -20,6 +20,7 @@ const RightTriangleSVG = (properties) => {
 
 export default withStyle(RightTriangleSVG)`
 
-  fill: ${commonColour};
+  fill: none;
+  stroke: ${commonColour};
   
 `;

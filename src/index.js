@@ -22,5 +22,6 @@ export { default as DirectorySVG } from "./svg/directory";
 export { default as OpenRubbishBin } from "./svg/rubbishBin/open";
 export { default as AddDirectorySVG } from "./svg/directory/add";
 export { default as DownTriangleSVG } from "./svg/triangle/down";
+export { default as LeftTriangleSVG } from "./svg/triangle/left";
 export { default as RightTriangleSVG } from "./svg/triangle/right";
 export { default as ClosedRubbishBin } from "./svg/rubbishBin/closed";
