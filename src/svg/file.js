@@ -2,14 +2,14 @@
 
 import withStyle from "easy-with-style";  ///
 
+import { Element } from "easy";
+
 import { commonColour } from "../scheme/common";
 
-const FileSVG = (properties) => {
-  const { className } = properties;
+class FileSVG extends Element {
+  childElements() {
+    return (
 
-  return (
-
-    <svg width="25mm" height="25mm" viewBox="0 0 25 25" className={`${className} file`}>
       <g stroke="none">
         <rect width="16" height="2" x="0" y="23" />
         <rect width="2" height="10" x="14" y="13" />
@@ -17,13 +17,20 @@ const FileSVG = (properties) => {
         <rect width="9" height="2" x="0" y="6" />
         <path d="M 9,6 16,13 H 9 Z" />
       </g>
-    </svg>
 
-  );
-};
+    );
+  }
+
+  static tagName = "svg";
+
+  static defaultProperties = {
+    viewBox: "0 0 25 25",
+    className: "file"
+  };
+}
 
 export default withStyle(FileSVG)`
 
-  fill: ${commonColour};
+  stroke: ${commonColour};
   
 `;

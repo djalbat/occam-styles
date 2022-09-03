@@ -2,14 +2,14 @@
 
 import withStyle from "easy-with-style";  ///
 
+import { Element } from "easy";
+
 import { commonColour } from "../../scheme/common";
 
-const OpenRubbishBinSVG = (properties) => {
-  const { className } = properties;
+class OpenRubbishBinSVG extends Element {
+  childElements() {
+    return (
 
-  return (
-
-    <svg width="25mm" height="25mm" viewBox="0 0 25 25" className={`${className} open-rubbish-bin`}>
       <g stroke="none">
         <rect width="13" height="2" x="4" y="23" />
         <rect width="2" height="13" x="2" y="10" />
@@ -25,13 +25,20 @@ const OpenRubbishBinSVG = (properties) => {
         <path d="M 17,0 16,4 H 14 L 15,0 Z" />
         <rect width="17" height="2" x="2" y="8" />
       </g>
-    </svg>
 
-  );
-};
+    );
+  }
+
+  static tagName = "svg";
+
+  static defaultProperties = {
+    viewBox: "0 0 25 25",
+    className: "open-rubbish-bin"
+  };
+}
 
 export default withStyle(OpenRubbishBinSVG)`
 
-  fill: ${commonColour};
+  stroke: ${commonColour};
   
 `;

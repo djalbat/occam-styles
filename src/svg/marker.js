@@ -2,24 +2,31 @@
 
 import withStyle from "easy-with-style";  ///
 
+import { Element } from "easy";
+
 import { commonColour } from "../scheme/common";
 
-const MarkerSVG = (properties) => {
-  const { className } = properties;
+class MarkerSVG extends Element {
+  childElements() {
+    return (
 
-  return (
-
-    <svg width="25mm" height="25mm" viewBox="0 0 25 25" className={`${className} marker`}>
       <g stroke="none">
         <rect width="14" height="4" x="2" y="16" />
       </g>
-    </svg>
 
-  );
-};
+    );
+  }
+
+  static tagName = "svg";
+
+  static defaultProperties = {
+    viewBox: "0 0 25 25",
+    className: "marker"
+  };
+}
 
 export default withStyle(MarkerSVG)`
 
-  fill: ${commonColour};
+  stroke: ${commonColour};
   
 `;

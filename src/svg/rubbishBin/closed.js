@@ -2,14 +2,14 @@
 
 import withStyle from "easy-with-style";  ///
 
+import { Element } from "easy";
+
 import { commonColour } from "../../scheme/common";
 
-const ClosedRubbishBinSVG = (properties) => {
-  const { className } = properties;
+class ClosedRubbishBinSVG extends Element {
+  childElements() {
+    return (
 
-  return (
-
-    <svg width="25mm" height="25mm" viewBox="0 0 25 25" className={`${className} closed-rubbish-bin`}>
       <g stroke="none">
         <rect width="13" height="2" x="4" y="23" />
         <rect width="2" height="13" x="2" y="10" />
@@ -24,13 +24,20 @@ const ClosedRubbishBinSVG = (properties) => {
         <rect width="1" height="11" x="13.999999" y="11" />
         <rect width="1" height="11" x="10" y="11" />
       </g>
-    </svg>
 
-  );
-};
+    );
+  }
+
+  static tagName = "svg";
+
+  static defaultProperties = {
+    viewBox: "0 0 25 25",
+    className: "closed-rubbish-bin"
+  };
+}
 
 export default withStyle(ClosedRubbishBinSVG)`
 
-  fill: ${commonColour};
+  stroke: ${commonColour};
   
 `;
