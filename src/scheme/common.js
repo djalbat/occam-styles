@@ -1,10 +1,10 @@
 "use strict";
 
-import { dawn, bonjour, woodsmoke, stormDust, terracotta } from "../colours";
+import { dawn, bonjour, woodsmoke, stormDust, walnut } from "../colours";
 
 export const commonColour = woodsmoke;
 
-export const clearConsoleColour = terracotta; ///
+export const clearConsoleColour = walnut; ///
 
 export const commonBorderColour = stormDust;
 

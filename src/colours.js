@@ -23,10 +23,12 @@ export const hunterGreen = "#161d10";
 export const cadetBlue = "#5f9ea0";
 export const regentGrey = "#899396";
 
-export const razzmatazz = "#e3256b";
 export const flamingo = "#CB2039";
 export const terracotta = "#a83a25";
 export const korma = "#99420f";
+export const walnut = "#59331c";
+
+export const razzmatazz = "#e3256b";
 export const treePoppy = "#E4902F";
 
 export const portica = "#f7e75f";
