@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This package contains colour definitions together with user interface and syntax schemes. It also contains various images, both in native and JSX form. A distribution of [FiraCode](https://github.com/tonsky/FiraCode) is also included.
+This package contains colour definitions together with user interface and syntax schemes. It also contains various images, in either native or JSX form. A distribution of [FiraCode](https://github.com/tonsky/FiraCode) is also included.
 
 There is a small example application to view the images in JSX form.
 
