@@ -4,39 +4,15 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { LogoSVG,
-         PenSVG,
-         FileSVG,
-         CloseSVG,
-         MarkerSVG,
-         AddFileSVG,
-         DirectorySVG,
-         OpenRubbishBin,
-         DownTriangleSVG,
-         LeftTriangleSVG,
-         AddDirectorySVG,
-         RightTriangleSVG,
-         ClosedRubbishBin } from "../index";  ///
+import { LogoSVG } from "../index";  ///
 
 class View extends Element {
   childElements() {
-    return ([
+    return (
 
-      <LogoSVG/>,
-      <CloseSVG/>,
-      <PenSVG/>,
-      <FileSVG/>,
-      <DirectorySVG/>,
-      <MarkerSVG/>,
-      <DownTriangleSVG/>,
-      <LeftTriangleSVG/>,
-      <RightTriangleSVG/>,
-      <AddFileSVG/>,
-      <AddDirectorySVG/>,
-      <ClosedRubbishBin/>,
-      <OpenRubbishBin/>
+      <LogoSVG/>
 
-    ]);
+    );
   }
 
   static tagName = "div";
