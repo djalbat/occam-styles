@@ -10,6 +10,7 @@ export const pablo = "#776f61";
 export const stormDust = "#646463";
 export const emperor = "#515150";
 export const tuatara = "#363534";
+export const dune = "#24211e";
 export const woodsmoke = "#0c0d0f";
 
 export const pomegranate = "#f52929";
