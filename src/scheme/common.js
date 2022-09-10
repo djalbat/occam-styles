@@ -20,6 +20,12 @@ export const commonDisabledButtonColour = stormDust;
 
 export const commonDisabledInputColour = stormDust;
 
+export const commonScrollbarThumbBorderColour = dawn;
+
+export const commonScrollbarTrackBackgroundColour = stormDust;
+
+export const commonScrollbarThumbBackgroundColour = dawn;
+
 export default {
   commonColour,
   clearConsoleColour,
@@ -29,5 +35,8 @@ export default {
   commonSelectBackgroundColour,
   commonButtonBackgroundColour,
   commonDisabledButtonColour,
-  commonDisabledInputColour
+  commonDisabledInputColour,
+  commonScrollbarThumbBorderColour,
+  commonScrollbarTrackBackgroundColour,
+  commonScrollbarThumbBackgroundColour
 };
