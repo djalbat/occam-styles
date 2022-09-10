@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "./common";
 
-import { korma, emperor, bonjour, logCabin, stormDust, blackOlive, woodsmoke } from "../colours";
+import { korma, tuatara, bonjour, logCabin, stormDust, blackOlive, woodsmoke, hurricane } from "../colours";
 
 export const borderColour = commonBorderColour; ///
 
@@ -20,6 +20,12 @@ export const foldsLineBackgroundColour = stormDust;
 
 export const selectionBackgroundColour = korma;
 
+export const scrollbarThumbBorderColour = tuatara;
+
+export const scrollbarTrackBackgroundColour = tuatara;
+
+export const scrollbarThumbBackgroundColour = hurricane;
+
 export const otherSelectionsBackgroundColour = logCabin;
 
 export default {
@@ -31,5 +37,8 @@ export default {
   gutterBackgroundColour,
   foldsLineBackgroundColour,
   selectionBackgroundColour,
+  scrollbarThumbBorderColour,
+  scrollbarTrackBackgroundColour,
+  scrollbarThumbBackgroundColour,
   otherSelectionsBackgroundColour
 };
