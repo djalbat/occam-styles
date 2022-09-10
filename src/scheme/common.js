@@ -22,9 +22,9 @@ export const commonDisabledInputColour = stormDust;
 
 export const commonScrollbarThumbBorderColour = dawn;
 
-export const commonScrollbarTrackBackgroundColour = stormDust;
+export const commonScrollbarTrackBackgroundColour = dawn;
 
-export const commonScrollbarThumbBackgroundColour = dawn;
+export const commonScrollbarThumbBackgroundColour = stormDust;
 
 export default {
   commonColour,
