@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "./common";
 
-import { dune, pablo, korma, bonjour, logCabin, stormDust, blackOlive, woodsmoke } from "../colours";
+import { dune, korma, bonjour, logCabin, stormDust, woodsmoke, blackOlive } from "../colours";
 
 export const borderColour = commonBorderColour; ///
 
@@ -24,7 +24,7 @@ export const scrollbarThumbBorderColour = dune;
 
 export const scrollbarTrackBackgroundColour = dune;
 
-export const scrollbarThumbBackgroundColour = pablo;
+export const scrollbarThumbBackgroundColour = stormDust;
 
 export const otherSelectionsBackgroundColour = logCabin;
 
