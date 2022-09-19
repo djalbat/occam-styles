@@ -5,7 +5,7 @@ import withStyle from "easy-with-style";  ///
 import { Element } from "easy";
 
 import { commonColour } from "../scheme/common";
-import { markerSVGHeight } from "../styles";
+import { markerSVGHeight, markerSVGMarginLeft } from "../styles";
 
 class MarkerSVG extends Element {
   childElements() {
@@ -30,6 +30,7 @@ export default withStyle(MarkerSVG)`
 
   fill: ${commonColour};
   height: ${markerSVGHeight};
+  margin-left: ${markerSVGMarginLeft};
   vertical-align: bottom;
   
 `;
