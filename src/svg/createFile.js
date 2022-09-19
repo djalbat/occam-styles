@@ -34,5 +34,7 @@ class CreateFileSVG extends Element {
 export default withStyle(CreateFileSVG)`
 
   fill: ${commonColour};
+  width: auto;
+  height: 100%;
   
 `;

@@ -5,6 +5,7 @@ import withStyle from "easy-with-style";  ///
 import { Element } from "easy";
 
 import { commonColour } from "../scheme/common";
+import { nameSVGHeight } from "../styles";
 
 class FileNameSVG extends Element {
   childElements() {
@@ -32,6 +33,8 @@ class FileNameSVG extends Element {
 export default withStyle(FileNameSVG)`
 
   fill: ${commonColour};
+  height: ${nameSVGHeight};
   padding-left: 3rem;
+  vertical-align: bottom;
   
 `;

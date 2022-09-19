@@ -4,13 +4,13 @@ import { dawn, bonjour, woodsmoke, stormDust, walnut, emperor } from "../colours
 
 export const commonColour = woodsmoke;
 
+export const titleSVGColour = emperor;
+
 export const clearConsoleColour = walnut; ///
 
 export const commonBorderColour = stormDust;
 
 export const commonBackgroundColour = dawn;
-
-export const commonTitleButtonSVGColour = emperor;
 
 export const commonInputBackgroundColour = bonjour;
 
@@ -30,10 +30,10 @@ export const commonScrollbarThumbBackgroundColour = stormDust;
 
 export default {
   commonColour,
+  titleSVGColour,
   clearConsoleColour,
   commonBorderColour,
   commonBackgroundColour,
-  commonTitleButtonSVGColour,
   commonInputBackgroundColour,
   commonSelectBackgroundColour,
   commonButtonBackgroundColour,

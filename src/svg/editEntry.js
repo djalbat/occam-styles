@@ -30,6 +30,8 @@ class EditEntrySVG extends Element {
 export default withStyle(EditEntrySVG)`
 
   fill: ${commonColour};
+  width: auto;
+  height: 100%;
   stroke: ${commonColour};
   
 `;

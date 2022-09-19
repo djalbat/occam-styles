@@ -41,6 +41,8 @@ class OpenRubbishBinSVG extends Element {
 export default withStyle(OpenRubbishBinSVG)`
 
   fill: ${commonColour};
+  width: auto;
+  height: 100%;
   stroke: ${commonColour};
   
 `;

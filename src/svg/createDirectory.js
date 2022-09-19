@@ -35,5 +35,7 @@ class CreateDirectorySVG extends Element {
 export default withStyle(CreateDirectorySVG)`
 
   fill: ${commonColour};
+  width: auto;
+  height: 100%;
   
 `;

@@ -28,5 +28,7 @@ class ClearConsoleSVG extends Element {
 export default withStyle(ClearConsoleSVG)`
 
   fill: ${clearConsoleColour};
+  width: auto;
+  height: 100%;
   
 `;

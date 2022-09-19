@@ -4,7 +4,8 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { commonTitleButtonSVGColour } from "../../scheme/common";
+import { titleSVGHeight } from "../../styles";
+import { titleSVGColour } from "../../scheme/common";
 
 class DownTitleSVG extends Element {
   childElements() {
@@ -28,6 +29,11 @@ class DownTitleSVG extends Element {
 export default withStyle(DownTitleSVG)`
 
   fill: none;
-  stroke: ${commonTitleButtonSVGColour};
+  stroke: ${titleSVGColour};
+  top: 0;
+  right: 0;
+  width: auto;
+  height: ${titleSVGHeight};
+  position: absolute;
   
 `;
