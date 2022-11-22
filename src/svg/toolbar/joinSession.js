@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import ToolbarSVG from "../../svg/toolbar";
 
-import { Element } from "easy";
-
-import { commonColour } from "../scheme/common";
-
-class LeaveSessionSVG extends Element {
+export default class JoinSessionToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -21,25 +17,16 @@ class LeaveSessionSVG extends Element {
         <rect width="2" height="6" x="6" y="17" />
         <rect width="12" height="2" x="6" y="15" />
         <rect width="4" height="2" x="6" y="13" />
-        <rect width="6" height="2" x="14" y="5" />
+        <rect width="6" height="2" x="17" y="5" />
+        <path d="M 17,3 V 9 L 14,6 Z" />
         <path d="M 7,7 9,9 H 7 Z" />
         <path d="m 10,13 2,2 h -2 z" />
-        <path d="m 20,3 v 6 l 3,-3 z"/>
       </g>
 
     );
   }
 
-  static tagName = "svg";
-
   static defaultProperties = {
-    viewBox: "0 0 25 25",
-    className: "leave-session"
+    className: "join-session"
   };
 }
-
-export default withStyle(LeaveSessionSVG)`
-
-  fill: ${commonColour};
-  
-`;

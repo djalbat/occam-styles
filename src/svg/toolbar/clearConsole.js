@@ -2,11 +2,11 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { Element } from "easy";
+import ToolbarSVG from "../../svg/toolbar";
 
-import { clearConsoleColour } from "../scheme/common";
+import { clearConsoleColour } from "../../scheme/common";
 
-class ClearConsoleSVG extends Element {
+class ClearConsoleToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -17,18 +17,13 @@ class ClearConsoleSVG extends Element {
     );
   }
 
-  static tagName = "svg";
-
   static defaultProperties = {
-    viewBox: "0 0 25 25",
     className: "clear-console"
   };
 }
 
-export default withStyle(ClearConsoleSVG)`
+export default withStyle(ClearConsoleToolbarSVG)`
 
   fill: ${clearConsoleColour};
-  width: auto;
-  height: 100%;
   
 `;

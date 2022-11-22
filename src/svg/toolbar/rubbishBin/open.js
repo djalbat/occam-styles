@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import ToolbarSVG from "../../../svg/toolbar";
 
-import { Element } from "easy";
-
-import { commonColour } from "../../scheme/common";
-
-class OpenRubbishBinSVG extends Element {
+export default class OpenRubbishBinToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -30,19 +26,7 @@ class OpenRubbishBinSVG extends Element {
     );
   }
 
-  static tagName = "svg";
-
   static defaultProperties = {
-    viewBox: "0 0 25 25",
     className: "open-rubbish-bin"
   };
 }
-
-export default withStyle(OpenRubbishBinSVG)`
-
-  fill: ${commonColour};
-  width: auto;
-  height: 100%;
-  stroke: ${commonColour};
-  
-`;

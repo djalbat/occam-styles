@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import ToolbarSVG from "../../svg/toolbar";
 
-import { Element } from "easy";
-
-import { commonColour } from "../scheme/common";
-
-class CreateSessionSVG extends Element {
+export default class CreateSessionToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -30,16 +26,7 @@ class CreateSessionSVG extends Element {
     );
   }
 
-  static tagName = "svg";
-
   static defaultProperties = {
-    viewBox: "0 0 25 25",
     className: "create-session"
   };
 }
-
-export default withStyle(CreateSessionSVG)`
-
-  fill: ${commonColour};
-  
-`;

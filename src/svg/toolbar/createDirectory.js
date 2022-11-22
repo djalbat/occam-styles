@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import ToolbarSVG from "../../svg/toolbar";
 
-import { Element } from "easy";
-
-import { commonColour } from "../scheme/common";
-
-class CreateDirectorySVG extends Element {
+export default class CreateDirectoryToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -24,18 +20,7 @@ class CreateDirectorySVG extends Element {
     );
   }
 
-  static tagName = "svg";
-
   static defaultProperties = {
-    viewBox: "0 0 25 25",
     className: "create-directory"
   };
 }
-
-export default withStyle(CreateDirectorySVG)`
-
-  fill: ${commonColour};
-  width: auto;
-  height: 100%;
-  
-`;

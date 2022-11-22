@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import ToolbarSVG from "../../svg/toolbar";
 
-import { Element } from "easy";
-
-import { commonColour } from "../scheme/common";
-
-class EditEntrySVG extends Element {
+export default class EditEntryToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -19,19 +15,7 @@ class EditEntrySVG extends Element {
     );
   }
 
-  static tagName = "svg";
-
   static defaultProperties = {
-    viewBox: "0 0 25 25",
     className: "edit-entry"
   };
 }
-
-export default withStyle(EditEntrySVG)`
-
-  fill: ${commonColour};
-  width: auto;
-  height: 100%;
-  stroke: ${commonColour};
-  
-`;
