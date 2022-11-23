@@ -22,6 +22,7 @@ export { default as DirectoryNameSVG } from "./svg/directoryName";
 export { default as EditEntryToolbarSVG } from "./svg/toolbar/editEntry";
 export { default as CreateFileToolbarSVG } from "./svg/toolbar/createFile";
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
+export { default as SynchroniseToolbarSVG } from "./svg/toolbar/synchronise";
 export { default as LeaveSessionToolbarSVG } from "./svg/toolbar/leaveSession";
 export { default as ClearConsoleToolbarSVG } from "./svg/toolbar/clearConsole";
 export { default as CreateSessionToolbarSVG } from "./svg/toolbar/createSession";

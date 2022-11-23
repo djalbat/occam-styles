@@ -4,15 +4,19 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { LogoSVG } from "../index";  ///
+import { LogoSVG, JoinSessionToolbarSVG, LeaveSessionToolbarSVG, CreateSessionToolbarSVG, SynchroniseToolbarSVG } from "../index";  ///
 
 class View extends Element {
   childElements() {
-    return (
+    return ([
 
-      <LogoSVG/>
+      <LogoSVG/>,
+      <JoinSessionToolbarSVG/>,
+      <CreateSessionToolbarSVG/>,
+      <LeaveSessionToolbarSVG/>,
+      <SynchroniseToolbarSVG/>
 
-    );
+    ]);
   }
 
   static tagName = "div";
