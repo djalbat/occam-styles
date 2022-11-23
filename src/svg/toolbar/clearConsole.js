@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
-
 import ToolbarSVG from "../../svg/toolbar";
 
-import { clearConsoleColour } from "../../scheme/common";
-
-class ClearConsoleToolbarSVG extends ToolbarSVG {
+export default class ClearConsoleToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -21,9 +17,3 @@ class ClearConsoleToolbarSVG extends ToolbarSVG {
     className: "clear-console"
   };
 }
-
-export default withStyle(ClearConsoleToolbarSVG)`
-
-  fill: ${clearConsoleColour};
-  
-`;

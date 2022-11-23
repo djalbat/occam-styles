@@ -5,7 +5,6 @@ import withStyle from "easy-with-style";  ///
 import SVG from "../svg";
 
 import { titleSVGHeight } from "../styles";
-import { titleSVGColour } from "../scheme/common";
 
 class TitleSVG extends SVG {
   static defaultProperties = {
@@ -16,8 +15,6 @@ class TitleSVG extends SVG {
 
 export default withStyle(TitleSVG)`
 
-  fill: none;
-  stroke: ${titleSVGColour};
   top: 0;
   right: 0;
   width: auto;

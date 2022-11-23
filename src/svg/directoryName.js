@@ -4,7 +4,6 @@ import withStyle from "easy-with-style";  ///
 
 import SVG from "../svg";
 
-import { commonColour } from "../scheme/common";
 import { nameSVGHeight } from "../styles";
 
 class DirectoryNameSVG extends SVG {
@@ -31,7 +30,6 @@ class DirectoryNameSVG extends SVG {
 
 export default withStyle(DirectoryNameSVG)`
 
-  fill: ${commonColour};
   height: ${nameSVGHeight};
   vertical-align: bottom;
   
