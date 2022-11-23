@@ -31,8 +31,8 @@ export const commonScrollbarTrackBackgroundColour = dawn;
 export const commonScrollbarThumbBackgroundColour = stormDust;
 
 export default {
+  commonFill,
   commonColour,
-  titleFill,
   clearConsoleColour,
   tooltipBackgroundColour,
   commonBorderColour,
