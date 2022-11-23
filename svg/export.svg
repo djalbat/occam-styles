@@ -46,10 +46,10 @@
     <path
        id="rect14607"
        style="fill:#000000;fill-opacity:1;stroke-width:1.92366;paint-order:markers stroke fill"
-       d="m 2.5,4 v 17 h 13.333334 v -4.857142 h -2.666668 v 2.428571 H 5.1666666 V 6.4285714 H 13.166666 V 8.857143 h 2.666668 V 4 Z" />
+       d="m 3.5,4 v 17 h 13.333334 v -4.857142 h -2.666668 v 2.428571 H 6.1666666 V 6.4285714 H 14.166666 V 8.857143 h 2.666668 V 4 Z" />
     <path
        style="fill:#000000;fill-opacity:1;stroke-width:1.92366;paint-order:markers stroke fill"
-       d="m 10.5,11.285714 h 8 V 8.8571429 l 4,3.6428581 -4,3.642856 v -2.428571 h -8 z"
+       d="m 11.5,11.285714 h 8 V 8.8571429 l 4,3.6428581 -4,3.642856 v -2.428571 h -8 z"
        id="path14615" />
   </g>
 </svg>

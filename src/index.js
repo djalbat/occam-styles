@@ -19,7 +19,6 @@ export { default as UpTitleSVG } from "./svg/title/up";
 export { default as FileNameSVG } from "./svg/fileName";
 export { default as DownTitleSVG } from "./svg/title/down";
 export { default as DirectoryNameSVG } from "./svg/directoryName";
-export { default as ExportToolbarSVG } from "./svg/toolbar/export";
 export { default as RefreshToolbarSVG } from "./svg/toolbar/refresh";
 export { default as EditEntryToolbarSVG } from "./svg/toolbar/editEntry";
 export { default as CreateFileToolbarSVG } from "./svg/toolbar/createFile";
@@ -31,3 +30,4 @@ export { default as CreateSessionToolbarSVG } from "./svg/toolbar/createSession"
 export { default as OpenRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/open";
 export { default as CreateDirectoryToolbarSVG } from "./svg/toolbar/createDirectory";
 export { default as ClosedRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/closed";
+export { default as ExportCustomGrammarsToolbarSVG } from "./svg/toolbar/exportCustomGrammars";
