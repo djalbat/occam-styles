@@ -2,12 +2,12 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { Element } from "easy";
+import SVG from "../svg";
 
 import { commonColour } from "../scheme/common";
 import { markerSVGHeight, markerSVGMarginLeft } from "../styles";
 
-class MarkerSVG extends Element {
+class MarkerSVG extends SVG {
   childElements() {
     return (
 
@@ -17,8 +17,6 @@ class MarkerSVG extends Element {
 
     );
   }
-
-  static tagName = "svg";
 
   static defaultProperties = {
     viewBox: "0 0 25 25",

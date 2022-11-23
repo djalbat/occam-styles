@@ -2,13 +2,11 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { Element } from "easy";
+import SVG from "../svg";
 
 import { commonColour } from "../scheme/common";
 
-class ToolbarSVG extends Element {
-  static tagName = "svg";
-
+class ToolbarSVG extends SVG {
   static defaultProperties = {
     viewBox: "0 0 25 25",
     className: "toolbar"

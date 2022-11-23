@@ -2,12 +2,12 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { Element } from "easy";
+import SVG from "../svg";
 
 import { commonColour } from "../scheme/common";
 import { nameSVGHeight } from "../styles";
 
-class DirectoryNameSVG extends Element {
+class DirectoryNameSVG extends SVG {
   childElements() {
     return (
 
@@ -22,8 +22,6 @@ class DirectoryNameSVG extends Element {
 
     );
   }
-
-  static tagName = "svg";
 
   static defaultProperties = {
     viewBox: "0 0 24 18",

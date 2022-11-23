@@ -2,14 +2,12 @@
 
 import withStyle from "easy-with-style";  ///
 
-import { Element } from "easy";
+import SVG from "../svg";
 
 import { titleSVGHeight } from "../styles";
 import { titleSVGColour } from "../scheme/common";
 
-class TitleSVG extends Element {
-  static tagName = "svg";
-
+class TitleSVG extends SVG {
   static defaultProperties = {
     viewBox: "0 0 25 25",
     className: "title"
