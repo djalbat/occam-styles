@@ -19,6 +19,7 @@ export { default as UpTitleSVG } from "./svg/title/up";
 export { default as FileNameSVG } from "./svg/fileName";
 export { default as DownTitleSVG } from "./svg/title/down";
 export { default as DirectoryNameSVG } from "./svg/directoryName";
+export { default as RefreshToolbarSVG } from "./svg/toolbar/refresh";
 export { default as EditEntryToolbarSVG } from "./svg/toolbar/editEntry";
 export { default as CreateFileToolbarSVG } from "./svg/toolbar/createFile";
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";

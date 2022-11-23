@@ -4,13 +4,14 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { LogoSVG, JoinSessionToolbarSVG, LeaveSessionToolbarSVG, CreateSessionToolbarSVG, SynchroniseToolbarSVG } from "../index";  ///
+import { LogoSVG, RefreshToolbarSVG, JoinSessionToolbarSVG, LeaveSessionToolbarSVG, CreateSessionToolbarSVG, SynchroniseToolbarSVG } from "../index";  ///
 
 class View extends Element {
   childElements() {
     return ([
 
       <LogoSVG/>,
+      <RefreshToolbarSVG/>,
       <JoinSessionToolbarSVG/>,
       <CreateSessionToolbarSVG/>,
       <LeaveSessionToolbarSVG/>,
