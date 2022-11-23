@@ -15,7 +15,7 @@ class TitleSVG extends SVG {
 
 export default withStyle(TitleSVG)`
 
-  top: 0;
+  top: -1px;
   right: 0;
   width: auto;
   height: ${titleSVGHeight};

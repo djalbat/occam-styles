@@ -1,8 +1,8 @@
 "use strict";
 
-import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, emperor } from "../colours";
+import {dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara } from "../colours";
 
-export const commonFill = emperor;
+export const commonFill = tuatara;
 
 export const commonColour = woodsmoke;
 
