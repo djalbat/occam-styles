@@ -10,7 +10,7 @@ class DirectoryNameSVG extends SVG {
   childElements() {
     return (
 
-      <g stroke="none">
+      <g>
         <rect width="16" height="2" x="0" y="16" />
         <rect width="2" height="7" x="14" y="9" />
         <rect width="2" height="7" x="0" y="9" />

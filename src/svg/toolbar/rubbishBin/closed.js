@@ -6,7 +6,7 @@ export default class ClosedRubbishBinToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
-      <g stroke="none">
+      <g>
         <path d="M 9,9 13,13" />
         <rect width="13" height="2" x="6" y="23" />
         <rect width="2" height="13" x="4" y="10" />

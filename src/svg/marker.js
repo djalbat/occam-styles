@@ -10,7 +10,7 @@ class MarkerSVG extends SVG {
   childElements() {
     return (
 
-      <g stroke="none">
+      <g>
         <rect width="14" height="4" x="2" y="16" />
       </g>
 

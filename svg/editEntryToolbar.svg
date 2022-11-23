@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25mm"
+   height="25mm"
+   viewBox="0 0 25 25"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="editEntryToolbar.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="7.2155916"
+     inkscape:cx="56.197748"
+     inkscape:cy="43.794053"
+     inkscape:window-width="2048"
+     inkscape:window-height="1152"
+     inkscape:window-x="1792"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1412" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5695"
+       transform="matrix(0.60361176,-0.60361176,0.60361176,0.60361176,-4.2838085,14.880864)">
+      <path
+         id="path5467"
+         style="fill:#000000;fill-opacity:1;stroke-width:2;paint-order:markers stroke fill"
+         d="M 6.6145833,7.9375 V 15.875 H 21.166667 V 7.9375 Z m 2.6458334,2.645833 h 9.2604163 v 2.645834 H 9.2604167 Z" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke-width:2;paint-order:markers stroke fill"
+         d="m 22.489583,7.9374999 h 2.645833 V 15.875 h -2.645833 z"
+         id="path5523" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke-width:2;paint-order:markers stroke fill"
+         d="M 6.6145832,7.9374999 2.6458333,11.90625 6.6145832,15.875 Z"
+         id="path5690" />
+    </g>
+  </g>
+</svg>

@@ -10,6 +10,7 @@ class SVG extends Element {
 
 export default withStyle(SVG)`
 
+  stroke: none;
   pointer-events: none;
   
 `;

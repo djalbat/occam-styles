@@ -6,7 +6,7 @@ export default class CreateDirectoryToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
-      <g stroke="none">
+      <g>
         <rect width="16" height="2" x="3" y="23" />
         <rect width="2" height="7" x="17" y="16" />
         <rect width="2" height="7" x="3" y="16" />
