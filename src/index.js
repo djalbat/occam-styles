@@ -15,6 +15,8 @@ export { default as welcomeScreenScheme } from "./scheme/welcomeScreen";
 export { default as LogoSVG } from "./svg/logo";
 export { default as MarkerSVG } from "./svg/marker";
 export { default as FileNameSVG } from "./svg/fileName";
+export { default as UpToggleSVG } from "./svg/toggle/up";
+export { default as DownToggleSVG } from "./svg/toggle/down";
 export { default as DirectoryNameSVG } from "./svg/directoryName";
 export { default as ExpandedTitleSVG } from "./svg/title/expanded";
 export { default as RefreshToolbarSVG } from "./svg/toolbar/refresh";
