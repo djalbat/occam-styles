@@ -17,5 +17,6 @@ export default withStyle(ToggleSVG)`
 
   width: auto;
   height: ${toggleSVGHeight};
+  vertical-align: bottom;
   
 `;
