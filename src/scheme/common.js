@@ -2,9 +2,9 @@
 
 import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, emperor } from "../colours";
 
-export const commonColour = woodsmoke;
+export const commonFill = emperor;
 
-export const titleSVGColour = emperor;
+export const commonColour = woodsmoke;
 
 export const clearConsoleColour = walnut; ///
 
@@ -32,7 +32,7 @@ export const commonScrollbarThumbBackgroundColour = stormDust;
 
 export default {
   commonColour,
-  titleSVGColour,
+  titleFill,
   clearConsoleColour,
   tooltipBackgroundColour,
   commonBorderColour,
