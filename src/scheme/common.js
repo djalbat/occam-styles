@@ -1,12 +1,14 @@
 "use strict";
 
-import { dawn, bonjour, woodsmoke, stormDust, walnut, emperor } from "../colours";
+import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, emperor } from "../colours";
 
 export const commonColour = woodsmoke;
 
 export const titleSVGColour = emperor;
 
 export const clearConsoleColour = walnut; ///
+
+export const tooltipBackgroundColour = bianca;  ///
 
 export const commonBorderColour = stormDust;
 
@@ -32,6 +34,7 @@ export default {
   commonColour,
   titleSVGColour,
   clearConsoleColour,
+  tooltipBackgroundColour,
   commonBorderColour,
   commonBackgroundColour,
   commonInputBackgroundColour,
