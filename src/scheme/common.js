@@ -16,7 +16,7 @@ export const commonSelectBackgroundColour = bonjour;
 
 export const commonButtonBackgroundColour = bonjour;
 
-export const commonDisabledFill = tuatara;
+export const commonDisabledFill = stormDust;
 
 export const commonDisabledInputColour = stormDust;
 
