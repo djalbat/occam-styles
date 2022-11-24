@@ -6,10 +6,6 @@ export const commonFill = tuatara;
 
 export const commonColour = woodsmoke;
 
-export const clearConsoleColour = walnut; ///
-
-export const tooltipBackgroundColour = bianca;  ///
-
 export const commonBorderColour = stormDust;
 
 export const commonBackgroundColour = dawn;
@@ -20,9 +16,11 @@ export const commonSelectBackgroundColour = bonjour;
 
 export const commonButtonBackgroundColour = bonjour;
 
-export const commonDisabledButtonColour = stormDust;
+export const commonDisabledFill = tuatara;
 
 export const commonDisabledInputColour = stormDust;
+
+export const commonDisabledButtonColour = stormDust;
 
 export const commonScrollbarThumbBorderColour = dawn;
 
@@ -30,19 +28,24 @@ export const commonScrollbarTrackBackgroundColour = dawn;
 
 export const commonScrollbarThumbBackgroundColour = stormDust;
 
+export const clearConsoleFill = walnut;
+
+export const tooltipBackgroundColour = bianca;
+
 export default {
   commonFill,
   commonColour,
-  clearConsoleColour,
-  tooltipBackgroundColour,
   commonBorderColour,
   commonBackgroundColour,
   commonInputBackgroundColour,
   commonSelectBackgroundColour,
   commonButtonBackgroundColour,
-  commonDisabledButtonColour,
+  commonDisabledFill,
   commonDisabledInputColour,
+  commonDisabledButtonColour,
   commonScrollbarThumbBorderColour,
   commonScrollbarTrackBackgroundColour,
-  commonScrollbarThumbBackgroundColour
+  commonScrollbarThumbBackgroundColour,
+  clearConsoleFill,
+  tooltipBackgroundColour
 };
