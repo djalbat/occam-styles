@@ -12,5 +12,6 @@ export default withStyle(SVG)`
 
   stroke: none;
   pointer-events: none;
+  vertical-align: bottom;
   
 `;
