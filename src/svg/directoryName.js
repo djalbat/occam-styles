@@ -31,6 +31,5 @@ class DirectoryNameSVG extends SVG {
 export default withStyle(DirectoryNameSVG)`
 
   height: ${nameSVGHeight};
-  vertical-align: bottom;
   
 `;

@@ -27,6 +27,5 @@ export default withStyle(MarkerSVG)`
 
   height: ${markerSVGHeight};
   margin-left: ${markerSVGMarginLeft};
-  vertical-align: bottom;
   
 `;
