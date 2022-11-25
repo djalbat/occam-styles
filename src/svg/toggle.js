@@ -8,7 +8,7 @@ import { toggleSVGHeight } from "../styles";
 
 class ToggleSVG extends SVG {
   static defaultProperties = {
-    viewBox: "0 0 25 25",
+    viewBox: "0 -5 25 25",  ///
     className: "toggle"
   };
 }
