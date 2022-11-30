@@ -2,7 +2,7 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class CreateDirectoryToolbarSVG extends ToolbarSVG {
+export default class CreateProjectsDirectoryPathToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -21,6 +21,6 @@ export default class CreateDirectoryToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
-    className: "create-directory"
+    className: "create-projects-directory-path"
   };
 }
