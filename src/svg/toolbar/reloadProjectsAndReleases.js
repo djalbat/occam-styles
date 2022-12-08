@@ -2,7 +2,7 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class ReloadProjectsToolbarSVG extends ToolbarSVG {
+export default class ReloadProjectsAndReleasesToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -15,6 +15,6 @@ export default class ReloadProjectsToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
-    className: "reload-projects"
+    className: "reload-projects-and-releases"
   };
 }
