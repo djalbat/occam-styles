@@ -1,5 +1,7 @@
 "use strict";
 
+export { default as colours } from "./colours";
+
 export { default as syntaxStyle } from "./style/syntax";
 export { default as firaCodeStyle } from "./style/firaCode";
 export { default as commonFontMixin } from "./mixin/font/common";
