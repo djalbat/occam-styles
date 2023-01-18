@@ -25,7 +25,7 @@ const florenceSyntaxStyle = `
 
   .florence.syntax > .type { color: ${typeColour}; }
 
-  .florence.syntax > .type { color: ${metatypeColour}; }
+  .florence.syntax > .metatype { color: ${metatypeColour}; }
 
   .florence.syntax > .operator { color: ${operatorColour}; }
   
