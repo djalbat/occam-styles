@@ -1,13 +1,11 @@
 "use strict";
 
-import { stringLiteralColour,
+import { repositoryColour,
          dependencyColour,
+         stringLiteralColour,
          dependencyHoverColour,
          faultyDependencyColour,
-         faultyDependencyHoverColour,
-         disabledDependencyColour,
-         disabledDependencyHoverColour,
-         repositoryColour } from "../../scheme/syntax/metaJSON";
+         disabledDependencyColour } from "../../scheme/syntax/metaJSON";
 
 const metaJSONSyntaxStyle = `
 
@@ -19,11 +17,7 @@ const metaJSONSyntaxStyle = `
 
   .meta-json.syntax > .dependency.faulty { color: ${faultyDependencyColour}; }
 
-  .meta-json.syntax > .dependency.faulty:hover { color: ${faultyDependencyHoverColour}; }
-
   .meta-json.syntax > .dependency.disabled { color: ${disabledDependencyColour}; }
-
-  .meta-json.syntax > .dependency.disabled:hover { color: ${disabledDependencyHoverColour}; }
 
   .meta-json.syntax > .repository, .meta-json.syntax > .repository a { color: ${repositoryColour}; }
 

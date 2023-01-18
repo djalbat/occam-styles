@@ -1,8 +1,10 @@
 "use strict";
 
-import { sushi, pablo, razzmatazz, hokeyPokey, cadetBlue, sycamore, celery, terracotta, flamingo, hurricane } from "../../colours";
+import { sushi, pablo, celery, flamingo, sycamore, cadetBlue, hurricane, hokeyPokey, razzmatazz, terracotta, gainsborough } from "../../colours";
 
 export const typeColour = cadetBlue;
+
+export const metatypeColour = gainsborough;
 
 export const operatorColour = sushi;
 
@@ -11,8 +13,6 @@ export const specialColour = sushi;
 export const commentColour = pablo;
 
 export const keywordColour = razzmatazz;
-
-export const reservedColour = razzmatazz;
 
 export const stringLiteralColour = hokeyPokey;
 

@@ -1,31 +1,31 @@
 "use strict";
 
-import { operatorColour,
+import { typeColour,
          specialColour,
          commentColour,
          keywordColour,
-         reservedColour,
-         stringLiteralColour,
-         typeColour,
-         contextNameColour,
-         variableNameColour,
-         metavariableNameColour,
+         metatypeColour,
+         operatorColour,
          labelNameColour,
+         contextNameColour,
+         referenceNameColour,
+         stringLiteralColour,
          labelNameHoverColour,
          faultyLabelNameColour,
-         faultyLabelNameHoverColour,
          disabledLabelNameColour,
-         disabledLabelNameHoverColour,
-         referenceNameColour,
          referenceNameHoverColour,
          faultyReferenceNameColour,
-         faultyReferenceNameHoverColour,
+         faultyLabelNameHoverColour,
          disabledReferenceNameColour,
+         disabledLabelNameHoverColour,
+         faultyReferenceNameHoverColour,
          disabledReferenceNameHoverColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
 
   .florence.syntax > .type { color: ${typeColour}; }
+
+  .florence.syntax > .type { color: ${metatypeColour}; }
 
   .florence.syntax > .operator { color: ${operatorColour}; }
   
@@ -34,8 +34,6 @@ const florenceSyntaxStyle = `
   .florence.syntax > .comment { color: ${commentColour}; }
   
   .florence.syntax > .keyword { color: ${keywordColour}; }
-  
-  .florence.syntax > .reserved { color: ${reservedColour}; }
   
   .florence.syntax > .string-literal { color: ${stringLiteralColour}; }
 

@@ -1,19 +1,16 @@
 "use strict";
 
-import { hokeyPokey, portica, terracotta, pablo, flamingo, hurricane } from "../../colours";
+import { pablo, portica, hokeyPokey, terracotta } from "../../colours";
 
-export const stringLiteralColour = hokeyPokey;
+export const repositoryColour = hokeyPokey;
 
 export const dependencyColour = hokeyPokey;
+
+export const stringLiteralColour = hokeyPokey;
 
 export const dependencyHoverColour = portica;
 
 export const faultyDependencyColour = terracotta;
 
-export const faultyDependencyHoverColour = flamingo;
-
 export const disabledDependencyColour = pablo;
 
-export const disabledDependencyHoverColour = hurricane;
-
-export const repositoryColour = hokeyPokey;
