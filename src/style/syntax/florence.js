@@ -4,8 +4,8 @@ import { typeColour,
          specialColour,
          commentColour,
          keywordColour,
-         metatypeColour,
          operatorColour,
+         metaTypeColour,
          labelNameColour,
          contextNameColour,
          referenceNameColour,
@@ -25,16 +25,16 @@ const florenceSyntaxStyle = `
 
   .florence.syntax > .type { color: ${typeColour}; }
 
-  .florence.syntax > .metatype { color: ${metatypeColour}; }
-
-  .florence.syntax > .operator { color: ${operatorColour}; }
-  
   .florence.syntax > .special { color: ${specialColour}; }
   
   .florence.syntax > .comment { color: ${commentColour}; }
   
   .florence.syntax > .keyword { color: ${keywordColour}; }
   
+  .florence.syntax > .operator { color: ${operatorColour}; }
+  
+  .florence.syntax > .meta-type { color: ${metaTypeColour}; }
+
   .florence.syntax > .string-literal { color: ${stringLiteralColour}; }
 
   .florence.syntax > .name.context { color: ${contextNameColour}; }

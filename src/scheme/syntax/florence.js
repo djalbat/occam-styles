@@ -4,15 +4,15 @@ import { sushi, pablo, celery, flamingo, sycamore, cadetBlue, hurricane, hokeyPo
 
 export const typeColour = cadetBlue;
 
-export const metatypeColour = gainsborough;
-
-export const operatorColour = sushi;
-
 export const specialColour = sushi;
 
 export const commentColour = pablo;
 
 export const keywordColour = razzmatazz;
+
+export const operatorColour = sushi;
+
+export const metaTypeColour = gainsborough;
 
 export const stringLiteralColour = hokeyPokey;
 
