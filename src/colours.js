@@ -56,7 +56,6 @@ export default {
   logCabin,
   blackOlive,
   hunterGreen,
-  cadetBlue,
   regentGrey,
   spanishGreen,
   flamingo,
