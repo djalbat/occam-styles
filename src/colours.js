@@ -14,9 +14,9 @@ export const tuatara = "#363534";
 export const dune = "#24211e";
 export const woodsmoke = "#0c0d0f";
 
-export const pomegranate = "#f52929";
+export const razzmatazz = "#e3256b";
+
 export const sushi = "#7fa82f";
-export const lapis = "#0030e6";
 
 export const logCabin = "#24301d";
 export const blackOlive = "#1c2412";
@@ -26,13 +26,11 @@ export const cadetBlue = "#5f92a0";
 export const regentGrey = "#89ae9d";
 export const spanishGreen = "#90ae89";
 
+export const pomegranate = "#f52929";
 export const flamingo = "#CB2039";
 export const terracotta = "#a83a25";
 export const korma = "#99420f";
 export const walnut = "#59331c";
-
-export const razzmatazz = "#e3256b";
-export const treePoppy = "#E4902F";
 
 export const portica = "#f7e75f";
 export const hokeyPokey = "#c6b624";
@@ -56,7 +54,6 @@ export default {
   woodsmoke,
   pomegranate,
   sushi,
-  lapis,
   logCabin,
   blackOlive,
   hunterGreen,
@@ -68,7 +65,6 @@ export default {
   korma,
   walnut,
   razzmatazz,
-  treePoppy,
   portica,
   hokeyPokey,
   celery,
