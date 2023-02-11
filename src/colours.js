@@ -22,9 +22,9 @@ export const logCabin = "#24301d";
 export const blackOlive = "#1c2412";
 export const hunterGreen = "#161d10";
 
-export const cadetBlue = "#5f9ea0";
-export const regentGrey = "#899396";
-export const spanishGreen = "#89ae8f";
+export const cadetBlue = "#5f92a0";
+export const regentGrey = "#89ae9d";
+export const spanishGreen = "#90ae89";
 
 export const flamingo = "#CB2039";
 export const terracotta = "#a83a25";
