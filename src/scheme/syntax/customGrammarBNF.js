@@ -1,8 +1,8 @@
 "use strict";
 
-import { regentGrey, hokeyPokey, spanishGreen } from "../../colours";
+import { cadetBlue, hokeyPokey, spanishGreen } from "../../colours";
 
-export const nameColour = regentGrey;
+export const nameColour = cadetBlue;
 
 export const typeColour = spanishGreen;
 
