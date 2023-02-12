@@ -23,7 +23,7 @@ export const blackOlive = "#1c2412";
 export const hunterGreen = "#161d10";
 
 export const cadetBlue = "#5f9ea0";
-export const spanishGreen = "#6aa45d";
+export const spanishGreen = "#7bb46f";
 
 export const pomegranate = "#f52929";
 export const flamingo = "#CB2039";
