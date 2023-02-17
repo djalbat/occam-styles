@@ -29,12 +29,14 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > .comment { color: ${commentColour}; }
   
-  .florence.syntax > .keyword { color: ${keywordColour}; }
-  
   .florence.syntax > .operator { color: ${operatorColour}; }
   
   .florence.syntax > .meta-type { color: ${metaTypeColour}; }
 
+  .florence.syntax > .primary-keyword { color: ${keywordColour}; }
+  
+  .florence.syntax > .secondary-keyword { color: ${keywordColour}; }
+  
   .florence.syntax > .string-literal { color: ${stringLiteralColour}; }
 
   .florence.syntax > .name.context { color: ${contextNameColour}; }
