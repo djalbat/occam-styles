@@ -11,6 +11,7 @@ class SVG extends Element {
 export default withStyle(SVG)`
 
   stroke: none;
+  display: inline-block;
   pointer-events: none;
   vertical-align: bottom;
   
