@@ -4,7 +4,7 @@ import withStyle from "easy-with-style";  ///
 
 import SVG from "../svg";
 
-import { nameSVGHeight, fileNameSVGPaddingLeft } from "../styles";
+import { nameSVGHeight, nameSVGMarginBottom, fileNameSVGPaddingLeft } from "../styles";
 
 class FileNameSVG extends SVG {
   childElements() {
@@ -31,5 +31,6 @@ export default withStyle(FileNameSVG)`
 
   height: ${nameSVGHeight};
   padding-left: ${fileNameSVGPaddingLeft};
+  margin-bottom: ${nameSVGMarginBottom};
   
 `;
