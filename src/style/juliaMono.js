@@ -10,12 +10,6 @@ const juliaMonoStyle = (host = DEFAULT_HOST) => `
     font-weight: normal;
   }
   
-  @font-face {
-    src: url("${host}/css/woff2/JuliaMono-Bold.woff2");
-    font-family: "JuliaMono";
-    font-weight: bold;
-  }
-
 `;
 
 export default juliaMonoStyle;
