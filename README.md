@@ -53,7 +53,7 @@ The example will then be available at http://localhost:8888 and will reload auto
 
 * The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
-* Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface, distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
+* Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
 
 ## Contact
 
