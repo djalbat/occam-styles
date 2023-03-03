@@ -5,14 +5,14 @@ import withStyle from "easy-with-style";  ///
 import { Element } from "easy";
 
 import LogoSVG from "../svg/logo";
-import FiraCodeTextArea from "./textarea/firaCode"
+import JuliaMonoTextArea from "./textarea/juliaMono"
 
 class View extends Element {
   childElements() {
     return ([
 
       <LogoSVG/>,
-      <FiraCodeTextArea/>
+      <JuliaMonoTextArea/>
 
     ]);
   }

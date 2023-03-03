@@ -4,15 +4,15 @@ import withStyle from "easy-with-style";  ///
 
 import { Textarea } from "easy";
 
-import firaCodeFontMixin from "../../mixin/font/firaCode";
+import juliaMonoFontMixin from "../../mixin/font/juliaMono";
 
-class FiraCodeTextarea extends Textarea {
+class JuliaMonoTextarea extends Textarea {
   static defaultProperties = {
-    className: "fira-code"
+    className: "julia-mono"
   }
 }
 
-export default withStyle(FiraCodeTextarea)`
+export default withStyle(JuliaMonoTextarea)`
 
   color: white;
   width: 32rem;
@@ -20,6 +20,6 @@ export default withStyle(FiraCodeTextarea)`
   outline: none;
   background-color: black;
   
-  ${firaCodeFontMixin}
+  ${juliaMonoFontMixin}
   
 `;

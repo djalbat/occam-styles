@@ -6,6 +6,7 @@ export { default as syntaxStyle } from "./style/syntax";
 export { default as firaCodeStyle } from "./style/firaCode";
 export { default as commonFontMixin } from "./mixin/font/common";
 export { default as firaCodeFontMixin } from "./mixin/font/firaCode";
+export { default as juliaMonoFontMixin } from "./mixin/font/juliaMono";
 
 export { default as editorScheme } from "./scheme/editor";
 export { default as commonScheme } from "./scheme/common";
