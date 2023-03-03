@@ -68,10 +68,8 @@ brew install woof2
 Compression is then straightforward, for example:
 
 ```
-woff2_compress JuliaMono-REgular.ttf
+woff2_compress JuliaMono-Regular.ttf
 ```
-
-
 
 ## Building
 
