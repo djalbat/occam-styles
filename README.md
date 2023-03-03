@@ -94,7 +94,7 @@ The example will then be available at http://localhost:8888 and will reload auto
 
 * Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
 
-* Thank you to [Fredrik Ekre](https://fredrikekre.se/) for providing the script to strip out ligatures and contextual alternate characters from JuliaMono.
+* [Fredrik Ekre](https://fredrikekre.se/) provided the script to strip out ligatures and contextual alternate characters from JuliaMono.
 
 ## Contact
 
