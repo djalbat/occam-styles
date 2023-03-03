@@ -32,6 +32,43 @@ You can also clone the repository with [Git](https://git-scm.com/)...
 
 You can also run a development server, see the section on building later on.
 
+## ligatures and contextual alternate characters from JuliaMono
+
+Assuming that you have relatively recent versions of Python and VirtualEnv installed, firstly create and activate a virtual environment...
+
+```
+virtualenv venv
+source venv/bin/activate
+```
+
+...then install Python's `foottools` package...
+
+```
+pip install fonttools
+```
+
+...and then, lastly, assuming that you have created the requisite `source` and `output` directories, run the following or similar:
+
+```
+pyftsubset source/JuliaMono-Bold.ttf --output-file=output/JuliaMono-Bold.ttf --layout-features-=calt,liga
+```
+
+## Compressing the TTF files to Woff2 format
+
+Homebrew has the necessary utilities:
+
+```
+brew install woof2
+```
+
+Compression is then straightforward, for example:
+
+```
+woff2_compress JuliaMono-REgular.ttf
+```
+
+
+
 ## Building
 
 Automation is done with [npm scripts](https://docs.npmjs.com/misc/scripts), have a look at the `package.json` file. The pertinent commands are:
@@ -54,6 +91,8 @@ The example will then be available at http://localhost:8888 and will reload auto
 * The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
 * Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
+
+* Thank you to [Fredrik Ekre](https://fredrikekre.se/) for providing the script to strip out ligatures and contextual alternate characters from JuliaMono.
 
 ## Contact
 
