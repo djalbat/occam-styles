@@ -4,18 +4,15 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { LogoSVG, RefreshToolbarSVG, JoinSessionToolbarSVG, LeaveSessionToolbarSVG, CreateSessionToolbarSVG, SynchroniseToolbarSVG } from "../index";  ///
+import LogoSVG from "../svg/logo";
+import FiraCodeTextArea from "./textarea/firaCode"
 
 class View extends Element {
   childElements() {
     return ([
 
       <LogoSVG/>,
-      <RefreshToolbarSVG/>,
-      <JoinSessionToolbarSVG/>,
-      <CreateSessionToolbarSVG/>,
-      <LeaveSessionToolbarSVG/>,
-      <SynchroniseToolbarSVG/>
+      <FiraCodeTextArea/>
 
     ]);
   }
