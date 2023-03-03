@@ -32,32 +32,7 @@ You can also clone the repository with [Git](https://git-scm.com/)...
 
 You can also run a development server, see the section on building later on.
 
-## Changes to the JuliaMono typeface
-
-For those that are interested, here are the steps.
-
-### Stripping ligatures and contextual alternate characters
-
-Assuming that you have relatively recent versions of Python and VirtualEnv installed, firstly create and activate a virtual environment...
-
-```
-virtualenv venv
-source venv/bin/activate
-```
-
-...then install Python's `foottools` package...
-
-```
-pip install fonttools
-```
-
-...and then, lastly, assuming that you have created the requisite `source` and `output` directories, run the following or similar:
-
-```
-pyftsubset source/JuliaMono-Bold.ttf --output-file=output/JuliaMono-Bold.ttf --layout-features-=calt,liga
-```
-
-### Compressing the TTF files to Woff2 format
+### Compressing the JuliaMono TTF files to Woff2 format
 
 Homebrew has the necessary utilities:
 
