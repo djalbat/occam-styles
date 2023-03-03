@@ -14,7 +14,7 @@
 
 This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and the some of the [JuliaMono](https://juliamono.netlify.app/) typeface in Woff2 format.
 
-There is a small example application to view the images in JSX form.
+There is a small example application to view the images in JSX form and so on.
 
 ## Installation
 
@@ -53,7 +53,7 @@ The example will then be available at http://localhost:8888 and will reload auto
 
 * The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
-* Occam's pretty printer uses the excellent [JuliaMono](https://juliamono.netlify.app/) typeface, distributed under the [SIL Open Font License (OFL)]()https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl); 
+* Occam's pretty printer uses the excellent [JuliaMono](https://juliamono.netlify.app/) typeface, distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl); 
 
 ## Contact
 
