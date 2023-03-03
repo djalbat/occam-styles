@@ -9,13 +9,13 @@ import { Body } from "easy";
 const { renderStyle, renderStyles } = withStyle;
 
 import View from "./example/view";
-import firaCodeStyle from "./style/firaCode";
+import juliaMonoStyle from "./style/juliaMono";
 
 const body = new Body();
 
 renderStyles();
 
-renderStyle(firaCodeStyle());
+renderStyle(juliaMonoStyle());
 
 body.mount(
 
