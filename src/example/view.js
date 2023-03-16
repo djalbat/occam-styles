@@ -5,14 +5,18 @@ import withStyle from "easy-with-style";  ///
 import { Element } from "easy";
 
 import LogoSVG from "../svg/logo";
-import JuliaMonoTextArea from "./textarea/juliaMono"
+import JoinSessionToolbarSVG from "./svg/toolbar/joinSession";
+import PasteSessionKeyToolbarSVG from "./svg/toolbar/pasteSessionKey";
+import ExportCustomGrammarsToolbarSVG from "./svg/toolbar/exportCustomGrammars";
 
 class View extends Element {
   childElements() {
     return ([
 
       <LogoSVG/>,
-      <JuliaMonoTextArea/>
+      <JoinSessionToolbarSVG/>,
+      <PasteSessionKeyToolbarSVG/>,
+      <ExportCustomGrammarsToolbarSVG/>
 
     ]);
   }

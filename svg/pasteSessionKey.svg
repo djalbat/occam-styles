@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25mm"
+   height="25mm"
+   viewBox="0 0 25 25"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="pasteSessionKey.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:lockguides="true"
+     inkscape:zoom="7.8492313"
+     inkscape:cx="47.96648"
+     inkscape:cy="43.571146"
+     inkscape:window-width="2048"
+     inkscape:window-height="1152"
+     inkscape:window-x="3840"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3022"
+       originx="0"
+       originy="0"
+       units="mm"
+       spacingx="0.99999999"
+       spacingy="0.99999999" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       width="2"
+       height="12"
+       x="6"
+       y="8"
+       id="rect68"
+       style="stroke-width:1.41421" />
+    <rect
+       width="3"
+       height="2"
+       x="4"
+       y="17"
+       id="rect72"
+       style="stroke-width:0.866025" />
+    <rect
+       width="3"
+       height="2"
+       x="4"
+       y="14"
+       id="rect72-0"
+       style="stroke-width:0.866025" />
+    <rect
+       width="2"
+       height="1"
+       x="5"
+       y="16"
+       id="rect72-1"
+       style="stroke-width:0.499999" />
+    <path
+       d="m 12,11.285714 h 8 V 8.8571429 l 4,3.6428581 -4,3.642856 v -2.428571 h -8 z"
+       id="path88" />
+    <path
+       id="path447"
+       style="fill:#000000;stroke-width:1.71224;paint-order:markers stroke fill"
+       d="M 7.0000895 2.9998169 A 3 3 0 0 0 3.9997559 6.0001506 A 3 3 0 0 0 7.0000895 8.9999674 A 3 3 0 0 0 9.9999064 6.0001506 A 3 3 0 0 0 7.0000895 2.9998169 z M 7.0000895 5.0002116 A 0.99999994 0.99999994 0 0 1 8.0000285 6.0001506 A 0.99999994 0.99999994 0 0 1 7.0000895 7.0000895 A 0.99999994 0.99999994 0 0 1 6.0001506 6.0001506 A 0.99999994 0.99999994 0 0 1 7.0000895 5.0002116 z " />
+  </g>
+</svg>

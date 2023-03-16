@@ -27,6 +27,7 @@ export { default as LeaveSessionToolbarSVG } from "./svg/toolbar/leaveSession";
 export { default as ClearConsoleToolbarSVG } from "./svg/toolbar/clearConsole";
 export { default as CreateSessionToolbarSVG } from "./svg/toolbar/createSession";
 export { default as OpenRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/open";
+export { default as PasteSessionKeyToolbarSVG } from "./svg/toolbar/pasteSessionKey";
 export { default as ClosedRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/closed";
 export { default as ExportCustomGrammarsToolbarSVG } from "./svg/toolbar/exportCustomGrammars";
 export { default as CreateProjectsFilePathToolbarSVG } from "./svg/toolbar/createProjectsFilePath";
