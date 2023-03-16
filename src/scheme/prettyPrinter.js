@@ -26,7 +26,7 @@ export const scrollbarTrackBackgroundColour = dune;
 
 export const scrollbarThumbBackgroundColour = stormDust;
 
-export const otherSelectionsBackgroundColour = logCabin;
+export const remoteSelectionsBackgroundColour = logCabin;
 
 export default {
   borderColour,
@@ -40,5 +40,5 @@ export default {
   scrollbarThumbBorderColour,
   scrollbarTrackBackgroundColour,
   scrollbarThumbBackgroundColour,
-  otherSelectionsBackgroundColour
+  remoteSelectionsBackgroundColour
 };
