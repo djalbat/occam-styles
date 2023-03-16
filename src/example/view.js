@@ -6,7 +6,7 @@ import { Element } from "easy";
 
 import LogoSVG from "../svg/logo";
 import JoinSessionToolbarSVG from "./svg/toolbar/joinSession";
-import PasteSessionKeyToolbarSVG from "./svg/toolbar/pasteSessionKey";
+import CopySessionKeyToolbarSVG from "./svg/toolbar/copySessionKey";
 import ExportCustomGrammarsToolbarSVG from "./svg/toolbar/exportCustomGrammars";
 
 class View extends Element {
@@ -15,7 +15,7 @@ class View extends Element {
 
       <LogoSVG/>,
       <JoinSessionToolbarSVG/>,
-      <PasteSessionKeyToolbarSVG/>,
+      <CopySessionKeyToolbarSVG/>,
       <ExportCustomGrammarsToolbarSVG/>
 
     ]);
