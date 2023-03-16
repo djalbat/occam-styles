@@ -26,8 +26,8 @@
      showgrid="true"
      inkscape:lockguides="true"
      inkscape:zoom="7.8492313"
-     inkscape:cx="46.69247"
-     inkscape:cy="46.883572"
+     inkscape:cx="43.252643"
+     inkscape:cy="42.042333"
      inkscape:window-width="2048"
      inkscape:window-height="1152"
      inkscape:window-x="3840"
@@ -67,33 +67,33 @@
        d="m 12,11.285714 h 8 V 8.8571429 l 4,3.6428581 -4,3.642856 v -2.428571 h -8 z"
        id="path88" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke-width:1.8923;paint-order:markers stroke fill"
+       style="fill:#000000;fill-opacity:1;stroke-width:2.11566;paint-order:markers stroke fill"
        id="rect4888"
        width="12"
-       height="2"
+       height="2.5"
        x="4"
-       y="5" />
+       y="4.5" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke-width:1.35819;paint-order:markers stroke fill"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.55653;paint-order:markers stroke fill"
        id="rect4888-67"
-       width="2"
-       height="6.1818233"
-       x="0.40808085"
-       y="7.867775"
-       transform="matrix(1,0,0.45653557,0.88970516,0,0)" />
+       width="2.4884794"
+       height="6.5253949"
+       x="-0.46920818"
+       y="8.305048"
+       transform="matrix(1,0,0.53813153,0.84286088,0,0)" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke-width:1.35819;paint-order:markers stroke fill"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.55653;paint-order:markers stroke fill"
        id="rect4888-67-0"
-       width="2"
-       height="6.1818233"
-       x="-15.236363"
-       y="14.049598"
-       transform="matrix(-1,0,-0.45653557,0.88970516,0,0)" />
+       width="2.4884794"
+       height="6.5253949"
+       x="-17.980728"
+       y="14.830442"
+       transform="matrix(-1,0,-0.53813153,0.84286088,0,0)" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke-width:1.8923;paint-order:markers stroke fill"
+       style="fill:#000000;fill-opacity:1;stroke-width:2.11566;paint-order:markers stroke fill"
        id="rect4888-6"
        width="12"
-       height="2"
+       height="2.5"
        x="4"
        y="18" />
   </g>
