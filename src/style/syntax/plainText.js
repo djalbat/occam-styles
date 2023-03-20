@@ -4,10 +4,7 @@ import { colour } from "../../scheme/syntax/plainText";
 
 const plainTextSyntaxStyle = `
 
-  .plain-text.syntax, 
-  .plain-text.syntax > * { 
-    color: ${colour}; 
-  }
+  .plain-text.syntax > div > * { color: ${colour}; }
 
 `;
 

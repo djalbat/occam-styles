@@ -23,47 +23,47 @@ import { typeColour,
 
 const florenceSyntaxStyle = `
 
-  .florence.syntax > .type { color: ${typeColour}; }
+  .florence.syntax > div > .type { color: ${typeColour}; }
 
-  .florence.syntax > .special { color: ${specialColour}; }
+  .florence.syntax > div > .special { color: ${specialColour}; }
   
-  .florence.syntax > .comment { color: ${commentColour}; }
+  .florence.syntax > div > .comment { color: ${commentColour}; }
   
-  .florence.syntax > .operator { color: ${operatorColour}; }
+  .florence.syntax > div > .operator { color: ${operatorColour}; }
   
-  .florence.syntax > .meta-type { color: ${metaTypeColour}; }
+  .florence.syntax > div > .meta-type { color: ${metaTypeColour}; }
 
-  .florence.syntax > .primary-keyword { color: ${keywordColour}; }
+  .florence.syntax > div > .primary-keyword { color: ${keywordColour}; }
   
-  .florence.syntax > .secondary-keyword { color: ${keywordColour}; }
+  .florence.syntax > div > .secondary-keyword { color: ${keywordColour}; }
   
-  .florence.syntax > .string-literal { color: ${stringLiteralColour}; }
+  .florence.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
-  .florence.syntax > .name.context { color: ${contextNameColour}; }
+  .florence.syntax > div > .name.context { color: ${contextNameColour}; }
 
-  .florence.syntax > .name.label { color: ${labelNameColour}; }
+  .florence.syntax > div > .name.label { color: ${labelNameColour}; }
   
-  .florence.syntax > .name.label:hover { color: ${labelNameHoverColour}; }
+  .florence.syntax > div > .name.label:hover { color: ${labelNameHoverColour}; }
 
-  .florence.syntax > .name.label.faulty { color: ${faultyLabelNameColour}; }
+  .florence.syntax > div > .name.label.faulty { color: ${faultyLabelNameColour}; }
   
-  .florence.syntax > .name.label.faulty:hover { color: ${faultyLabelNameHoverColour}; }
+  .florence.syntax > div > .name.label.faulty:hover { color: ${faultyLabelNameHoverColour}; }
 
-  .florence.syntax > .name.label.disabled { color: ${disabledLabelNameColour}; }
+  .florence.syntax > div > .name.label.disabled { color: ${disabledLabelNameColour}; }
   
-  .florence.syntax > .name.label.disabled:hover { color: ${disabledLabelNameHoverColour}; }
+  .florence.syntax > div > .name.label.disabled:hover { color: ${disabledLabelNameHoverColour}; }
 
-  .florence.syntax > .name.reference { color: ${referenceNameColour}; }
+  .florence.syntax > div > .name.reference { color: ${referenceNameColour}; }
   
-  .florence.syntax > .name.reference:hover { color: ${referenceNameHoverColour}; }
+  .florence.syntax > div > .name.reference:hover { color: ${referenceNameHoverColour}; }
 
-  .florence.syntax > .name.reference.faulty { color: ${faultyReferenceNameColour}; }
+  .florence.syntax > div > .name.reference.faulty { color: ${faultyReferenceNameColour}; }
   
-  .florence.syntax > .name.reference.faulty:hover { color: ${faultyReferenceNameHoverColour}; }
+  .florence.syntax > div > .name.reference.faulty:hover { color: ${faultyReferenceNameHoverColour}; }
 
-  .florence.syntax > .name.reference.disabled { color: ${disabledReferenceNameColour}; }
+  .florence.syntax > div > .name.reference.disabled { color: ${disabledReferenceNameColour}; }
   
-  .florence.syntax > .name.reference.disabled:hover { color: ${disabledReferenceNameHoverColour}; }
+  .florence.syntax > div > .name.reference.disabled:hover { color: ${disabledReferenceNameHoverColour}; }
 
 `;
 

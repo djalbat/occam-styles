@@ -4,30 +4,27 @@ import { colour, errorColour, nonsenseColour, underlineColour } from "../../sche
 
 const defaultSyntaxStyle = `
 
-  .syntax * { 
+  .syntax > div * { 
     font-size: inherit;
     line-height: inherit;
     font-family: inherit;
-    text-rendering: inherit;
-    font-feature-settings: inherit;
   }
   
-  .syntax, 
-  .syntax > * { 
+  .syntax > div > * { 
     color: ${colour}; 
   }
   
-  .syntax > * a {
+  .syntax > div > * a {
     cursor: pointer;
     pointer-events: auto;
     text-decoration: none;
   }
 
-  .syntax > * a:hover {
+  .syntax > div > * a:hover {
     text-decoration: underline;
   }
 
-  .syntax > button {
+  .syntax > div > button {
     cursor: pointer;
     outline: none;
     display: inline;
@@ -35,13 +32,13 @@ const defaultSyntaxStyle = `
     background-color: transparent;
   }
   
-  .syntax > .error {
+  .syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${underlineColour};
   } 
 
-  .syntax > .nonsense {
+  .syntax > div > .nonsense {
     color: ${nonsenseColour};
     text-decoration-line: underline;
     text-decoration-color: ${underlineColour};

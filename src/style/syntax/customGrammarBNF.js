@@ -4,11 +4,11 @@ import { nameColour, typeColour, stringLiteralColour } from "../../scheme/syntax
 
 const customGrammarBNFSyntaxStyle = `
 
-  .custom-grammar-bnf.syntax > .name { color: ${nameColour}; }
+  .custom-grammar-bnf.syntax > div > .name { color: ${nameColour}; }
 
-  .custom-grammar-bnf.syntax > .type { color: ${typeColour}; }
+  .custom-grammar-bnf.syntax > div > .type { color: ${typeColour}; }
 
-  .custom-grammar-bnf.syntax > .string-literal { color: ${stringLiteralColour}; }
+  .custom-grammar-bnf.syntax > div > .string-literal { color: ${stringLiteralColour}; }
   
 `;
 

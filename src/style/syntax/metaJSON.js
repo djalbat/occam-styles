@@ -4,9 +4,11 @@ import { repositoryColour, stringLiteralColour } from "../../scheme/syntax/metaJ
 
 const metaJSONSyntaxStyle = `
 
-  .meta-json.syntax > .string-literal { color: ${stringLiteralColour}; }
+  .meta-json.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
-  .meta-json.syntax > .repository, .meta-json.syntax > .repository a { color: ${repositoryColour}; }
+  .meta-json.syntax > div > .repository, 
+  
+  .meta-json.syntax > div > .repository a { color: ${repositoryColour}; }
 
 `;
 
