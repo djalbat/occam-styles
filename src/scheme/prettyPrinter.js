@@ -2,9 +2,11 @@
 
 import { commonBorderColour } from "./common";
 
-import { dune, korma, bonjour, logCabin, stormDust, woodsmoke, blackOlive } from "../colours";
+import { dune, korma, bonjour, logCabin, stormDust, springWood, woodsmoke, blackOlive } from "../colours";
 
 export const borderColour = commonBorderColour; ///
+
+export const selectedColour = springWood;
 
 export const backgroundColour = woodsmoke;
 
@@ -30,6 +32,7 @@ export const remoteSelectionsBackgroundColour = logCabin;
 
 export default {
   borderColour,
+  selectedColour,
   backgroundColour,
   lineNumbersColour,
   gutterBorderColour,
