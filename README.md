@@ -50,6 +50,8 @@ For instructions on how to remove all ligatures, etc, see the following:
 
 * [How to turn off ligatures and contextual alternate characters in CSS](https://github.com/cormullion/juliamono/issues/159#issuecomment-1453900328)
 
+Only the regular font face is being used currently.
+
 ## Building
 
 Automation is done with [npm scripts](https://docs.npmjs.com/misc/scripts), have a look at the `package.json` file. The pertinent commands are:
