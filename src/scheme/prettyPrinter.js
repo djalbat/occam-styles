@@ -4,7 +4,11 @@ import { commonBorderColour } from "./common";
 
 import { dune, korma, bonjour, logCabin, stormDust, springWood, woodsmoke, blackOlive } from "../colours";
 
+export const foldFill = stormDust;
+
 export const borderColour = commonBorderColour; ///
+
+export const foldLineColour = foldFill;
 
 export const selectedColour = springWood;
 
@@ -31,7 +35,9 @@ export const scrollbarThumbBackgroundColour = stormDust;
 export const remoteSelectionsBackgroundColour = logCabin;
 
 export default {
+  foldFill,
   borderColour,
+  foldLineColour,
   selectedColour,
   backgroundColour,
   lineNumbersColour,

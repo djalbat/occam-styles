@@ -5,6 +5,9 @@ import withStyle from "easy-with-style";  ///
 import { Element } from "easy";
 
 import LogoSVG from "../svg/logo";
+import ClosedFoldSVG from "./../svg/fold/closed";
+import TopOpenFoldSVG from "./../svg/fold/topOpen";
+import BottomOpenFoldSVG from "./../svg/fold/bottomOpen";
 import JoinSessionToolbarSVG from "./svg/toolbar/joinSession";
 import CopySessionKeyToolbarSVG from "./svg/toolbar/copySessionKey";
 import ExportCustomGrammarsToolbarSVG from "./svg/toolbar/exportCustomGrammars";
@@ -14,6 +17,9 @@ class View extends Element {
     return ([
 
       <LogoSVG/>,
+      <ClosedFoldSVG/>,
+      <TopOpenFoldSVG/>,
+      <BottomOpenFoldSVG/>,
       <JoinSessionToolbarSVG/>,
       <CopySessionKeyToolbarSVG/>,
       <ExportCustomGrammarsToolbarSVG/>
