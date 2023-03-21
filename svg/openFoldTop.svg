@@ -26,12 +26,12 @@
      showgrid="true"
      inkscape:lockguides="true"
      inkscape:zoom="7.8492313"
-     inkscape:cx="48.858288"
+     inkscape:cx="48.985689"
      inkscape:cy="45.736963"
      inkscape:window-width="2048"
-     inkscape:window-height="1152"
+     inkscape:window-height="1124"
      inkscape:window-x="3840"
-     inkscape:window-y="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -49,34 +49,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#000000;stroke-width:0.343702"
-       id="rect3760"
-       width="3"
-       height="9"
-       x="9"
-       y="0" />
-    <rect
-       style="fill:#000000;stroke-width:0.280632"
-       id="rect3762"
-       width="3"
-       height="6"
-       x="0"
-       y="3" />
-    <rect
-       style="fill:#000000;stroke-width:0.217377"
-       id="rect3764"
-       width="9"
-       height="3"
-       x="0"
-       y="0" />
     <path
-       style="fill:#000000;stroke-width:2;paint-order:markers stroke fill"
-       d="M 0,8.9999999 5.9999998,15 12,8.9999999 H 8.9999999 L 5.9999998,12 3,8.9999999 Z"
-       id="path621" />
-    <path
-       style="fill:#000000;stroke-width:2;paint-order:markers stroke fill"
-       d="m 0,7.5 6,6 6,-6 H 8.9999999 L 6,10.5 3,7.5 Z"
-       id="path621-0" />
+       style="fill:#c60000;fill-opacity:1;stroke:#0000c6;stroke-width:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 5.499999,8.5 2.5,5.5000002 c 0,0 0,-3.0000002 0,-3.0000002 h 6 v 3.0000002 z"
+       id="path1971" />
   </g>
 </svg>

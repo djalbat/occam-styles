@@ -7,17 +7,14 @@ export default class ClosedFoldSVG extends Fold {
     return (
 
       <g>
-        <rect width="9" height="3" x="3" y="9" />
-        <rect width="3" height="9" x="9" y="0" />
-        <rect width="3" height="9" x="0" y="3" />
-        <rect width="9" height="3" x="0" y="0" />
+        <path d="m 2.499995,2.499995 h 6 v 6 h -6 z" style="stroke-width:5;paint-order:markers stroke fill"/>
       </g>
 
     );
   }
 
   static defaultProperties = {
-    viewBox: "0 0 12 12",
+    viewBox: "0 0 11 11",
     className: "closed"
   };
 }
