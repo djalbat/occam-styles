@@ -18,6 +18,5 @@ export default withStyle(FoldSVG)`
   fill: ${foldFill};
   width: ${foldSVGWidth};
   stroke: ${foldStroke};
-  height: auto;
   
 `;
