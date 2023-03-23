@@ -26,12 +26,12 @@
      showgrid="true"
      inkscape:lockguides="true"
      inkscape:zoom="8.6783333"
-     inkscape:cx="46.610332"
+     inkscape:cx="45.285193"
      inkscape:cy="48.511619"
-     inkscape:window-width="2048"
-     inkscape:window-height="1152"
-     inkscape:window-x="3840"
-     inkscape:window-y="0"
+     inkscape:window-width="1125"
+     inkscape:window-height="948"
+     inkscape:window-x="3934"
+     inkscape:window-y="87"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -50,8 +50,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#c60000;fill-opacity:1;stroke:#0000c6;stroke-width:5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 5.499999,3.5355338 2.5,6.5355336 c 0,0 0,3.0000002 0,3.0000002 h 6 V 6.5355336 Z"
+       style="fill:#c60000;fill-opacity:1;stroke:#0000c6;stroke-width:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 7.9999971,2.8436987 2.04215,8.6171677 c 0,0 0,5.7734703 0,5.7734703 H 13.957849 V 8.6171677 Z"
        id="path1971" />
+    <path
+       style="fill:#c60000;stroke:#0000c6;stroke-width:3;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="m 4,11 h 8"
+       id="path995" />
   </g>
 </svg>

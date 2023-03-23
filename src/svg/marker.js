@@ -25,6 +25,7 @@ class MarkerSVG extends SVG {
 
 export default withStyle(MarkerSVG)`
 
+  width: auto;
   height: ${markerSVGHeight};
   margin-left: ${markerSVGMarginLeft};
   

@@ -29,6 +29,7 @@ class FileNameSVG extends SVG {
 
 export default withStyle(FileNameSVG)`
 
+  width: auto;
   height: ${nameSVGHeight};
   padding-left: ${fileNameSVGPaddingLeft};
   margin-bottom: ${nameSVGMarginBottom};

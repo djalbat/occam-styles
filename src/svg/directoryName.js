@@ -30,6 +30,7 @@ class DirectoryNameSVG extends SVG {
 
 export default withStyle(DirectoryNameSVG)`
 
+  width: auto;
   height: ${nameSVGHeight};
   margin-bottom: ${nameSVGMarginBottom};
   

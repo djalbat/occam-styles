@@ -26,12 +26,12 @@
      showgrid="true"
      inkscape:lockguides="true"
      inkscape:zoom="7.8492313"
-     inkscape:cx="48.985689"
-     inkscape:cy="45.736963"
-     inkscape:window-width="2048"
-     inkscape:window-height="1124"
-     inkscape:window-x="3840"
-     inkscape:window-y="28"
+     inkscape:cx="48.794587"
+     inkscape:cy="45.928064"
+     inkscape:window-width="1107"
+     inkscape:window-height="1007"
+     inkscape:window-x="4802"
+     inkscape:window-y="53"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -50,8 +50,16 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#c60000;stroke:#0000c6;stroke-width:4.99999;paint-order:markers stroke fill"
-       d="m 2.499995,2.499995 h 6 v 6 h -6 z"
+       style="fill:#83b100;stroke:#0000c6;stroke-width:4.093;stroke-dasharray:none;paint-order:markers stroke fill;fill-opacity:1"
+       d="M 2.04651,2.04651 H 13.953488 V 13.953487 H 2.04651 Z"
        id="path4260" />
+    <path
+       style="fill:#c60000;stroke:#0000c6;stroke-width:3;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 7.9999998,3.9999999 V 12"
+       id="path993" />
+    <path
+       style="fill:#c60000;stroke:#0000c6;stroke-width:3;stroke-dasharray:none;paint-order:markers stroke fill"
+       d="M 3.9999999,7.9999998 H 12"
+       id="path995" />
   </g>
 </svg>

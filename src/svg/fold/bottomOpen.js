@@ -7,14 +7,15 @@ export default class BottomOpenFoldSVG extends Fold {
     return (
 
       <g>
-        <path d="M 5.499999,3.5355338 2.5,6.5355336 c 0,0 0,3.0000002 0,3.0000002 h 6 V 6.5355336 Z" style="stroke-width:5;paint-order:markers stroke fill"/>
+        <path d="M 7.9999971,2.8436987 2.04215,8.6171677 c 0,0 0,5.7734703 0,5.7734703 H 13.957849 V 8.6171677 Z" style="stroke-width:4;paint-order:markers stroke fill" />
+        <path d="m 4,11 h 8" style="stroke-width:3;paint-order:markers stroke fill" />
       </g>
 
     );
   }
 
   static defaultProperties = {
-    viewBox: "0 0 11 12",
+    viewBox: "0 0 16 16",
     className: "bottom-open"
   };
 }

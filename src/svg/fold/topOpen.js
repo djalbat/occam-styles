@@ -7,14 +7,19 @@ export default class TopOpenFoldSVG extends Fold {
     return (
 
       <g>
-        <path d="M 5.499999,8.5 2.5,5.5000002 c 0,0 0,-3.0000002 0,-3.0000002 h 6 v 3.0000002 z" style="stroke-width:5;paint-order:markers stroke fill"/>
+        <path
+          d="M 7.9999975,13.589089 2.0421505,7.8156199 c 0,0 0,-5.7734694 0,-5.7734694 H 13.957849 v 5.7734694 z"
+          style="stroke-width:4;paint-order:markers stroke fill" />
+        <path
+          d="M 3.9999999,4.9999999 H 12"
+          style="stroke-width:3;paint-order:markers stroke fill" />
       </g>
 
     );
   }
 
   static defaultProperties = {
-    viewBox: "0 0 11 12",
+    viewBox: "0 0 16 16",
     className: "top-open"
   };
 }

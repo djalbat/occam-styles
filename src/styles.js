@@ -1,10 +1,11 @@
 "use strict";
 
-export const foldSVGWidth = "2rem"
+export const foldSVGWidth = "1.2rem"
+export const logoSVGWidth = "24rem"
 export const nameSVGHeight = "2.1rem"
 export const titleSVGHeight = "2.1rem";
 export const toggleSVGHeight = "1.8rem"
-export const markerSVGHeight = "2.1rem"
+export const markerSVGHeight = nameSVGHeight; ///
 export const nameSVGMarginBottom = "0.4rem";
 export const markerSVGMarginLeft = "2.4rem";
 export const fileNameSVGPaddingLeft = "2.2rem";
