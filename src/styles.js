@@ -1,6 +1,6 @@
 "use strict";
 
-export const foldSVGWidth = "1.2rem"
+export const foldSVGWidth = "1rem"
 export const logoSVGWidth = "24rem"
 export const nameSVGHeight = "2.1rem"
 export const titleSVGHeight = "2.1rem";
