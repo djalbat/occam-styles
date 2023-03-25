@@ -19,7 +19,6 @@ export default class DirectoryNameSVG extends NameSVG {
   }
 
   static defaultProperties = {
-    viewBox: "0 0 24 18",
     className: "directory"
   };
 }
