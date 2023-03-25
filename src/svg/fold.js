@@ -18,6 +18,7 @@ export default withStyle(FoldSVG)`
   left: 0;
   fill: ${foldFill};
   width: ${foldSVGWidth};
+  stroke: inherit;
   position: absolute;
   
 `;
