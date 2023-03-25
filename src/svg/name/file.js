@@ -2,11 +2,11 @@
 
 import withStyle from "easy-with-style";  ///
 
-import SVG from "../svg";
+import NameSVG from "../../svg/name";
 
-import { nameSVGHeight, nameSVGMarginBottom, fileNameSVGPaddingLeft } from "../styles";
+import { fileNameSVGPaddingLeft } from "../../styles";
 
-class FileNameSVG extends SVG {
+class FileNameSVG extends NameSVG {
   childElements() {
     return (
 
@@ -22,16 +22,12 @@ class FileNameSVG extends SVG {
   }
 
   static defaultProperties = {
-    viewBox: "0 0 24 18",
-    className: "file-name"
+    className: "file"
   };
 }
 
 export default withStyle(FileNameSVG)`
 
-  width: auto;
-  height: ${nameSVGHeight};
   padding-left: ${fileNameSVGPaddingLeft};
-  margin-bottom: ${nameSVGMarginBottom};
   
 `;

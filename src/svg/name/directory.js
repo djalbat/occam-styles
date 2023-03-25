@@ -1,12 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import NameSVG from "../../svg/name";
 
-import SVG from "../svg";
-
-import { nameSVGHeight, nameSVGMarginBottom } from "../styles";
-
-class DirectoryNameSVG extends SVG {
+export default class DirectoryNameSVG extends NameSVG {
   childElements() {
     return (
 
@@ -24,14 +20,6 @@ class DirectoryNameSVG extends SVG {
 
   static defaultProperties = {
     viewBox: "0 0 24 18",
-    className: "directory-name"
+    className: "directory"
   };
 }
-
-export default withStyle(DirectoryNameSVG)`
-
-  width: auto;
-  height: ${nameSVGHeight};
-  margin-bottom: ${nameSVGMarginBottom};
-  
-`;

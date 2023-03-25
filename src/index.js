@@ -15,13 +15,13 @@ export { default as welcomeScreenScheme } from "./scheme/welcomeScreen";
 
 export { default as LogoSVG } from "./svg/logo";
 export { default as MarkerSVG } from "./svg/marker";
-export { default as FileNameSVG } from "./svg/fileName";
+export { default as FileNameSVG } from "./svg/name/file";
 export { default as UpToggleSVG } from "./svg/toggle/up";
 export { default as FoldLineSVG } from "./svg/fold/line";
 export { default as DownToggleSVG } from "./svg/toggle/down";
 export { default as ClosedFoldSVG } from "./svg/fold/closed";
 export { default as TopOpenFoldSVG } from "./svg/fold/topOpen";
-export { default as DirectoryNameSVG } from "./svg/directoryName";
+export { default as DirectoryNameSVG } from "./svg/name/directory";
 export { default as ExpandedTitleSVG } from "./svg/title/expanded";
 export { default as CollapsedTitleSVG } from "./svg/title/collapsed";
 export { default as BottomOpenFoldSVG } from "./svg/fold/bottomOpen";
