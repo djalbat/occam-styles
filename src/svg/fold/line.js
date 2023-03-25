@@ -1,10 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import FoldSVG from "../../svg/fold";
 
-import Fold from "../../svg/fold";
-
-class FoldLineSVG extends Fold {
+export default class FoldLineSVG extends FoldSVG {
   childElements() {
     return (
 
@@ -20,9 +18,3 @@ class FoldLineSVG extends Fold {
     className: "line"
   };
 }
-
-export default withStyle(FoldLineSVG)`
-
-  top: 0;
-  
-`;

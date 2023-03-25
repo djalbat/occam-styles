@@ -1,10 +1,8 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
+import FoldSVG from "../../svg/fold";
 
-import Fold from "../../svg/fold";
-
-class TopOpenFoldSVG extends Fold {
+export default class TopOpenFoldSVG extends FoldSVG {
   childElements() {
     return (
 
@@ -21,9 +19,3 @@ class TopOpenFoldSVG extends Fold {
     className: "top-open"
   };
 }
-
-export default withStyle(TopOpenFoldSVG)`
-  
-  top: 0;
-  
-`;

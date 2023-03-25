@@ -1,8 +1,8 @@
 "use strict";
 
-import Fold from "../../svg/fold";
+import FoldSVG from "../../svg/fold";
 
-export default class ClosedFoldSVG extends Fold {
+export default class ClosedFoldSVG extends FoldSVG {
   childElements() {
     return (
 

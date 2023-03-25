@@ -2,9 +2,9 @@
 
 import withStyle from "easy-with-style";  ///
 
-import Fold from "../../svg/fold";
+import FoldSVG from "../../svg/fold";
 
-class BottomOpenFoldSVG extends Fold {
+class BottomOpenFoldSVG extends FoldSVG {
   childElements() {
     return (
 

@@ -15,6 +15,7 @@ class FoldSVG extends SVG {
 
 export default withStyle(FoldSVG)`
 
+  top: 0;
   left: 0;
   fill: ${foldFill};
   width: ${foldSVGWidth};
