@@ -24,6 +24,7 @@ class BottomOpenFoldSVG extends FoldSVG {
 
 export default withStyle(BottomOpenFoldSVG)`
 
-   bottom: 0;
+  top: unset;
+  bottom: 0;
    
 `;
