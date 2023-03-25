@@ -15,8 +15,10 @@ class FoldSVG extends SVG {
 
 export default withStyle(FoldSVG)`
 
+  left: 0;
   fill: ${foldFill};
   width: ${foldSVGWidth};
   stroke: ${foldStroke};
+  position: absolute;
   
 `;
