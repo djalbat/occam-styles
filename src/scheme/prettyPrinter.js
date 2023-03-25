@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "./common";
 
-import { dune, korma, pablo, bonjour, logCabin, stormDust, woodsmoke, blackOlive, springWood } from "../colours";
+import { dune, korma, pablo, bonjour, stardust, logCabin, stormDust, woodsmoke, blackOlive, springWood } from "../colours";
 
 export const foldFill = woodsmoke;
 
@@ -11,6 +11,8 @@ export const foldStroke = pablo;
 export const borderColour = commonBorderColour; ///
 
 export const selectedColour = springWood;
+
+export const foldStrokeHover = stardust;
 
 export const backgroundColour = woodsmoke;
 
@@ -35,6 +37,7 @@ export default {
   foldStroke,
   borderColour,
   selectedColour,
+  foldStrokeHover,
   backgroundColour,
   lineNumbersColour,
   caretBackgroundColour,
