@@ -6,17 +6,17 @@ import { dune, korma, pablo, bonjour, stardust, logCabin, stormDust, woodsmoke, 
 
 export const foldFill = woodsmoke;
 
-export const foldStroke = pablo;
-
 export const borderColour = commonBorderColour; ///
 
 export const selectedColour = springWood;
 
-export const foldStrokeHover = stardust;
+export const foldButtonStroke = pablo;
 
 export const backgroundColour = woodsmoke;
 
 export const lineNumbersColour = stormDust;
+
+export const foldButtonHoverStroke = stardust;
 
 export const caretBackgroundColour = bonjour;
 
@@ -34,13 +34,13 @@ export const remoteSelectionsBackgroundColour = logCabin;
 
 export default {
   foldFill,
-  foldStroke,
   borderColour,
   selectedColour,
-  foldStrokeHover,
+  foldButtonStroke,
   backgroundColour,
   lineNumbersColour,
   caretBackgroundColour,
+  foldButtonHoverStroke,
   gutterBackgroundColour,
   selectionBackgroundColour,
   scrollbarThumbBorderColour,
