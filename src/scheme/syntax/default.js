@@ -1,6 +1,6 @@
 "use strict";
 
-import { tuatara, springWood, pomegranate, gainsborough } from "../../colours";
+import { dune, springWood, pomegranate, gainsborough } from "../../colours";
 
 export const colour = springWood;
 
@@ -10,4 +10,4 @@ export const nonsenseColour = gainsborough;
 
 export const underlineColour = pomegranate;
 
-export const backgroundColour = tuatara;
+export const backgroundColour = dune;
