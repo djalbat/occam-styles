@@ -11,6 +11,9 @@ const defaultSyntaxStyle = `
 
   .syntax > div {
     width: 1000rem;
+  }
+
+  .syntax > div.animate {
     animation: background-color-animation 1s 1;
   }
 
