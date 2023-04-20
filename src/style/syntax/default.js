@@ -9,7 +9,7 @@ const defaultSyntaxStyle = `
     100% { background-color: transparent; }
   }
   
-  .syntax: > div.animated {
+  .syntax > div.animated { 
     width: 1000rem;
     animation: background-color-animation 1s 1;
   }
