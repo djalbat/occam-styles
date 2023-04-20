@@ -1,9 +1,22 @@
 "use strict";
 
-import { colour, errorColour, nonsenseColour, underlineColour } from "../../scheme/syntax/default";
+import { colour, errorColour, nonsenseColour, underlineColour, backgroundColour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
+  @keyframes background-color-animation {
+    0%   { background-color: ${backgroundColour}; }
+    100% { background-color: transparent; }
+  }
+  
+  .syntax > div {
+    width: 1000rem;
+  }
+  
+  .syntax:not(.active) > div {
+    animation: background-color-animation 1s 1;
+  }
+  
   .syntax > div * { 
     font-size: inherit;
     line-height: inherit;
