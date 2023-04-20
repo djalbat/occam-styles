@@ -9,11 +9,8 @@ const defaultSyntaxStyle = `
     100% { background-color: transparent; }
   }
   
-  .syntax > div {
+  .syntax: > div.animated {
     width: 1000rem;
-  }
-  
-  .syntax:not(.active) > div {
     animation: background-color-animation 1s 1;
   }
   
