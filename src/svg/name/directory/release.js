@@ -1,8 +1,8 @@
 "use strict";
 
-import NameSVG from "../../svg/name";
+import DirectoryNameSVG from "../../../svg/name/directory";
 
-export default class ReleaseNameSVG extends NameSVG {
+export default class ReleaseDirectoryNameSVG extends DirectoryNameSVG {
   childElements() {
     return (
 
