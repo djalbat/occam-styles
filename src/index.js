@@ -21,6 +21,7 @@ export { default as FoldLineSVG } from "./svg/fold/line";
 export { default as DownToggleSVG } from "./svg/toggle/down";
 export { default as ClosedFoldSVG } from "./svg/fold/closed";
 export { default as TopOpenFoldSVG } from "./svg/fold/topOpen";
+export { default as ReleaseNameSVG } from "./svg/name/release";
 export { default as DirectoryNameSVG } from "./svg/name/directory";
 export { default as ExpandedTitleSVG } from "./svg/title/expanded";
 export { default as CollapsedTitleSVG } from "./svg/title/collapsed";
