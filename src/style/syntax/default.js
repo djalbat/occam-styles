@@ -53,8 +53,6 @@ const defaultSyntaxStyle = `
 
   .syntax > div > .nonsense {
     color: ${nonsenseColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
   } 
 
 `;
