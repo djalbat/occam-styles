@@ -1,6 +1,6 @@
 "use strict";
 
-import { sushi, pablo, celery, flamingo, sycamore, cadetBlue, hurricane, hokeyPokey, razzmatazz, terracotta, spanishGreen } from "../../colours";
+import { sushi, pablo, celery, sycamore, cadetBlue, hurricane, hokeyPokey, razzmatazz, spanishGreen } from "../../colours";
 
 export const typeColour = cadetBlue;
 
@@ -22,10 +22,6 @@ export const labelNameColour = sycamore;
 
 export const labelNameHoverColour = celery;
 
-export const faultyLabelNameColour = terracotta;
-
-export const faultyLabelNameHoverColour = flamingo;
-
 export const disabledLabelNameColour = pablo;
 
 export const disabledLabelNameHoverColour = hurricane;
@@ -33,10 +29,6 @@ export const disabledLabelNameHoverColour = hurricane;
 export const referenceNameColour = sycamore;
 
 export const referenceNameHoverColour = celery;
-
-export const faultyReferenceNameColour = terracotta;
-
-export const faultyReferenceNameHoverColour = flamingo;
 
 export const disabledReferenceNameColour = pablo;
 

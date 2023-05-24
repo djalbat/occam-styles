@@ -15,7 +15,6 @@ export const dune = "#24211e";
 export const woodsmoke = "#0c0d0f";
 
 export const razzmatazz = "#e3256b";
-
 export const sushi = "#7fa82f";
 
 export const logCabin = "#24301d";
@@ -26,8 +25,6 @@ export const cadetBlue = "#5f9ea0";
 export const spanishGreen = "#84b07b";
 
 export const pomegranate = "#f52929";
-export const flamingo = "#CB2039";
-export const terracotta = "#a83a25";
 export const korma = "#99420f";
 export const walnut = "#59331c";
 
@@ -58,8 +55,6 @@ export default {
   hunterGreen,
   cadetBlue,
   spanishGreen,
-  flamingo,
-  terracotta,
   korma,
   walnut,
   razzmatazz,

@@ -11,14 +11,10 @@ import { typeColour,
          referenceNameColour,
          stringLiteralColour,
          labelNameHoverColour,
-         faultyLabelNameColour,
          disabledLabelNameColour,
          referenceNameHoverColour,
-         faultyReferenceNameColour,
-         faultyLabelNameHoverColour,
          disabledReferenceNameColour,
          disabledLabelNameHoverColour,
-         faultyReferenceNameHoverColour,
          disabledReferenceNameHoverColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
@@ -45,10 +41,6 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > div > .name.label:hover { color: ${labelNameHoverColour}; }
 
-  .florence.syntax > div > .name.label.faulty { color: ${faultyLabelNameColour}; }
-  
-  .florence.syntax > div > .name.label.faulty:hover { color: ${faultyLabelNameHoverColour}; }
-
   .florence.syntax > div > .name.label.disabled { color: ${disabledLabelNameColour}; }
   
   .florence.syntax > div > .name.label.disabled:hover { color: ${disabledLabelNameHoverColour}; }
@@ -56,10 +48,6 @@ const florenceSyntaxStyle = `
   .florence.syntax > div > .name.reference { color: ${referenceNameColour}; }
   
   .florence.syntax > div > .name.reference:hover { color: ${referenceNameHoverColour}; }
-
-  .florence.syntax > div > .name.reference.faulty { color: ${faultyReferenceNameColour}; }
-  
-  .florence.syntax > div > .name.reference.faulty:hover { color: ${faultyReferenceNameHoverColour}; }
 
   .florence.syntax > div > .name.reference.disabled { color: ${disabledReferenceNameColour}; }
   
