@@ -33,3 +33,22 @@ export const referenceNameHoverColour = celery;
 export const disabledReferenceNameColour = pablo;
 
 export const disabledReferenceNameHoverColour = hurricane;
+
+export default {
+  typeColour,
+  specialColour,
+  commentColour,
+  keywordColour,
+  operatorColour,
+  metaTypeColour,
+  stringLiteralColour,
+  contextNameColour,
+  labelNameColour,
+  labelNameHoverColour,
+  disabledLabelNameColour,
+  disabledLabelNameHoverColour,
+  referenceNameColour,
+  referenceNameHoverColour,
+  disabledReferenceNameColour,
+  disabledReferenceNameHoverColour
+};

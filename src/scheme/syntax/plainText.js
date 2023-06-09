@@ -3,3 +3,7 @@
 import { gainsborough } from "../../colours";
 
 export const colour = gainsborough;
+
+export default {
+  colour
+};
