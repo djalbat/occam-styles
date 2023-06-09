@@ -1,6 +1,7 @@
 "use strict";
 
-import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara } from "../colours";
+import { dawn, bonjour, bianca, woodsmoke, stardust, stormDust, walnut, tuatara, springWood } from "../colours";
+
 
 export const commonFill = tuatara;
 
@@ -32,6 +33,10 @@ export const clearConsoleFill = walnut;
 
 export const tooltipBackgroundColour = bianca;
 
+export const commonHoverButtonColour = springWood;
+
+export const commonHoverButtonBackgroundColour = stardust;
+
 export default {
   commonFill,
   commonColour,
@@ -47,5 +52,7 @@ export default {
   commonScrollbarTrackBackgroundColour,
   commonScrollbarThumbBackgroundColour,
   clearConsoleFill,
-  tooltipBackgroundColour
+  tooltipBackgroundColour,
+  commonHoverButtonColour,
+  commonHoverButtonBackgroundColour
 };
