@@ -13,12 +13,6 @@ export { default as consoleScheme } from "./scheme/console";
 export { default as prettyPrinterScheme } from "./scheme/prettyPrinter";
 export { default as welcomeScreenScheme } from "./scheme/welcomeScreen";
 
-export { default as defaultSyntaxScheme } from "./scheme/syntax/default";
-export { default as florenceSyntaxScheme } from "./scheme/syntax/florence";
-export { default as metaJSONSyntaxScheme } from "./scheme/syntax/metaJSON";
-export { default as plainTextSyntaxScheme } from "./scheme/syntax/plainText";
-export { default as customGrammarBNFSyntaxScheme } from "./scheme/syntax/customGrammarBNF";
-
 export { default as LogoSVG } from "./svg/logo";
 export { default as MarkerSVG } from "./svg/marker";
 export { default as FileNameSVG } from "./svg/name/file";

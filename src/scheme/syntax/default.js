@@ -11,11 +11,3 @@ export const nonsenseColour = pablo;
 export const underlineColour = pomegranate;
 
 export const backgroundColour = dune;
-
-export default {
-  colour,
-  errorColour,
-  nonsenseColour,
-  underlineColour,
-  backgroundColour
-};

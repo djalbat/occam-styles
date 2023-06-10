@@ -1,7 +1,6 @@
 "use strict";
 
-import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara } from "../colours";
-
+import {dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara, springWood, stardust} from "../colours";
 
 export const commonFill = tuatara;
 
@@ -29,7 +28,11 @@ export const commonScrollbarTrackBackgroundColour = dawn;
 
 export const commonScrollbarThumbBackgroundColour = stormDust;
 
+export const glyphColour = stardust;
+
 export const clearConsoleFill = walnut;
+
+export const expandedGlyphColour = springWood;
 
 export const tooltipBackgroundColour = bianca;
 
@@ -47,6 +50,8 @@ export default {
   commonScrollbarThumbBorderColour,
   commonScrollbarTrackBackgroundColour,
   commonScrollbarThumbBackgroundColour,
+  glyphColour,
   clearConsoleFill,
+  expandedGlyphColour,
   tooltipBackgroundColour
 };
