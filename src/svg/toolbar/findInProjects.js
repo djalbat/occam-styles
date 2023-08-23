@@ -2,7 +2,7 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class FindInFilesToolbarSVG extends ToolbarSVG {
+export default class FindInProjectsToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -15,6 +15,6 @@ export default class FindInFilesToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
-    className: "find-in-files"
+    className: "find-in-projects"
   };
 }

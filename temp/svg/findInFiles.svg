@@ -25,9 +25,9 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:lockguides="true"
-     inkscape:zoom="6.1300268"
-     inkscape:cx="71.696261"
-     inkscape:cy="41.598513"
+     inkscape:zoom="5.2716364"
+     inkscape:cx="41.068842"
+     inkscape:cy="46.854521"
      inkscape:window-width="2048"
      inkscape:window-height="1152"
      inkscape:window-x="3840"
@@ -58,5 +58,5 @@
   <path
      id="rect912"
      style="stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
-     d="M 9.000001,10.000001 H 15 V 13 H 9.000001 Z m 9e-7,-4.0000005 H 12.000002 V 12 H 9.0000019 Z m 6.0000001,-5.0000004 2,2 h -2 z m -4,-1.6e-7 h 3.999999 V 2.9999999 h -4 z m 9.000001,5.00000056 h 4 V 8 h -4 z m -6,5.9999995 h 9.999999 v 2 H 14.000003 Z M 11.000002,3 h 9.999999 v 2 h -10 z m 3,8.000001 H 16 v 1 h -1.999998 z m 8,-3 h 2.000001 V 12 h -2.000001 z m -11,-3.0000006 h 2 V 6.999999 h -2 z M 19.000001,5 h 2 v 4 h -2 z m -5,4.0000004 H 21 V 11 h -6.999999 z" />
+     d="M 9.000001,10.000001 H 14 V 13 H 9.000001 Z m 9e-7,-4.0000005 H 12.000002 V 12 H 9.0000019 Z M 15.000002,1.000001 19,4.9999992 h -3.999998 z m -4.000001,-5e-7 H 15 v 2.0000002 h -3.999999 z m 1e-6,2.0000002 h 2 v 3.9999986 h -2 z M 17,5.0000004 h 2 v 3.9999992 h -2 z m -2.999999,4 H 19 V 11 h -4.999999 z" />
 </svg>

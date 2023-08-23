@@ -26,7 +26,6 @@ export { default as ExpandedTitleSVG } from "./svg/title/expanded";
 export { default as CollapsedTitleSVG } from "./svg/title/collapsed";
 export { default as BottomOpenFoldSVG } from "./svg/fold/bottomOpen";
 export { default as FindInFileToolbarSVG } from "./svg/toolbar/findInFile";
-export { default as FindInFilesToolbarSVG } from "./svg/toolbar/findInFiles";
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
 export { default as SynchroniseToolbarSVG } from "./svg/toolbar/synchronise";
 export { default as LeaveSessionToolbarSVG } from "./svg/toolbar/leaveSession";
@@ -35,6 +34,7 @@ export { default as CreateSessionToolbarSVG } from "./svg/toolbar/createSession"
 export { default as ReleaseDirectoryNameSVG } from "./svg/name/directory/release";
 export { default as OpenRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/open";
 export { default as CopySessionKeyToolbarSVG } from "./svg/toolbar/copySessionKey";
+export { default as FindInProjectsToolbarSVG } from "./svg/toolbar/findInProjects";
 export { default as ClosedRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/closed";
 export { default as ExportCustomGrammarsToolbarSVG } from "./svg/toolbar/exportCustomGrammars";
 export { default as CreateProjectsFilePathToolbarSVG } from "./svg/toolbar/createProjectsFilePath";
