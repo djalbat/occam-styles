@@ -2,15 +2,24 @@
 
 import { Element } from "easy";
 
-import DirectoryNameSVG from "../svg/name/directory";
+import FindInFileToolbarSVG from "../svg/toolbar/findInFile";
+import CreateSessionToolbarSVG from "../svg/toolbar/createSession";
 
 export default class View extends Element {
   childElements() {
-    return ([
+    const width = "10rem",
+          style = {
+            width
+          };
 
-      <DirectoryNameSVG/>
+    return (
 
-    ]);
+      <div style={style} >
+        <CreateSessionToolbarSVG/>
+        <FindInFileToolbarSVG/>
+      </div>
+
+    );
   }
 
   static tagName = "div";
