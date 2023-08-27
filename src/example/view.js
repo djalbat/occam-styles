@@ -2,7 +2,6 @@
 
 import { Element } from "easy";
 
-import FindInFileToolbarSVG from "../svg/toolbar/findInFile";
 import CreateSessionToolbarSVG from "../svg/toolbar/createSession";
 
 export default class View extends Element {
@@ -16,7 +15,6 @@ export default class View extends Element {
 
       <div style={style} >
         <CreateSessionToolbarSVG/>
-        <FindInFileToolbarSVG/>
       </div>
 
     );

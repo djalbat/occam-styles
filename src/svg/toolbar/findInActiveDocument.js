@@ -2,7 +2,7 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class FindInActiveFileToolbarSVG extends ToolbarSVG {
+export default class FindInActiveDocumentToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -15,6 +15,6 @@ export default class FindInActiveFileToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
-    className: "find-in-active-file"
+    className: "find-in-active-document"
   };
 }
