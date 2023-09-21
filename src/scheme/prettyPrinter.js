@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "./common";
 
-import { korma,  pablo,  bonjour,  logCabin,  stormDust,  woodsmoke,  hurricane,  blackOlive,  springWood } from "../colours";
+import { dune,  korma,  pablo,  bonjour,  logCabin,  stormDust,  woodsmoke,  hurricane,  blackOlive,  springWood } from "../colours";
 
 export const foldFill = woodsmoke;
 
@@ -24,6 +24,10 @@ export const gutterBackgroundColour = blackOlive;
 
 export const selectionBackgroundColour = korma;
 
+export const scrollbarThumbBorderColour = dune;
+
+export const scrollbarTrackBackgroundColour = dune;
+
 export const scrollbarThumbBackgroundColour = stormDust;
 
 export const remoteSelectionsBackgroundColour = logCabin;
@@ -39,6 +43,8 @@ export default {
   foldButtonHoverStroke,
   gutterBackgroundColour,
   selectionBackgroundColour,
+  scrollbarThumbBorderColour,
+  scrollbarTrackBackgroundColour,
   scrollbarThumbBackgroundColour,
   remoteSelectionsBackgroundColour
 };
