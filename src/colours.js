@@ -1,5 +1,6 @@
 "use strict";
 
+export const snowWhite = "#ffffff";
 export const springWood = "#f8f6f1";
 export const bianca = "#f8f7eb";
 export const bonjour = "#E5E2E0";
@@ -38,6 +39,7 @@ export const sycamore = "#908d39";
 export const avocado = "#908d69";
 
 export default {
+  snowWhite,
   springWood,
   bianca,
   bonjour,
