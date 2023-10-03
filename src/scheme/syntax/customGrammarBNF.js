@@ -1,11 +1,11 @@
 "use strict";
 
-import { cadetBlue, hokeyPokey, regentGrey, spanishGreen } from "../../colours";
+import { cadetBlue, hokeyPokey, sunflower, spanishGreen } from "../../colours";
 
 export const nameColour = cadetBlue;
 
 export const typeColour = spanishGreen;
 
-export const precedenceColour = regentGrey;
+export const precedenceColour = sunflower;
 
 export const stringLiteralColour = hokeyPokey;
