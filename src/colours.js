@@ -32,7 +32,7 @@ export const terracotta = "#a83a25";
 export const korma = "#99420f";
 export const walnut = "#59331c";
 
-export const sunflower = "#c6b624";
+export const sunflower = "#c9bf62";
 export const hokeyPokey = "#c6b624";
 export const celery = "#bcb852";
 export const sycamore = "#908d39";
