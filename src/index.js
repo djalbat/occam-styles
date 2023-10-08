@@ -37,7 +37,7 @@ export { default as ClosedRubbishBinToolbarSVG } from "./svg/toolbar/rubbishBin/
 export { default as FindInActiveDocumentToolbarSVG } from "./svg/toolbar/findInActiveDocument";
 export { default as ExportCustomGrammarsToolbarSVG } from "./svg/toolbar/exportCustomGrammars";
 export { default as CreateProjectsFilePathToolbarSVG } from "./svg/toolbar/createProjectsFilePath";
-export { default as EditSelectedProjectsPathToolbarSVG } from "./svg/toolbar/editSelectedProjectsPath";
 export { default as FindInProjectsAndReleasesToolbarSVG } from "./svg/toolbar/findInProjectsAndReleases";
 export { default as ReloadProjectsAndReleasesToolbarSVG } from "./svg/toolbar/reloadProjectsAndReleases";
+export { default as RenameSelectedProjectsPathToolbarSVG } from "./svg/toolbar/renameSelectedProjectsPath";
 export { default as CreateProjectsDirectoryPathToolbarSVG } from "./svg/toolbar/createProjectsDirectoryPath";

@@ -2,7 +2,7 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class EditSelectedProjectsPathToolbarSVG extends ToolbarSVG {
+export default class RenameSelectedProjectsPathToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -16,6 +16,6 @@ export default class EditSelectedProjectsPathToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
-    className: "edit-selected-projects-path"
+    className: "rename-selected-projects-path"
   };
 }
