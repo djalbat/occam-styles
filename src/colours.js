@@ -20,7 +20,7 @@ export const lapis = "#0030e6";
 
 export const pablo = "#776f61";
 export const armadillo = "#49443C";
-export const logCabin = "#24301d";
+export const logCabin = "#2b3823";
 export const blackOlive = "#1c2412";
 export const hunterGreen = "#161d10";
 
