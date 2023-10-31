@@ -1,6 +1,6 @@
 "use strict";
 
-import { sushi, pablo, celery, sycamore, cadetBlue, hurricane, hokeyPokey, razzmatazz, spanishGreen } from "../../colours";
+import { sushi, pablo, celery, sycamore, cadetBlue, hurricane, hokeyPokey, razzmatazz, gainsborough } from "../../colours";
 
 export const typeColour = cadetBlue;
 
@@ -12,7 +12,7 @@ export const keywordColour = razzmatazz;
 
 export const operatorColour = sushi;
 
-export const metaTypeColour = spanishGreen;
+export const metaTypeColour = gainsborough;
 
 export const stringLiteralColour = hokeyPokey;
 
