@@ -2,7 +2,7 @@
 
 import { Element } from "easy";
 
-import CreateSessionToolbarSVG from "../svg/toolbar/createSession";
+import { CreateSessionToolbarSVG } from "../index"; ///
 
 export default class View extends Element {
   childElements() {
