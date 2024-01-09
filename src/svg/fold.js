@@ -5,7 +5,6 @@ import withStyle from "easy-with-style";  ///
 import SVG from "../svg";
 
 import { foldFill } from "../scheme/prettyPrinter";
-import { foldSVGWidth } from "../styles";
 
 class FoldSVG extends SVG {
   static defaultProperties = {
@@ -18,7 +17,7 @@ export default withStyle(FoldSVG)`
   top: 0;
   left: 0;
   fill: ${foldFill};
-  width: ${foldSVGWidth};
+  width: 100%;
   stroke: inherit;
   position: absolute;
   
