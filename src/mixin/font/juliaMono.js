@@ -2,7 +2,7 @@
 
 const juliaMonoFontMixin = `
 
-  line-height: 1.5rem;
+  line-height: 1.5em;
   font-family: "JuliaMono";
   
 `;
