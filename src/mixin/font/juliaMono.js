@@ -1,8 +1,10 @@
 "use strict";
 
+import { juliaMonoLineHeight } from "../../styles";
+
 const juliaMonoFontMixin = `
 
-  line-height: 1.5em;
+  line-height: ${juliaMonoLineHeight};
   font-family: "JuliaMono";
   
 `;

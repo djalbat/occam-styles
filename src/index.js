@@ -1,5 +1,6 @@
 "use strict";
 
+export { default as styles } from "./styles";
 export { default as colours } from "./colours";
 
 export { default as syntaxStyle } from "./style/syntax";
