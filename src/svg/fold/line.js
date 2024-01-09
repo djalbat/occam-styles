@@ -1,8 +1,10 @@
 "use strict";
 
+import withStyle from "easy-with-style";  ///
+
 import FoldSVG from "../../svg/fold";
 
-export default class FoldLineSVG extends FoldSVG {
+class FoldLineSVG extends FoldSVG {
   childElements() {
     return (
 
@@ -19,3 +21,9 @@ export default class FoldLineSVG extends FoldSVG {
     preserveAspectRatio: "none"
   };
 }
+
+export default withStyle(FoldLineSVG)`
+
+  height: 100%;
+  
+`;
