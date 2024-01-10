@@ -2,7 +2,7 @@
 
 import { Element } from "easy";
 
-import { CreateSessionToolbarSVG } from "../index"; ///
+import { DecreaseFontSizeSVG, IncreaseFontSizeSVG } from "../index"; ///
 
 export default class View extends Element {
   childElements() {
@@ -14,7 +14,8 @@ export default class View extends Element {
     return (
 
       <div style={style} >
-        <CreateSessionToolbarSVG/>
+        <DecreaseFontSizeSVG />
+        <IncreaseFontSizeSVG />
       </div>
 
     );

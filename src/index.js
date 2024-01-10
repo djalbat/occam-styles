@@ -26,6 +26,8 @@ export { default as DirectoryNameSVG } from "./svg/name/directory";
 export { default as ExpandedTitleSVG } from "./svg/title/expanded";
 export { default as CollapsedTitleSVG } from "./svg/title/collapsed";
 export { default as BottomOpenFoldSVG } from "./svg/fold/bottomOpen";
+export { default as DecreaseFontSizeSVG } from "./svg/fontSize/decrease";
+export { default as IncreaseFontSizeSVG } from "./svg/fontSize/increase";
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
 export { default as SynchroniseToolbarSVG } from "./svg/toolbar/synchronise";
 export { default as LeaveSessionToolbarSVG } from "./svg/toolbar/leaveSession";
