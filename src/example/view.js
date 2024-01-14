@@ -2,7 +2,7 @@
 
 import { Element } from "easy";
 
-import { ToggleReleasesVisibilityToolbarSVG, CreateProjectsDirectoryPathToolbarSVG } from "../index"; ///
+import { ShowReleasesToolbarSVG, HideReleasesToolbarSVG } from "../index"; ///
 
 export default class View extends Element {
   childElements() {
@@ -16,10 +16,10 @@ export default class View extends Element {
     return ([
 
       <div style={style} >
-        <ToggleReleasesVisibilityToolbarSVG />
+        <ShowReleasesToolbarSVG />
       </div>,
       <div style={style} >
-        <CreateProjectsDirectoryPathToolbarSVG />
+        <HideReleasesToolbarSVG />
       </div>
 
     ]);

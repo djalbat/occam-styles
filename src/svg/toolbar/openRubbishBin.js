@@ -1,6 +1,6 @@
 "use strict";
 
-import ToolbarSVG from "../../../svg/toolbar";
+import ToolbarSVG from "../../svg/toolbar";
 
 export default class OpenRubbishBinToolbarSVG extends ToolbarSVG {
   childElements() {
