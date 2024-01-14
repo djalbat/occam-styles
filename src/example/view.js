@@ -2,22 +2,27 @@
 
 import { Element } from "easy";
 
-import { ToggleReleasesVisibilityToolbarSVG } from "../index"; ///
+import { ToggleReleasesVisibilityToolbarSVG, CreateProjectsDirectoryPathToolbarSVG } from "../index"; ///
 
 export default class View extends Element {
   childElements() {
     const width = "10rem",
+          display = "inline-block",
           style = {
-            width
+            width,
+            display
           };
 
-    return (
+    return ([
 
       <div style={style} >
         <ToggleReleasesVisibilityToolbarSVG />
+      </div>,
+      <div style={style} >
+        <CreateProjectsDirectoryPathToolbarSVG />
       </div>
 
-    );
+    ]);
   }
 
   static tagName = "div";
