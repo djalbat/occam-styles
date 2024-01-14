@@ -2,7 +2,7 @@
 
 import { Element } from "easy";
 
-import { DecreaseFontSizeSVG, IncreaseFontSizeSVG } from "../index"; ///
+import { ToggleReleasesVisibilityToolbarSVG } from "../index"; ///
 
 export default class View extends Element {
   childElements() {
@@ -14,8 +14,7 @@ export default class View extends Element {
     return (
 
       <div style={style} >
-        <DecreaseFontSizeSVG />
-        <IncreaseFontSizeSVG />
+        <ToggleReleasesVisibilityToolbarSVG />
       </div>
 
     );
