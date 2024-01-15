@@ -2,12 +2,14 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
+import { hideReleasesCrossFill } from "../../scheme/common";
+
 export default class HideReleasesToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
       <g>
-        <g transform="translate(6, 4) rotate(45)">
+        <g fill={`${hideReleasesCrossFill}`} transform="translate(6, 4) rotate(45)">
           <rect width="8" height="2" x="-3" y="0" />
           <rect width="2" height="8" x="0" y="-3" />
         </g>

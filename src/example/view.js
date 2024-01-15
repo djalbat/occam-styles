@@ -1,28 +1,57 @@
 "use strict";
 
+import withStyle from "easy-with-style";  ///
+
 import { Element } from "easy";
 
-import { ShowReleasesToolbarSVG, HideReleasesToolbarSVG } from "../index"; ///
+import { JoinSessionToolbarSVG,
+         SynchroniseToolbarSVG,
+         ShowReleasesToolbarSVG,
+         HideReleasesToolbarSVG,
+         LeaveSessionToolbarSVG,
+         ClearConsoleToolbarSVG,
+         CreateSessionToolbarSVG,
+         OpenRubbishBinToolbarSVG,
+         ClosedRubbishBinToolbarSVG,
+         FindInActiveDocumentToolbarSVG,
+         ExportCustomGrammarsToolbarSVG,
+         CreateProjectsFilePathToolbarSVG,
+         FindInProjectsAndReleasesToolbarSVG,
+         ReloadProjectsAndReleasesToolbarSVG,
+         RenameSelectedProjectsPathToolbarSVG,
+         CreateProjectsDirectoryPathToolbarSVG } from "../index"; ///
 
-export default class View extends Element {
+import Div from "./view/div";
+
+class View extends Element {
   childElements() {
-    const width = "10rem",
-          display = "inline-block",
-          style = {
-            width,
-            display
-          };
+    const ToolbarSVGs = [
+            OpenRubbishBinToolbarSVG,
+            SynchroniseToolbarSVG,
+            RenameSelectedProjectsPathToolbarSVG,
+            ShowReleasesToolbarSVG,
+            HideReleasesToolbarSVG,
+            CreateProjectsDirectoryPathToolbarSVG,
+            CreateProjectsFilePathToolbarSVG,
+            ReloadProjectsAndReleasesToolbarSVG,
+            ClosedRubbishBinToolbarSVG,
+            JoinSessionToolbarSVG,
+            CreateSessionToolbarSVG,
+            LeaveSessionToolbarSVG,
+            FindInActiveDocumentToolbarSVG,
+            FindInProjectsAndReleasesToolbarSVG,
+            ExportCustomGrammarsToolbarSVG,
+            ClearConsoleToolbarSVG
+          ],
+          childElements = ToolbarSVGs.map((ToolbarSVG) =>
 
-    return ([
+            <Div>
+              <ToolbarSVG />
+            </Div>
 
-      <div style={style} >
-        <ShowReleasesToolbarSVG />
-      </div>,
-      <div style={style} >
-        <HideReleasesToolbarSVG />
-      </div>
+          );
 
-    ]);
+    return childElements;
   }
 
   static tagName = "div";
@@ -31,3 +60,9 @@ export default class View extends Element {
     className: "view"
   };
 }
+
+export default withStyle(View)`
+
+  padding: 2rem;
+  
+`;

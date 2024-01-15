@@ -1,6 +1,6 @@
 "use strict";
 
-import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara, springWood, stardust } from "../colours";
+import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara, woodland, stardust, springWood } from "../colours";
 
 export const commonFill = tuatara;
 
@@ -34,6 +34,10 @@ export const clearConsoleFill = walnut;
 
 export const expandedGlyphColour = springWood;
 
+export const showReleasesCrossFill = woodland;
+
+export const hideReleasesCrossFill = walnut;
+
 export const tooltipBackgroundColour = bianca;
 
 export default {
@@ -53,5 +57,7 @@ export default {
   glyphColour,
   clearConsoleFill,
   expandedGlyphColour,
+  showReleasesCrossFill,
+  hideReleasesCrossFill,
   tooltipBackgroundColour
 };

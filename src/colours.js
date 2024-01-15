@@ -7,7 +7,6 @@ export const bonjour = "#E5E2E0";
 export const gainsborough = "#D8D6D2";
 export const dawn = "#B8B3A8";
 export const stardust = "#9f9f9c";
-export const hurricane = "#908989";
 export const stormDust = "#646463";
 export const emperor = "#515150";
 export const tuatara = "#363534";
@@ -18,8 +17,11 @@ export const pomegranate = "#f52929";
 export const sushi = "#7fa82f";
 export const lapis = "#0030e6";
 
+export const hurricane = "#908989";
 export const pablo = "#776f61";
 export const armadillo = "#49443C";
+
+export const woodland = "#3B552b";
 export const logCabin = "#2b3823";
 export const blackOlive = "#1c2412";
 export const hunterGreen = "#161d10";
