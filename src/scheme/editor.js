@@ -14,13 +14,10 @@ export const tabsArrowButtonColour = woodsmoke;
 
 export const tabsActiveBackgroundColour = stardust;
 
-export const tabsWelcomeScreenTabBackgroundColour = gainsborough;
-
 export default {
   tabsBorderColour,
   tabsReadOnlyColour,
   tabsBackgroundColour,
   tabsArrowButtonColour,
-  tabsActiveBackgroundColour,
-  tabsWelcomeScreenTabBackgroundColour
+  tabsActiveBackgroundColour
 };
