@@ -4,22 +4,24 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import { JoinSessionToolbarSVG,
-         SynchroniseToolbarSVG,
-         ShowReleasesToolbarSVG,
-         HideReleasesToolbarSVG,
-         LeaveSessionToolbarSVG,
-         ClearConsoleToolbarSVG,
-         CreateSessionToolbarSVG,
-         OpenRubbishBinToolbarSVG,
-         ClosedRubbishBinToolbarSVG,
-         FindInActiveDocumentToolbarSVG,
-         ExportCustomGrammarsToolbarSVG,
-         CreateProjectsFilePathToolbarSVG,
-         FindInProjectsAndReleasesToolbarSVG,
-         ReloadProjectsAndReleasesToolbarSVG,
-         RenameSelectedProjectsPathToolbarSVG,
-         CreateProjectsDirectoryPathToolbarSVG } from "../index"; ///
+import {
+  JoinSessionToolbarSVG,
+  SynchroniseToolbarSVG,
+  ShowReleasesToolbarSVG,
+  HideReleasesToolbarSVG,
+  LeaveSessionToolbarSVG,
+  ClearConsoleToolbarSVG,
+  CreateSessionToolbarSVG,
+  CopySessionKeyToolbarSVG,
+  OpenRubbishBinToolbarSVG,
+  ClosedRubbishBinToolbarSVG,
+  FindInActiveDocumentToolbarSVG,
+  ExportCustomGrammarsToolbarSVG,
+  CreateProjectsFilePathToolbarSVG,
+  FindInProjectsAndReleasesToolbarSVG,
+  ReloadProjectsAndReleasesToolbarSVG,
+  RenameSelectedProjectsPathToolbarSVG,
+  CreateProjectsDirectoryPathToolbarSVG } from "../index"; ///
 
 import Div from "./view/div";
 
@@ -38,6 +40,7 @@ class View extends Element {
             JoinSessionToolbarSVG,
             CreateSessionToolbarSVG,
             LeaveSessionToolbarSVG,
+            CopySessionKeyToolbarSVG,
             FindInActiveDocumentToolbarSVG,
             FindInProjectsAndReleasesToolbarSVG,
             ExportCustomGrammarsToolbarSVG,
