@@ -37,7 +37,7 @@ export { default as ClearConsoleToolbarSVG } from "./svg/toolbar/clearConsole";
 export { default as CreateSessionToolbarSVG } from "./svg/toolbar/createSession";
 export { default as ReleaseDirectoryNameSVG } from "./svg/name/directory/release";
 export { default as OpenRubbishBinToolbarSVG } from "./svg/toolbar/openRubbishBin";
-// export { default as CopySessionKeyToolbarSVG } from "./svg/toolbar/copySessionKey";
+export { default as CopySessionKeyToolbarSVG } from "./svg/toolbar/copySessionKey";
 export { default as ClosedRubbishBinToolbarSVG } from "./svg/toolbar/closedRubbishBin";
 export { default as FindInActiveDocumentToolbarSVG } from "./svg/toolbar/findInActiveDocument";
 export { default as ExportCustomGrammarsToolbarSVG } from "./svg/toolbar/exportCustomGrammars";
