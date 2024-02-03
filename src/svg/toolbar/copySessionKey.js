@@ -7,7 +7,7 @@ export default class CopySessionKeyToolbarSVG extends ToolbarSVG {
     return (
 
       <g>
-        <g transform="translate(-1, 1) scale(1.25,1)">
+        <g transform="translate(-2, 1.5) scale(1.25,1.025)">
           <rect width="2.5" height="13" x="6" y="8" />
           <rect width="4" height="2" x="3" y="18" />
           <rect width="3" height="2" x="3" y="14" />
