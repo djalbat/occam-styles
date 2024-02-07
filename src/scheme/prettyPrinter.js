@@ -14,17 +14,17 @@ export const foldButtonStroke = pablo;
 
 export const backgroundColour = woodsmoke;
 
-export const lineNumbersColour = stormDust;
+export const menuButtonColour = stormDust;
 
-export const fontSizeButtonColour = stormDust;
+export const lineNumbersColour = stormDust;
 
 export const foldButtonHoverStroke = hurricane;
 
 export const caretBackgroundColour = bonjour;
 
-export const gutterBackgroundColour = blackOlive;
+export const menuButtonHoverColour = stardust;
 
-export const fontSizeButtonHoverColour = stardust;
+export const gutterBackgroundColour = blackOlive;
 
 export const selectionBackgroundColour = korma;
 
@@ -38,12 +38,12 @@ export default {
   selectedColour,
   foldButtonStroke,
   backgroundColour,
+  menuButtonColour,
   lineNumbersColour,
-  fontSizeButtonColour,
   caretBackgroundColour,
   foldButtonHoverStroke,
+  menuButtonHoverColour,
   gutterBackgroundColour,
-  fontSizeButtonHoverColour,
   selectionBackgroundColour,
   scrollbarThumbBackgroundColour,
   remoteSelectionsBackgroundColour
