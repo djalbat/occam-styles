@@ -4,57 +4,17 @@ import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
 
-import {
-  JoinSessionToolbarSVG,
-  SynchroniseToolbarSVG,
-  ShowReleasesToolbarSVG,
-  HideReleasesToolbarSVG,
-  LeaveSessionToolbarSVG,
-  ClearConsoleToolbarSVG,
-  CreateSessionToolbarSVG,
-  CopySessionKeyToolbarSVG,
-  OpenRubbishBinToolbarSVG,
-  ClosedRubbishBinToolbarSVG,
-  FindInActiveDocumentToolbarSVG,
-  ExportCustomGrammarsToolbarSVG,
-  CreateProjectsFilePathToolbarSVG,
-  FindInProjectsAndReleasesToolbarSVG,
-  ReloadProjectsAndReleasesToolbarSVG,
-  RenameSelectedProjectsPathToolbarSVG,
-  CreateProjectsDirectoryPathToolbarSVG } from "../index"; ///
-
-import Div from "./view/div";
+import MenuDiv from "./view/div/menu";
+import ToolbarDiv from "./view/div/toolbar";
 
 class View extends Element {
   childElements() {
-    const ToolbarSVGs = [
-            OpenRubbishBinToolbarSVG,
-            SynchroniseToolbarSVG,
-            RenameSelectedProjectsPathToolbarSVG,
-            ShowReleasesToolbarSVG,
-            HideReleasesToolbarSVG,
-            CreateProjectsDirectoryPathToolbarSVG,
-            CreateProjectsFilePathToolbarSVG,
-            ReloadProjectsAndReleasesToolbarSVG,
-            ClosedRubbishBinToolbarSVG,
-            JoinSessionToolbarSVG,
-            CreateSessionToolbarSVG,
-            LeaveSessionToolbarSVG,
-            CopySessionKeyToolbarSVG,
-            FindInActiveDocumentToolbarSVG,
-            FindInProjectsAndReleasesToolbarSVG,
-            ExportCustomGrammarsToolbarSVG,
-            ClearConsoleToolbarSVG
-          ],
-          childElements = ToolbarSVGs.map((ToolbarSVG) =>
+    return ([
 
-            <Div>
-              <ToolbarSVG />
-            </Div>
+      <ToolbarDiv/>,
+      <MenuDiv/>
 
-          );
-
-    return childElements;
+    ]);
   }
 
   static tagName = "div";

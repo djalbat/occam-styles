@@ -1,8 +1,8 @@
 "use strict";
 
-import FontSizeSVG from "../../svg/fontSize";
+import MenuSVG from "../../svg/menu";
 
-export default class DecreaseFontSizeSVG extends FontSizeSVG {
+export default class DecreaseFontSizeMenuSVG extends MenuSVG {
   childElements() {
     return (
 
@@ -15,6 +15,6 @@ export default class DecreaseFontSizeSVG extends FontSizeSVG {
   }
 
   static defaultProperties = {
-    className: "decrease"
+    className: "decrease-font-size"
   };
 }
