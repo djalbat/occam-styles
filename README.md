@@ -14,9 +14,9 @@
 
 ## Introduction
 
-This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and the some of the [JuliaMono](https://juliamono.netlify.app/) typeface in Woff2 format.
+This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and some of the [JuliaMono](https://juliamono.netlify.app/) and [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) typefaces in Woff2 format.
 
-There is a small example application to view the images in JSX form and so on.
+There is a small example application to view some of the images in JSX form and so on.
 
 ## Installation
 
@@ -36,7 +36,7 @@ You can also run a development server, see the section on building later on.
 
 ### JuliaMono
 
-The `JuliaMono.zip` file can be downloaded from [here](https://github.com/cormullion/juliamono/releases).
+The `JuliaMono.zip` file can be downloaded from the releases page of the JulaMono repository on [GitHub](https://github.com/cormullion/juliamono/releases).
 
 Once downloaded, unzip the file:
 
@@ -44,34 +44,32 @@ Once downloaded, unzip the file:
 unzip JuliaMono.zip
 ```
 
-All the files bar the `JuliaMono-Regular.ttf` file can be deleted, including the `webfonts` directory.
+All the files bar the `JuliaMono-Regular.ttf` file can be deleted, as can the `webfonts` directory.
 
-If you have a Mac running Homebrew then you can install the necessary utilities to compress the remaining file thus:
+Ligatures and their like can be removed with the using `pyftsubset`:
+
+```
+pip install fonttools
+pyftsubset JuliaMono-Regular.ttf '*' --output-file=JuliaMono-Regular.ttf  --layout-features-='*'
+```
+
+If you have a Mac with Homebrew installed then you can install the utility to convert the TTF file to WOFF2 thus:
 
 ```
 brew install woff2
 ```
 
-Before compressing the file, ligatures and their like can be removed with the using `pyftsubset`:
+To convert the TTF to a WOFF2 file:
 
 ```
-pip install fonttools
-pyftsubset JuliaMono-Regular.ttf '*' --output-file=JuliaMono-Regular-STRIPPED.ttf  --layout-features-='*'
+woff2_compress JuliaMono-Regular.ttf
 ```
 
-Now compress the TTF to a WOFF2 file:
-
-```
-woff2_compress JuliaMono-Regular-STRIPPED.ttf
-```
-
-Once you are happy you can rename the file.
+This utility can be installed and run on other platforms with a little effort. 
 
 ### Computer Modern
 
-The TTF fonts are available here:
-
-https://sourceforge.net/projects/cm-unicode/files/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz/download
+The TTF fonts are available from [SourceForge=(https://sourceforge.net/projects/cm-unicode/files/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz/download) of all places:
 
 They can be unpacked as follows:
 
@@ -84,6 +82,8 @@ To compress them all:
 ```
 for filename in *; do woff2_compress "${filename}"; done
 ```
+
+Bear in mind that not all of the thirty one variants are used. Currently this package supports twenty. See the example for details.
 
 ## Example
 
@@ -131,6 +131,10 @@ Automation is done with [npm scripts](https://docs.npmjs.com/misc/scripts), have
 * Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
 
 * [Fredrik Ekre](https://fredrikekre.se/) provided the script to strip out ligatures and contextual alternate characters from JuliaMono.
+
+* The Computer Modern CSS was adapted from Jonathan Häberle's [computer-modern-web-font](https://github.com/dreampulse/computer-modern-web-font) repository. 
+ 
+* The original Unicode Computer Modern fonts were created by [Andrey V. Panov](https://scholar.google.com/citations?user=JyNVNNEAAAAJ&hl=en).
 
 ## Contact
 
