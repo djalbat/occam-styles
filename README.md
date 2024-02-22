@@ -34,7 +34,7 @@ You can also clone the repository with [Git](https://git-scm.com/)...
 
 You can also run a development server, see the section on building later on.
 
-## Working with JuliaMono
+### JuliaMono
 
 The `JuliaMono.zip` file can be downloaded from [here](https://github.com/cormullion/juliamono/releases).
 
@@ -66,6 +66,24 @@ woff2_compress JuliaMono-Regular-STRIPPED.ttf
 ```
 
 Once you are happy you can rename the file.
+
+### Computer Modern
+
+The TTF fonts are available here:
+
+https://sourceforge.net/projects/cm-unicode/files/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz/download
+
+They can be unpacked as follows:
+
+```
+tar xzvf cm_unicode-0.7.0-pfb.tar.gz
+```
+
+To compress them all:
+
+```
+for filename in *; do woff2_compress "${filename}"; done
+```
 
 ## Example
 

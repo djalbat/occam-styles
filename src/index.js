@@ -5,6 +5,8 @@ export { default as colours } from "./colours";
 
 export { default as syntaxStyle } from "./style/syntax";
 export { default as juliaMonoStyle } from "./style/juliaMono";
+export { default as computerModernStyle } from "./style/computerModern";
+
 export { default as commonFontMixin } from "./mixin/font/common";
 export { default as juliaMonoFontMixin } from "./mixin/font/juliaMono";
 
