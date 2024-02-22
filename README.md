@@ -69,7 +69,7 @@ This utility can be installed and run on other platforms with a little effort.
 
 ### Computer Modern
 
-The TTF fonts are available from [SourceForge=(https://sourceforge.net/projects/cm-unicode/files/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz/download) of all places:
+The TTF fonts are available from [SourceForge](https://sourceforge.net/projects/cm-unicode/files/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz/download) of all places:
 
 They can be unpacked as follows:
 
