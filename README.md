@@ -77,7 +77,7 @@ They can be unpacked as follows:
 tar xzvf cm_unicode-0.7.0-pfb.tar.gz
 ```
 
-To compress them all:
+To compress them all, use `woff2_compress` utility again. 
 
 ```
 for filename in *; do woff2_compress "${filename}"; done
