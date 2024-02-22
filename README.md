@@ -34,25 +34,38 @@ You can also clone the repository with [Git](https://git-scm.com/)...
 
 You can also run a development server, see the section on building later on.
 
-### Compressing the JuliaMono TTF files to Woff2 format
+## Working with JuliaMono
 
-Homebrew has the necessary utilities:
+The `JuliaMono.zip` file can be downloaded from [here](https://github.com/cormullion/juliamono/releases).
 
-```
-brew install woof2
-```
-
-Compression is then straightforward, for example:
+Once downloaded, unzip the file:
 
 ```
-woff2_compress JuliaMono-Regular.ttf
+unzip JuliaMono.zip
 ```
 
-For instructions on how to remove all ligatures, etc, see the following:
+All the files bar the `JuliaMono-Regular.ttf` file can be deleted, including the `webfonts` directory.
 
-* [How to turn off ligatures and contextual alternate characters in CSS](https://github.com/cormullion/juliamono/issues/159#issuecomment-1453900328)
+If you have a Mac running Homebrew then you can install the necessary utilities to compress the remaining file thus:
 
-Only the regular font face is being used currently.
+```
+brew install woff2
+```
+
+Before compressing the file, ligatures and their like can be removed with the using `pyftsubset`:
+
+```
+pip install fonttools
+pyftsubset JuliaMono-Regular.ttf '*' --output-file=JuliaMono-Regular-STRIPPED.ttf  --layout-features-='*'
+```
+
+Now compress the TTF to a WOFF2 file:
+
+```
+woff2_compress JuliaMono-Regular-STRIPPED.ttf
+```
+
+Once you are happy you can rename the file.
 
 ## Example
 
