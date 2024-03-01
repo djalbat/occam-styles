@@ -1,6 +1,6 @@
 "use strict";
 
-import { commonBorderColour } from "./common";
+import { commonBorderColour } from "../scheme/common";
 
 import { gainsborough, hunterGreen } from "../colours";
 
