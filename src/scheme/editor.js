@@ -17,6 +17,7 @@ export const tabsArrowButtonColour = woodsmoke;
 export const tabsActiveBackgroundColour = stardust;
 
 export default {
+  borderColour,
   tabsBorderColour,
   tabsReadOnlyColour,
   tabsBackgroundColour,
