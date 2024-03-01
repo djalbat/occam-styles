@@ -1,12 +1,8 @@
 "use strict";
 
-import { commonBorderColour } from "./common";
-
 import { korma, pablo, bonjour, logCabin, stardust, stormDust, woodsmoke, hurricane, blackOlive, springWood } from "../colours";
 
 export const foldFill = woodsmoke;
-
-export const borderColour = commonBorderColour; ///
 
 export const selectedColour = springWood;
 
@@ -34,7 +30,6 @@ export const remoteSelectionsBackgroundColour = logCabin;
 
 export default {
   foldFill,
-  borderColour,
   selectedColour,
   foldButtonStroke,
   backgroundColour,

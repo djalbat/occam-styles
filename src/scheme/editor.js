@@ -2,7 +2,9 @@
 
 import { commonBorderColour } from "./common";
 
-import { dawn, tuatara, stardust, woodsmoke, gainsborough } from "../colours";
+import { dawn, tuatara, stardust, woodsmoke } from "../colours";
+
+export const borderColour = commonBorderColour; ///
 
 export const tabsBorderColour = commonBorderColour; ///
 
