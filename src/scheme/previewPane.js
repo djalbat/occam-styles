@@ -9,7 +9,7 @@ export const backgroundColour = springWood;
 export const menuButtonHoverColour = bonjour;
 
 export default {
-  color,
+  colour,
   backgroundColour,
   menuButtonHoverColour
 };
