@@ -9,14 +9,14 @@ const defaultSyntaxStyle = `
     100% { background-color: transparent; }
   }
   
-  .syntax > div { 
-    width: 100%;
-  }
-
   .syntax > div.animated { 
     animation: background-color-animation 1s 1;
   }
   
+  .syntax > div { 
+    width: 100%;
+  }
+
   .syntax > div * { 
     font-size: inherit;
     line-height: inherit;
