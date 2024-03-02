@@ -4,15 +4,16 @@ import { Element } from "easy";
 
 import Div from "../div";
 
-import { EmbeddedModeMenuSVG, IncreaseFontSizeMenuSVG, DecreaseFontSizeMenuSVG, PresentationModeMenuSVG } from "../../../index"; ///
+import { FlipMenuSVG, EmbeddedModeMenuSVG, IncreaseFontSizeMenuSVG, DecreaseFontSizeMenuSVG, PresentationModeMenuSVG } from "../../../index"; ///
 
 export default class MenuDiv extends Element {
   childElements() {
     const ToolbarSVGs = [
-            IncreaseFontSizeMenuSVG,
-            DecreaseFontSizeMenuSVG,
+            FlipMenuSVG,
             EmbeddedModeMenuSVG,
-            PresentationModeMenuSVG
+            PresentationModeMenuSVG,
+            IncreaseFontSizeMenuSVG,
+            DecreaseFontSizeMenuSVG
           ],
           childElements = ToolbarSVGs.map((ToolbarSVG) =>
 
