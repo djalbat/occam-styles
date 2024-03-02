@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25mm"
+   height="25mm"
+   viewBox="0 0 25 25"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="toggle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:lockguides="true"
+     inkscape:zoom="7.03"
+     inkscape:cx="50.071124"
+     inkscape:cy="48.079659"
+     inkscape:window-width="2048"
+     inkscape:window-height="1152"
+     inkscape:window-x="3840"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3022"
+       originx="0"
+       originy="0"
+       units="mm"
+       spacingx="0.99999999"
+       spacingy="0.99999999" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="18.897638"
+       y="30.23622"
+       width="18.897638"
+       height="18.897638"
+       id="rect947" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       x="3.9999998"
+       y="10"
+       id="text389"><tspan
+         sodipodi:role="line"
+         id="tspan387"
+         style="stroke-width:0" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill;-inkscape-font-specification:'PT Serif, Italic';font-family:'PT Serif';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="7"
+       y="7"
+       id="text1007"><tspan
+         sodipodi:role="line"
+         id="tspan1009" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;font-family:'PT Serif';-inkscape-font-specification:'PT Serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       x="7"
+       y="7.9999995"
+       id="text1013"><tspan
+         sodipodi:role="line"
+         id="tspan1015" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;font-family:'PT Serif';-inkscape-font-specification:'PT Serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       x="7.9999995"
+       y="5.9999995"
+       id="text1019"><tspan
+         sodipodi:role="line"
+         id="tspan1021" /></text>
+    <rect
+       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       id="rect556"
+       width="7.999999"
+       height="16.999998"
+       x="3.9999998"
+       y="3.9999998" />
+    <rect
+       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       id="rect558"
+       width="1.9999999"
+       height="17"
+       x="18.999998"
+       y="3.9999998" />
+    <rect
+       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       id="rect560"
+       width="6.999999"
+       height="1.9999998"
+       x="12.000001"
+       y="3.9999998" />
+    <rect
+       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       id="rect562"
+       width="6.999999"
+       height="1.9999998"
+       x="12.000001"
+       y="18.999998" />
+  </g>
+</svg>

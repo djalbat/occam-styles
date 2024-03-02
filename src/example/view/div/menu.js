@@ -4,12 +4,13 @@ import { Element } from "easy";
 
 import Div from "../div";
 
-import { FlipMenuSVG, EmbeddedModeMenuSVG, IncreaseFontSizeMenuSVG, DecreaseFontSizeMenuSVG, PresentationModeMenuSVG } from "../../../index"; ///
+import { FlipMenuSVG, ToggleMenuSVG, EmbeddedModeMenuSVG, IncreaseFontSizeMenuSVG, DecreaseFontSizeMenuSVG, PresentationModeMenuSVG } from "../../../index"; ///
 
 export default class MenuDiv extends Element {
   childElements() {
     const ToolbarSVGs = [
             FlipMenuSVG,
+            ToggleMenuSVG,
             EmbeddedModeMenuSVG,
             PresentationModeMenuSVG,
             IncreaseFontSizeMenuSVG,

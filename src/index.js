@@ -23,6 +23,7 @@ export { default as FileNameSVG } from "./svg/name/file";
 export { default as UpToggleSVG } from "./svg/toggle/up";
 export { default as FoldLineSVG } from "./svg/fold/line";
 export { default as FlipMenuSVG } from "./svg/menu/flip";
+export { default as ToggleMenuSVG } from "./svg/menu/toggle";
 export { default as DownToggleSVG } from "./svg/toggle/down";
 export { default as ClosedFoldSVG } from "./svg/fold/closed";
 export { default as TopOpenFoldSVG } from "./svg/fold/topOpen";
