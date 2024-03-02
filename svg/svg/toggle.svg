@@ -26,8 +26,8 @@
      showgrid="true"
      inkscape:lockguides="true"
      inkscape:zoom="7.03"
-     inkscape:cx="50.071124"
-     inkscape:cy="48.079659"
+     inkscape:cx="28.378378"
+     inkscape:cy="50.355619"
      inkscape:window-width="2048"
      inkscape:window-height="1152"
      inkscape:window-x="3840"
@@ -89,33 +89,37 @@
        id="text1019"><tspan
          sodipodi:role="line"
          id="tspan1021" /></text>
-    <rect
-       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+    <path
        id="rect556"
-       width="7.999999"
-       height="16.999998"
-       x="3.9999998"
-       y="3.9999998" />
+       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       d="M 4.4999837 4.4999837 L 4.4999837 20.500041 L 12.500012 20.500041 L 12.500012 4.4999837 L 4.4999837 4.4999837 z M 6.7070841 6.1717163 L 9.5353353 8.9999674 L 8.8284017 9.706901 L 6.7070841 11.828219 L 6.0001506 11.121285 L 8.1214681 8.9999674 L 6.0001506 6.8786499 L 6.7070841 6.1717163 z " />
     <rect
        style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
        id="rect558"
-       width="1.9999999"
-       height="17"
-       x="18.999998"
-       y="3.9999998" />
+       width="1.499999"
+       height="15.999999"
+       x="20.5"
+       y="4.5000005" />
+    <rect
+       style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
+       id="rect558-1"
+       width="1.4999992"
+       height="15.999999"
+       x="3"
+       y="4.5000005" />
     <rect
        style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
        id="rect560"
-       width="6.999999"
-       height="1.9999998"
-       x="12.000001"
-       y="3.9999998" />
+       width="18.999998"
+       height="1.4999992"
+       x="3.0000007"
+       y="3.0000007" />
     <rect
        style="fill:#000000;stroke:#ae0055;stroke-width:0;paint-order:markers stroke fill"
        id="rect562"
-       width="6.999999"
-       height="1.9999998"
-       x="12.000001"
-       y="18.999998" />
+       width="18.999998"
+       height="1.4999992"
+       x="3.0000007"
+       y="20.5" />
   </g>
 </svg>
