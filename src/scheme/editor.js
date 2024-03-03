@@ -12,24 +12,24 @@ export const tabsReadOnlyColour = tuatara;
 
 export const tabsBackgroundColour = dawn;
 
-export const menuButtonHoverColour = stardust;
-
 export const tabsArrowButtonColour = woodsmoke;
 
 export const tabsActiveBackgroundColour = stardust;
 
 export const menuButtonBackgroundColour = stormDust;
 
-export const menuButtonHoverPreviewColour = bonjour;
+export const menuButtonHoverBackgroundColour = stardust;
+
+export const menuButtonHoverPreviewBackgroundColour = bonjour;
 
 export default {
   borderColour,
   tabsBorderColour,
   tabsReadOnlyColour,
   tabsBackgroundColour,
-  menuButtonHoverColour,
   tabsArrowButtonColour,
   tabsActiveBackgroundColour,
   menuButtonBackgroundColour,
-  menuButtonHoverPreviewColour
+  menuButtonHoverBackgroundColour,
+  menuButtonHoverPreviewBackgroundColour
 };
