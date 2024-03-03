@@ -12,6 +12,7 @@ export const emperor = "#515150";
 export const tuatara = "#363534";
 export const dune = "#24211e";
 export const woodsmoke = "#0c0d0f";
+export const pitchBlack = "#000000";
 
 export const pomegranate = "#f52929";
 export const sushi = "#7fa82f";
@@ -54,6 +55,7 @@ export default {
   tuatara,
   dune,
   woodsmoke,
+  pitchBlack,
   pomegranate,
   sushi,
   lapis,
