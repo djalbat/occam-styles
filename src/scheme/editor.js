@@ -14,9 +14,11 @@ export const tabsBackgroundColour = dawn;
 
 export const tabsArrowButtonColour = woodsmoke;
 
-export const tabsActiveBackgroundColour = stardust;
+export const menuButtonBorderColour = stormDust;
 
-export const menuButtonBackgroundColour = stormDust;
+export const menuButtonBackgroundColour = tuatara;
+
+export const tabsActiveBackgroundColour = stardust;
 
 export const menuButtonHoverBackgroundColour = stardust;
 
@@ -30,8 +32,9 @@ export default {
   tabsReadOnlyColour,
   tabsBackgroundColour,
   tabsArrowButtonColour,
-  tabsActiveBackgroundColour,
+  menuButtonBorderColour,
   menuButtonBackgroundColour,
+  tabsActiveBackgroundColour,
   menuButtonHoverBackgroundColour,
   menuButtonPreviewBackgroundColour,
   menuButtonHoverPreviewBackgroundColour
