@@ -14,9 +14,9 @@ export const tabsBackgroundColour = dawn;
 
 export const tabsArrowButtonColour = woodsmoke;
 
-export const menuButtonBorderColour = stormDust;
+export const menuButtonBorderColour = tuatara;
 
-export const menuButtonBackgroundColour = tuatara;
+export const menuButtonBackgroundColour = stormDust;
 
 export const tabsActiveBackgroundColour = stardust;
 
