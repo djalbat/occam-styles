@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "../scheme/common";
 
-import { dawn, tuatara, bonjour, stardust, stormDust, woodsmoke, snowWhite } from "../colours";
+import { dawn, tuatara, bonjour, stardust, stormDust, woodsmoke, springWood } from "../colours";
 
 export const borderColour = commonBorderColour; ///
 
@@ -20,17 +20,17 @@ export const tabsArrowButtonColour = woodsmoke;
 
 export const menuButtonBorderColour = tuatara;
 
+export const menuLightBackgroundColour = springWood;
+
 export const menuButtonBackgroundColour = stormDust;
 
 export const tabsActiveBackgroundColour = stardust;
 
-export const menuPreviewBackgroundColour = snowWhite;
-
 export const menuButtonHoverBackgroundColour = stardust;
 
-export const menuButtonPreviewBackgroundColour = snowWhite;
+export const menuButtonLightBackgroundColour = springWood;
 
-export const menuButtonHoverPreviewBackgroundColour = bonjour;
+export const menuButtonHoverLightBackgroundColour = bonjour;
 
 export default {
   borderColour,
@@ -41,10 +41,10 @@ export default {
   menuBackgroundColour,
   tabsArrowButtonColour,
   menuButtonBorderColour,
+  menuLightBackgroundColour,
   menuButtonBackgroundColour,
   tabsActiveBackgroundColour,
-  menuPreviewBackgroundColour,
   menuButtonHoverBackgroundColour,
-  menuButtonPreviewBackgroundColour,
-  menuButtonHoverPreviewBackgroundColour
+  menuButtonLightBackgroundColour,
+  menuButtonHoverLightBackgroundColour
 };
