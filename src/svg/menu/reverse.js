@@ -2,7 +2,7 @@
 
 import MenuSVG from "../../svg/menu";
 
-export default class FlipMenuSVG extends MenuSVG {
+export default class ReverseMenuSVG extends MenuSVG {
   childElements() {
     return (
 
@@ -17,6 +17,6 @@ export default class FlipMenuSVG extends MenuSVG {
   }
 
   static defaultProperties = {
-    className: "flip"
+    className: "reverse"
   };
 }
