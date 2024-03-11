@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and the [JuliaMono](https://juliamono.netlify.app/) typeface in Woff2 format.
+This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and the [JuliaMono](https://juliamono.netlify.app/) font in Woff2 format.
 
 There is a small example application to view some of the images in JSX form and so on.
 
@@ -110,7 +110,7 @@ Automation is done with [npm scripts](https://docs.npmjs.com/misc/scripts), have
 
 * The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
-* Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
+* Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) font distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
 
 * [Fredrik Ekre](https://fredrikekre.se/) provided the script to strip out ligatures and contextual alternate characters from JuliaMono.
 
