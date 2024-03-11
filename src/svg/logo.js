@@ -1,9 +1,5 @@
 "use strict";
 
-import withStyle from "easy-with-style";  ///
-
-import { logoSVGWidth } from "../styles";
-
 const LogoSVG = (properties) => {
   const { className } = properties;
 
@@ -29,9 +25,4 @@ const LogoSVG = (properties) => {
   );
 };
 
-export default withStyle(LogoSVG)`
-
-   width: ${logoSVGWidth};
-   height: auto;
-   
-`;
+export default LogoSVG

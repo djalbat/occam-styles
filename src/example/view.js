@@ -3,8 +3,8 @@
 import withStyle from "easy-with-style";  ///
 
 import { Element } from "easy";
-import { LogoSVG } from "../index"; //
 
+import LogoSVG from "./view/logo";
 import MenuDiv from "./view/div/menu";
 import ToolbarDiv from "./view/div/toolbar";
 
