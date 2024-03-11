@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and some of the [JuliaMono](https://juliamono.netlify.app/) and [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern) typefaces in Woff2 format.
+This package contains colour definitions together with user interface and syntax schemes; various images, in either native or JSX form; and the [JuliaMono](https://juliamono.netlify.app/) typeface in Woff2 format.
 
 There is a small example application to view some of the images in JSX form and so on.
 
@@ -67,24 +67,6 @@ woff2_compress JuliaMono-Regular.ttf
 
 This utility can be installed and run on other platforms with a little effort. 
 
-### Computer Modern
-
-The TTF fonts are available from [SourceForge](https://sourceforge.net/projects/cm-unicode/files/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz/download) of all places:
-
-They can be unpacked as follows:
-
-```
-tar xzvf cm_unicode-0.7.0-pfb.tar.gz
-```
-
-To compress them all, use `woff2_compress` utility again. 
-
-```
-for filename in *; do woff2_compress "${filename}"; done
-```
-
-Bear in mind that not all of the thirty one variants are used. Currently this package supports twenty. See the example for details.
-
 ## Example
 
 There is a small development server that can be run from within the project's directory with the following command:
@@ -131,10 +113,6 @@ Automation is done with [npm scripts](https://docs.npmjs.com/misc/scripts), have
 * Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) typeface distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
 
 * [Fredrik Ekre](https://fredrikekre.se/) provided the script to strip out ligatures and contextual alternate characters from JuliaMono.
-
-* The Computer Modern CSS was adapted from Jonathan Häberle's [computer-modern-web-font](https://github.com/dreampulse/computer-modern-web-font) repository. 
- 
-* The original Unicode Computer Modern fonts were created by [Andrey V. Panov](https://scholar.google.com/citations?user=JyNVNNEAAAAJ&hl=en).
 
 ## Contact
 

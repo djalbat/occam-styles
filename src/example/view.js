@@ -6,7 +6,6 @@ import { Element } from "easy";
 
 import MenuDiv from "./view/div/menu";
 import ToolbarDiv from "./view/div/toolbar";
-import ComputerModernDiv from "./view/div/computerModern";
 
 class View extends Element {
   childElements() {
@@ -14,7 +13,6 @@ class View extends Element {
 
       <MenuDiv/>,
       <ToolbarDiv/>,
-      <ComputerModernDiv/>
 
     ]);
   }
