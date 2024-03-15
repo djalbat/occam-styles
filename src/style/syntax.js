@@ -7,6 +7,7 @@ import metaJSONeSyntaxStyle from "../style/syntax/metaJSON";
 import plainTextSyntaxStyle from "../style/syntax/plainText";
 import markdownStyleSyntaxStyle from "../style/syntax/markdownStyle";
 import customGrammarBNFNeSyntaxStyle from "../style/syntax/customGrammarBNF";
+import customGrammarPatternNeSyntaxStyle from "../style/syntax/customGrammarPattern";
 
 const syntaxStyle = `
     
@@ -23,6 +24,8 @@ const syntaxStyle = `
   ${markdownStyleSyntaxStyle}
   
   ${customGrammarBNFNeSyntaxStyle} 
+  
+  ${customGrammarPatternNeSyntaxStyle} 
   
 `;
 

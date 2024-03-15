@@ -1,5 +1,6 @@
 "use strict";
 
+import { errorColour, underlineColour, nonsenseColour } from "../../scheme/syntax/default";
 import { colour, nameColour, specialColour, ruleNameColour, delimiterColour, stringLiteralColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
@@ -15,6 +16,16 @@ const markdownStyleSyntaxStyle = `
   .markdown-style.syntax > div > .delimiter { color: ${delimiterColour}; }
 
   .markdown-style.syntax > div > .string-literal { color: ${stringLiteralColour}; }
+
+  .markdown-style.syntax > div > .error {
+    color: ${errorColour};
+    text-decoration-line: underline;
+    text-decoration-color: ${underlineColour};
+  } 
+
+  .markdown-style.syntax > div > .nonsense {
+    color: ${nonsenseColour};
+  } 
 
 `;
 

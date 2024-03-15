@@ -1,5 +1,6 @@
 "use strict";
 
+import { errorColour, underlineColour, nonsenseColour } from "../../scheme/syntax/default";
 import { typeColour,
          specialColour,
          commentColour,
@@ -52,6 +53,16 @@ const florenceSyntaxStyle = `
   .florence.syntax > div > .name.reference.disabled { color: ${disabledReferenceNameColour}; }
   
   .florence.syntax > div > .name.reference.disabled:hover { color: ${disabledReferenceNameHoverColour}; }
+
+  .florence.syntax > div > .error {
+    color: ${errorColour};
+    text-decoration-line: underline;
+    text-decoration-color: ${underlineColour};
+  } 
+
+  .florence.syntax > div > .nonsense {
+    color: ${nonsenseColour};
+  } 
 
 `;
 

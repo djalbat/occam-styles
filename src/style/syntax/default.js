@@ -1,6 +1,6 @@
 "use strict";
 
-import { colour, errorColour, nonsenseColour, underlineColour, backgroundColour } from "../../scheme/syntax/default";
+import { colour, backgroundColour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
@@ -45,16 +45,6 @@ const defaultSyntaxStyle = `
     background-color: transparent;
   }
   
-  .syntax > div > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
-  } 
-
-  .syntax > div > .nonsense {
-    color: ${nonsenseColour};
-  } 
-
 `;
 
 export default defaultSyntaxStyle;

@@ -1,13 +1,10 @@
 "use strict";
 
-import { colour } from "../../scheme/syntax/plainText";
 import { errorColour, underlineColour } from "../../scheme/syntax/default";
 
-const plainTextSyntaxStyle = `
+const customGrammarPatternSyntaxStyle = `
 
-  .markdown.syntax > div > * { color: ${colour}; }
-
-  .markdown.syntax > div > .error {
+  .custom-grammar-pattern.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${underlineColour};
@@ -15,4 +12,4 @@ const plainTextSyntaxStyle = `
 
 `;
 
-export default plainTextSyntaxStyle;
+export default customGrammarPatternSyntaxStyle;
