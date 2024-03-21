@@ -1,9 +1,9 @@
 "use strict";
 
-import { colour, commentColour } from "../../scheme/syntax/plainText";
-import { errorColour, underlineColour } from "../../scheme/syntax/default";
+import { colour } from "../../scheme/syntax/markdown";
+import { errorColour, commentColour, underlineColour } from "../../scheme/syntax/default";
 
-const plainTextSyntaxStyle = `
+const markdownSyntaxStyle = `
 
   .markdown.syntax > div > * { color: ${colour}; }
 
@@ -17,4 +17,4 @@ const plainTextSyntaxStyle = `
 
 `;
 
-export default plainTextSyntaxStyle;
+export default markdownSyntaxStyle;

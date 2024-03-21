@@ -1,9 +1,8 @@
 "use strict";
 
-import { errorColour, underlineColour, nonsenseColour } from "../../scheme/syntax/default";
+import { errorColour, commentColour, nonsenseColour, underlineColour } from "../../scheme/syntax/default";
 import { typeColour,
          specialColour,
-         commentColour,
          keywordColour,
          operatorColour,
          metaTypeColour,
@@ -26,6 +25,8 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > div > .comment { color: ${commentColour}; }
   
+  .florence.syntax > div > .nonsense { color: ${nonsenseColour}; } 
+
   .florence.syntax > div > .operator { color: ${operatorColour}; }
   
   .florence.syntax > div > .meta-type { color: ${metaTypeColour}; }
@@ -58,10 +59,6 @@ const florenceSyntaxStyle = `
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${underlineColour};
-  } 
-
-  .florence.syntax > div > .nonsense {
-    color: ${nonsenseColour};
   } 
 
 `;

@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, commentColour, underlineColour, nonsenseColour } from "../../scheme/syntax/default";
+import { errorColour, commentColour, nonsenseColour, underlineColour } from "../../scheme/syntax/default";
 import { colour, nameColour, specialColour, ruleNameColour, delimiterColour, stringLiteralColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
@@ -9,9 +9,11 @@ const markdownStyleSyntaxStyle = `
 
   .markdown-style.syntax > div > .name { color: ${nameColour}; }
 
+  .markdown-style.syntax > div > .special { color: ${specialColour}; }
+
   .markdown-style.syntax > div > .comment { color: ${commentColour}; }
 
-  .markdown-style.syntax > div > .special { color: ${specialColour}; }
+  .markdown-style.syntax > div > .nonsense { color: ${nonsenseColour}; } 
 
   .markdown-style.syntax > div > .rule-name { color: ${ruleNameColour}; }
 
@@ -23,10 +25,6 @@ const markdownStyleSyntaxStyle = `
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${underlineColour};
-  } 
-
-  .markdown-style.syntax > div > .nonsense {
-    color: ${nonsenseColour};
   } 
 
 `;

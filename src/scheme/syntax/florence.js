@@ -6,8 +6,6 @@ export const typeColour = cadetBlue;
 
 export const specialColour = sushi;
 
-export const commentColour = pablo;
-
 export const keywordColour = razzmatazz;
 
 export const operatorColour = sushi;
