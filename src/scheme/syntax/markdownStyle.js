@@ -1,10 +1,12 @@
 "use strict";
 
-import { sushi, stardust, cadetBlue, hokeyPokey, gainsborough } from "../../colours";
+import { sushi, pablo, stardust, cadetBlue, hokeyPokey, gainsborough } from "../../colours";
 
 export const colour = gainsborough;
 
 export const nameColour = stardust;
+
+export const commentColour = pablo;
 
 export const specialColour = sushi;
 
