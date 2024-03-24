@@ -12,7 +12,6 @@ export { default as juliaMonoFontMixin } from "./mixin/font/juliaMono";
 export { default as editorScheme } from "./scheme/editor";
 export { default as commonScheme } from "./scheme/common";
 export { default as consoleScheme } from "./scheme/console";
-export { default as previewPaneScheme } from "./scheme/previewPane";
 export { default as prettyPrinterScheme } from "./scheme/prettyPrinter";
 export { default as welcomeScreenScheme } from "./scheme/welcomeScreen";
 
