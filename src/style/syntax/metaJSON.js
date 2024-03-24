@@ -1,7 +1,7 @@
 "use strict";
 
-import { errorColour, underlineColour } from "../../scheme/syntax/default";
 import { repositoryColour, stringLiteralColour } from "../../scheme/syntax/metaJSON";
+import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const metaJSONSyntaxStyle = `
 
@@ -14,7 +14,7 @@ const metaJSONSyntaxStyle = `
   .meta-json.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
+    text-decoration-color: ${errorTextDecorationColour};
   } 
 
 `;

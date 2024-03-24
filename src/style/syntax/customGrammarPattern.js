@@ -1,13 +1,13 @@
 "use strict";
 
-import { errorColour, underlineColour } from "../../scheme/syntax/default";
+import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const customGrammarPatternSyntaxStyle = `
 
   .custom-grammar-pattern.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
+    text-decoration-color: ${errorTextDecorationColour};
   } 
 
 `;

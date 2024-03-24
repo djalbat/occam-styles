@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, underlineColour } from "../../scheme/syntax/default";
+import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { nameColour, typeColour, stringLiteralColour } from "../../scheme/syntax/customGrammarBNF"
 
 const customGrammarBNFSyntaxStyle = `
@@ -14,7 +14,7 @@ const customGrammarBNFSyntaxStyle = `
   .custom-grammar-bnf.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
+    text-decoration-color: ${errorTextDecorationColour};
   } 
 
 `;

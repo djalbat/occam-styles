@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, commentColour, nonsenseColour, underlineColour } from "../../scheme/syntax/default";
+import { errorColour, commentColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
          specialColour,
          keywordColour,
@@ -58,7 +58,7 @@ const florenceSyntaxStyle = `
   .florence.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
+    text-decoration-color: ${errorTextDecorationColour};
   } 
 
 `;

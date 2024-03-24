@@ -10,6 +10,6 @@ export const commentColour = pablo;
 
 export const nonsenseColour = pablo;
 
-export const underlineColour = pomegranate;
-
 export const backgroundColour = dune;
+
+export const errorTextDecorationColour = pomegranate;

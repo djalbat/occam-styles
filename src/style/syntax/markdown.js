@@ -1,7 +1,7 @@
 "use strict";
 
 import { colour } from "../../scheme/syntax/markdown";
-import { errorColour, commentColour, underlineColour } from "../../scheme/syntax/default";
+import { errorColour, commentColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const markdownSyntaxStyle = `
 
@@ -12,7 +12,7 @@ const markdownSyntaxStyle = `
   .markdown.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
-    text-decoration-color: ${underlineColour};
+    text-decoration-color: ${errorTextDecorationColour};
   } 
 
 `;
