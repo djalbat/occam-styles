@@ -1,13 +1,15 @@
 "use strict";
 
 import { errorColour, commentColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { colour, nameColour, specialColour, ruleNameColour, delimiterColour, stringLiteralColour } from "../../scheme/syntax/markdownStyle";
+import { colour, nameColour, valueColour, specialColour, ruleNameColour, delimiterColour, stringLiteralColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
 
   .markdown-style.syntax > div > * { color: ${colour}; }
 
   .markdown-style.syntax > div > .name { color: ${nameColour}; }
+
+  .markdown-style.syntax > div > .value { color: ${valueColour}; }
 
   .markdown-style.syntax > div > .special { color: ${specialColour}; }
 

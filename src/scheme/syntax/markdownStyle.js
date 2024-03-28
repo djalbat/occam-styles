@@ -6,6 +6,8 @@ export const colour = gainsborough;
 
 export const nameColour = stardust;
 
+export const valueColour = gainsborough;
+
 export const specialColour = sushi;
 
 export const ruleNameColour = cadetBlue;
