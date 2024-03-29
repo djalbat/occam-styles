@@ -10,6 +10,8 @@ export const linkColour = gainsborough;
 
 export const borderColour = commonBorderColour; ///
 
+export const versionColour = gainsborough;
+
 export const headingColour = gainsborough;
 
 export const backgroundColour = hunterGreen;
@@ -20,6 +22,7 @@ export default {
   logoFill,
   linkColour,
   borderColour,
+  versionColour,
   headingColour,
   backgroundColour,
   bulletPointColour
