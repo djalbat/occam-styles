@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, commentColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
          specialColour,
          keywordColour,
@@ -9,7 +9,6 @@ import { typeColour,
          labelNameColour,
          contextNameColour,
          referenceNameColour,
-         stringLiteralColour,
          labelNameHoverColour,
          disabledLabelNameColour,
          referenceNameHoverColour,

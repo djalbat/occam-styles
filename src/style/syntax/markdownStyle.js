@@ -1,7 +1,7 @@
 "use strict";
 
-import { errorColour, commentColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { colour, nameColour, valueColour, specialColour, ruleNameColour, delimiterColour, stringLiteralColour } from "../../scheme/syntax/markdownStyle";
+import { colour, nameColour, valueColour, specialColour, ruleNameColour, delimiterColour } from "../../scheme/syntax/markdownStyle";
+import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const markdownStyleSyntaxStyle = `
 

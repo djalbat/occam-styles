@@ -1,5 +1,7 @@
 "use strict";
 
-import {  gainsborough } from "../../colours";
+import { cadetBlue, gainsborough } from "../../colours";
 
 export const colour = gainsborough;
+
+export const importColour = cadetBlue;

@@ -1,7 +1,7 @@
 "use strict";
 
-import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { nameColour, typeColour, stringLiteralColour } from "../../scheme/syntax/customGrammarBNF"
+import { nameColour, typeColour } from "../../scheme/syntax/customGrammarBNF"
+import { errorColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const customGrammarBNFSyntaxStyle = `
 
