@@ -15,7 +15,7 @@ const body = new Body();
 
 renderStyles();
 
-renderStyle(juliaMonoStyle());
+renderStyle(juliaMonoStyle);
 
 body.mount(
 
