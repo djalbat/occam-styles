@@ -1,7 +1,7 @@
 "use strict";
 
-import { colour, nameColour, valueColour, mediaColour, specialColour, ruleNameColour, delimiterColour } from "../../scheme/syntax/markdownStyle";
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { colour, nameColour, valueColour, mediaColour, specialColour, ruleNameColour, delimiterColour, mediaTypeColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
 
@@ -22,6 +22,8 @@ const markdownStyleSyntaxStyle = `
   .markdown-style.syntax > div > .rule-name { color: ${ruleNameColour}; }
 
   .markdown-style.syntax > div > .delimiter { color: ${delimiterColour}; }
+
+  .markdown-style.syntax > div > .media-type { color: ${mediaTypeColour}; }
 
   .markdown-style.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 

@@ -15,3 +15,5 @@ export const specialColour = sushi;
 export const ruleNameColour = cadetBlue;
 
 export const delimiterColour = sushi;
+
+export const mediaTypeColour = gainsborough;
