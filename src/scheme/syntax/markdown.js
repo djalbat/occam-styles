@@ -1,7 +1,7 @@
 "use strict";
 
-import { razzmatazz, gainsborough } from "../../colours";
+import { cadetBlue, gainsborough } from "../../colours";
 
 export const colour = gainsborough;
 
-export const importColour = razzmatazz;
+export const directiveColour = cadetBlue;
