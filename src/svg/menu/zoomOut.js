@@ -2,7 +2,7 @@
 
 import MenuSVG from "../../svg/menu";
 
-export default class DecreaseFontSizeMenuSVG extends MenuSVG {
+export default class ZoomOutMenuSVG extends MenuSVG {
   childElements() {
     return (
 
@@ -17,6 +17,6 @@ export default class DecreaseFontSizeMenuSVG extends MenuSVG {
   }
 
   static defaultProperties = {
-    className: "decrease-font-size"
+    className: "zoom-out"
   };
 }
