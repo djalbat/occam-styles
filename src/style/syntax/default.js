@@ -1,21 +1,8 @@
 "use strict";
 
-import { colour, backgroundColour } from "../../scheme/syntax/default";
+import { colour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
-
-  @keyframes background-color-animation {
-    0%   { background-color: ${backgroundColour}; }
-    100% { background-color: transparent; }
-  }
-  
-  .syntax > div.animated { 
-    animation: background-color-animation 1s 1;
-  }
-  
-  .syntax > div { 
-    width: 100%;
-  }
 
   .syntax > div * { 
     font-size: inherit;
