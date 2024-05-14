@@ -10,7 +10,11 @@ export const commonBorderColour = stormDust;
 
 export const commonBackgroundColour = dawn;
 
+export const commonInputSelectedColour = springWood;
+
 export const commonInputBackgroundColour = bonjour;
+
+export const commonInputSelectedBackground = woodsmoke;
 
 export const commonSelectBackgroundColour = bonjour;
 
@@ -45,7 +49,9 @@ export default {
   commonColour,
   commonBorderColour,
   commonBackgroundColour,
+  commonInputSelectedColour,
   commonInputBackgroundColour,
+  commonInputSelectedBackground,
   commonSelectBackgroundColour,
   commonButtonBackgroundColour,
   commonDisabledFill,
