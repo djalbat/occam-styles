@@ -37,7 +37,7 @@ export const korma = "#99420f";
 export const walnut = "#59331c";
 
 export const hokeyPokey = "#c6b624";
-export const celery = "#bcb852";
+export const celery = "#c8c46d";
 export const sycamore = "#908d39";
 export const avocado = "#908d69";
 
