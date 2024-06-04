@@ -1,11 +1,13 @@
 "use strict";
 
 import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { colour, headingColour, directiveColour } from "../../scheme/syntax/markdown";
+import { colour, tableColour, headingColour, directiveColour } from "../../scheme/syntax/markdown";
 
 const markdownSyntaxStyle = `
 
   .markdown.syntax > div > * { color: ${colour}; }
+
+  .markdown.syntax > div > .table { color: ${tableColour}; }
 
   .markdown.syntax > div > .heading { color: ${headingColour}; }
 
