@@ -1,7 +1,7 @@
 {
   "name": "occam-styles",
   "author": "James Smith",
-  "version": "5.0.91",
+  "version": "5.0.92",
   "license": "MIT, Anti-996",
   "homepage": "https://github.com/djalbat/occam-styles",
   "description": "Occam's colours, syntax schemes, common styles and images.",
@@ -12,7 +12,7 @@
   "devDependencies": {
     "@swc/core": "^1.5.6",
     "easy": "^18.1.6",
-    "easy-layout": "^6.0.163",
+    "easy-layout": "^6.0.164",
     "easy-with-style": "^3.0.374",
     "esbuild": "^0.9.6",
     "express": "^4.17.1",
