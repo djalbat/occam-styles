@@ -6,7 +6,7 @@ export const colour = gainsborough;
 
 export const pathColour = celery;
 
-export const linkColour = gainsborough;
+export const linkColour = stardust;
 
 export const tableColour = sycamore;
 
@@ -18,7 +18,7 @@ export const headingColour = spanishGreen;
 
 export const listingColour = stardust;
 
-export const referenceColour = gainsborough;
+export const referenceColour = stardust;
 
 export const directiveColour = cadetBlue;
 
