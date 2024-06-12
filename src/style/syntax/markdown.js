@@ -1,7 +1,7 @@
 "use strict";
 
 import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { colour, pathColour, tableColour, markerColour, bulletColour, listingColour, headingColour, directiveColour, pathHoverColour } from "../../scheme/syntax/markdown";
+import { colour, pathColour, linkColour, tableColour, markerColour, bulletColour, listingColour, headingColour, referenceColour, directiveColour, pathHoverColour } from "../../scheme/syntax/markdown";
 
 const markdownSyntaxStyle = `
 
@@ -10,6 +10,8 @@ const markdownSyntaxStyle = `
   .markdown.syntax > div > .path { color: ${pathColour}; }
 
   .markdown.syntax > div > .path:hover { color: ${pathHoverColour}; }
+
+  .markdown.syntax > div > .link { color: ${linkColour}; }
 
   .markdown.syntax > div > .table { color: ${tableColour}; }
 
@@ -20,6 +22,8 @@ const markdownSyntaxStyle = `
   .markdown.syntax > div > .listing { color: ${listingColour}; }
 
   .markdown.syntax > div > .heading { color: ${headingColour}; }
+
+  .markdown.syntax > div > .reference { color: ${referenceColour}; }
 
   .markdown.syntax > div > .directive { color: ${directiveColour}; }
 

@@ -32,7 +32,6 @@ export const spanishGreen = "#84b07b";
 
 export const razzmatazz = "#e3256b";
 
-export const toast = "#a7756b";
 export const korma = "#99420f";
 export const walnut = "#59331c";
 
@@ -67,7 +66,6 @@ export default {
   cadetBlue,
   spanishGreen,
   razzmatazz,
-  toast,
   korma,
   walnut,
   hokeyPokey,
