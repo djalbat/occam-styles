@@ -1,9 +1,9 @@
 "use strict";
 
+import jsonSyntaxStyle from "../style/syntax/json";
 import defaultSyntaxStyle from "../style/syntax/default";
 import florenceSyntaxStyle from "../style/syntax/florence";
 import markdownSyntaxStyle from "../style/syntax/markdown";
-import metaJSONeSyntaxStyle from "../style/syntax/metaJSON";
 import plainTextSyntaxStyle from "../style/syntax/plainText";
 import markdownStyleSyntaxStyle from "../style/syntax/markdownStyle";
 import customGrammarBNFNeSyntaxStyle from "../style/syntax/customGrammarBNF";
@@ -13,12 +13,12 @@ const syntaxStyle = `
     
   ${defaultSyntaxStyle}
   
+  ${jsonSyntaxStyle}
+
   ${florenceSyntaxStyle}
   
   ${markdownSyntaxStyle}
   
-  ${metaJSONeSyntaxStyle}
-
   ${plainTextSyntaxStyle}
   
   ${markdownStyleSyntaxStyle}
