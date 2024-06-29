@@ -1,5 +1,9 @@
 "use strict";
 
-import { cadetBlue } from "../../colours";
+import { cadetBlue, razzmatazz } from "../../colours";
+
+export const nullColour = razzmatazz;
 
 export const numberColour = cadetBlue;
+
+export const booleanColour = razzmatazz;

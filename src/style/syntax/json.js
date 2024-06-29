@@ -1,11 +1,17 @@
 "use strict";
 
-import { numberColour } from "../../scheme/syntax/json";
-import { errorColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { nullColour, numberColour, booleanColour } from "../../scheme/syntax/json";
+import { errorColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const jsonSyntaxStyle = `
 
+  [class$="-json"].syntax > div > .null { color: ${nullColour}; }
+
   [class$="-json"].syntax > div > .number { color: ${numberColour}; }
+
+  [class$="-json"].syntax > div > .boolean { color: ${booleanColour}; }
+
+  [class$="-json"].syntax > div > .nonsense { color: ${nonsenseColour}; } 
 
   [class$="-json"].syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
