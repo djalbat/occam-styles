@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { errorColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { colour, pathColour, linkColour, tableColour, markerColour, bulletColour, listingColour, headingColour, referenceColour, directiveColour, pathHoverColour } from "../../scheme/syntax/markdown";
 
 const markdownSyntaxStyle = `
@@ -22,6 +22,8 @@ const markdownSyntaxStyle = `
   .markdown.syntax > div > .listing { color: ${listingColour}; }
 
   .markdown.syntax > div > .heading { color: ${headingColour}; }
+
+  .markdown.syntax > div > .nonsense { color: ${nonsenseColour}; } 
 
   .markdown.syntax > div > .reference { color: ${referenceColour}; }
 
