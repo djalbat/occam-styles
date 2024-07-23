@@ -50,7 +50,7 @@ Ligatures and their like can be removed with the using `pyftsubset`:
 
 ```
 pip install fonttools
-pyftsubset JuliaMono-Regular.ttf '*' --output-file=JuliaMono-Regular.ttf  --layout-features-='*'
+pyftsubset JuliaMono-Regular.ttf '*' --output-file=JuliaMono-Regular.ttf  --layout-features-=calt,liga
 ```
 
 If you have a Mac with Homebrew installed then you can install the utility to convert the TTF file to WOFF2 thus:

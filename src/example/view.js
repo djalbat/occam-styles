@@ -7,6 +7,7 @@ import { Element } from "easy";
 import LogoSVG from "./view/logo";
 import MenuDiv from "./view/div/menu";
 import ToolbarDiv from "./view/div/toolbar";
+import MonospaceParagraph from "./view/paragraph/monospace";
 
 class View extends Element {
   childElements() {
@@ -15,6 +16,7 @@ class View extends Element {
       <LogoSVG/>,
       <MenuDiv/>,
       <ToolbarDiv/>,
+      <MonospaceParagraph/>
 
     ]);
   }
