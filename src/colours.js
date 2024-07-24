@@ -34,6 +34,7 @@ export const razzmatazz = "#e3256b";
 
 export const korma = "#99420f";
 export const walnut = "#59331c";
+export const terracotta = "#b52c2D";
 
 export const hokeyPokey = "#c6b624";
 export const celery = "#c8c46d";
@@ -68,6 +69,7 @@ export default {
   razzmatazz,
   korma,
   walnut,
+  terracotta,
   hokeyPokey,
   celery,
   sycamore,
