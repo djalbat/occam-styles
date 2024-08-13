@@ -33,7 +33,7 @@ const defaultSyntaxStyle = `
   }
   
   .syntax > div > button:disabled {
-    cursor: auto;
+    cursor: default;
   }
 
 `;
