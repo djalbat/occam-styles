@@ -12,16 +12,16 @@ export const operatorColour = sushi;
 
 export const metaTypeColour = gainsborough;
 
-export const contextNameColour = cadetBlue;
+export const contextColour = cadetBlue;
 
-export const labelNameColour = sycamore;
+export const labelColour = sycamore;
 
-export const labelNameHoverColour = celery;
+export const labelHoverColour = celery;
 
-export const disabledLabelNameColour = pablo;
+export const disabledLabelColour = pablo;
 
-export const referenceNameColour = sycamore;
+export const referenceColour = sycamore;
 
-export const referenceNameHoverColour = celery;
+export const referenceHoverColour = celery;
 
-export const disabledReferenceNameColour = pablo;
+export const disabledReferenceColour = pablo;
