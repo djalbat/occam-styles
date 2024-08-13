@@ -32,6 +32,10 @@ const defaultSyntaxStyle = `
     background-color: transparent;
   }
   
+  .syntax > div > button:disabled {
+    cursor: auto;
+  }
+
 `;
 
 export default defaultSyntaxStyle;
