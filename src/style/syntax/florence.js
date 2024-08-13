@@ -12,9 +12,7 @@ import { typeColour,
          labelNameHoverColour,
          disabledLabelNameColour,
          referenceNameHoverColour,
-         disabledReferenceNameColour,
-         disabledLabelNameHoverColour,
-         disabledReferenceNameHoverColour } from "../../scheme/syntax/florence";
+         disabledReferenceNameColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
 
@@ -42,18 +40,14 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > div > .name.label:hover { color: ${labelNameHoverColour}; }
 
-  .florence.syntax > div > .name.label.disabled { color: ${disabledLabelNameColour}; }
+  .florence.syntax > div > .name.label:disabled { color: ${disabledLabelNameColour}; }
   
-  .florence.syntax > div > .name.label.disabled:hover { color: ${disabledLabelNameHoverColour}; }
-
   .florence.syntax > div > .name.reference { color: ${referenceNameColour}; }
   
   .florence.syntax > div > .name.reference:hover { color: ${referenceNameHoverColour}; }
 
-  .florence.syntax > div > .name.reference.disabled { color: ${disabledReferenceNameColour}; }
+  .florence.syntax > div > .name.reference:disabled { color: ${disabledReferenceNameColour}; }
   
-  .florence.syntax > div > .name.reference.disabled:hover { color: ${disabledReferenceNameHoverColour}; }
-
   .florence.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
