@@ -36,11 +36,11 @@ const florenceSyntaxStyle = `
 
   .florence.syntax > div > .context { color: ${contextColour}; }
 
-  .florence.syntax > div > label { color: ${labelColour}; }
+  .florence.syntax > div > .label { color: ${labelColour}; }
   
-  .florence.syntax > div > label:hover { color: ${labelHoverColour}; }
+  .florence.syntax > div > .label:hover { color: ${labelHoverColour}; }
 
-  .florence.syntax > div > label:disabled { color: ${disabledLabelColour}; }
+  .florence.syntax > div > .label:disabled { color: ${disabledLabelColour}; }
   
   .florence.syntax > div > .reference { color: ${referenceColour}; }
   
