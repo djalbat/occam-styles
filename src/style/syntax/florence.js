@@ -8,11 +8,8 @@ import { typeColour,
          metaTypeColour,
          labelColour,
          contextColour,
-         referenceColour,
          labelHoverColour,
-         disabledLabelColour,
-         referenceHoverColour,
-         disabledReferenceColour } from "../../scheme/syntax/florence";
+         disabledLabelColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
 
@@ -41,12 +38,6 @@ const florenceSyntaxStyle = `
   .florence.syntax > div > .label:hover { color: ${labelHoverColour}; }
 
   .florence.syntax > div > .label:disabled { color: ${disabledLabelColour}; }
-  
-  .florence.syntax > div > .reference { color: ${referenceColour}; }
-  
-  .florence.syntax > div > .reference:hover { color: ${referenceHoverColour}; }
-
-  .florence.syntax > div > .reference:disabled { color: ${disabledReferenceColour}; }
   
   .florence.syntax > div > .error {
     color: ${errorColour};
