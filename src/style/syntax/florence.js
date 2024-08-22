@@ -5,11 +5,11 @@ import { typeColour,
          specialColour,
          keywordColour,
          operatorColour,
+        contextColour,
          metaTypeColour,
-         labelColour,
-         contextColour,
-         labelHoverColour,
-         disabledLabelColour } from "../../scheme/syntax/florence";
+         metavariableColour,
+         metavariableHoverColour,
+         disabledMetavariableColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
 
@@ -23,6 +23,8 @@ const florenceSyntaxStyle = `
 
   .florence.syntax > div > .operator { color: ${operatorColour}; }
   
+  .florence.syntax > div > .context { color: ${contextColour}; }
+
   .florence.syntax > div > .meta-type { color: ${metaTypeColour}; }
 
   .florence.syntax > div > .primary-keyword { color: ${keywordColour}; }
@@ -31,14 +33,18 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
-  .florence.syntax > div > .context { color: ${contextColour}; }
-
-  .florence.syntax > div > .label { color: ${labelColour}; }
+  .florence.syntax > div > .labels .metavariable { color: ${metavariableColour}; }
   
-  .florence.syntax > div > .label:hover { color: ${labelHoverColour}; }
+  .florence.syntax > div > .labels .metavariable:hover { color: ${metavariableHoverColour}; }
 
-  .florence.syntax > div > .label:disabled { color: ${disabledLabelColour}; }
+  .florence.syntax > div > .labels .metavariable:disabled { color: ${disabledMetavariableColour}; }
   
+  .florence.syntax > div > .reference .metavariable { color: ${metavariableColour}; }
+  
+  .florence.syntax > div > .reference .metavariable:hover { color: ${metavariableHoverColour}; }
+
+  .florence.syntax > div > .reference .metavariable:disabled { color: ${disabledMetavariableColour}; }
+
   .florence.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;

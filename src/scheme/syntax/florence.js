@@ -10,12 +10,12 @@ export const keywordColour = razzmatazz;
 
 export const operatorColour = sushi;
 
-export const metaTypeColour = gainsborough;
-
 export const contextColour = cadetBlue;
 
-export const labelColour = sycamore;
+export const metaTypeColour = gainsborough;
 
-export const labelHoverColour = celery;
+export const metavariableColour = sycamore;
 
-export const disabledLabelColour = pablo;
+export const metavariableHoverColour = celery;
+
+export const disabledMetavariableColour = pablo;
