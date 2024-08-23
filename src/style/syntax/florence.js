@@ -33,18 +33,12 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
-  .florence.syntax > div > .labels .metavariable { color: ${metavariableColour}; }
+  .florence.syntax > div > .metavariable { color: ${metavariableColour}; }
   
-  .florence.syntax > div > .labels .metavariable:hover { color: ${metavariableHoverColour}; }
+  .florence.syntax > div > .metavariable:hover { color: ${metavariableHoverColour}; }
 
-  .florence.syntax > div > .labels .metavariable:disabled { color: ${disabledMetavariableColour}; }
+  .florence.syntax > div > .metavariable:disabled { color: ${disabledMetavariableColour}; }
   
-  .florence.syntax > div > .reference .metavariable { color: ${metavariableColour}; }
-  
-  .florence.syntax > div > .reference .metavariable:hover { color: ${metavariableHoverColour}; }
-
-  .florence.syntax > div > .reference .metavariable:disabled { color: ${disabledMetavariableColour}; }
-
   .florence.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
