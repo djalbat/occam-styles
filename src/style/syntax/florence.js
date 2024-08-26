@@ -5,11 +5,14 @@ import { typeColour,
          specialColour,
          keywordColour,
          operatorColour,
-        contextColour,
+         contextColour,
          metaTypeColour,
-         metavariableColour,
-         metavariableHoverColour,
-         disabledMetavariableColour } from "../../scheme/syntax/florence";
+         labelColour,
+         labelHoverColour,
+         disabledLabelColour,
+         referenceColour,
+         referenceHoverColour,
+         disabledReferenceColour } from "../../scheme/syntax/florence";
 
 const florenceSyntaxStyle = `
 
@@ -33,11 +36,17 @@ const florenceSyntaxStyle = `
   
   .florence.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
-  .florence.syntax > div > .metavariable { color: ${metavariableColour}; }
+  .florence.syntax > div > .label { color: ${labelColour}; }
   
-  .florence.syntax > div > .metavariable:hover { color: ${metavariableHoverColour}; }
+  .florence.syntax > div > .label:hover { color: ${labelHoverColour}; }
 
-  .florence.syntax > div > .metavariable:disabled { color: ${disabledMetavariableColour}; }
+  .florence.syntax > div > .label:disabled { color: ${disabledLabelColour}; }
+  
+  .florence.syntax > div > .reference { color: ${referenceColour}; }
+  
+  .florence.syntax > div > .reference:hover { color: ${referenceHoverColour}; }
+
+  .florence.syntax > div > .reference:disabled { color: ${disabledReferenceColour}; }
   
   .florence.syntax > div > .error {
     color: ${errorColour};
