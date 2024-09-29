@@ -2,7 +2,7 @@
 
 import jsonSyntaxStyle from "../style/syntax/json";
 import defaultSyntaxStyle from "../style/syntax/default";
-import florenceSyntaxStyle from "../style/syntax/florence";
+import nominalSyntaxStyle from "../style/syntax/nominal";
 import markdownSyntaxStyle from "../style/syntax/markdown";
 import plainTextSyntaxStyle from "../style/syntax/plainText";
 import markdownStyleSyntaxStyle from "../style/syntax/markdownStyle";
@@ -15,7 +15,7 @@ const syntaxStyle = `
   
   ${jsonSyntaxStyle}
 
-  ${florenceSyntaxStyle}
+  ${nominalSyntaxStyle}
   
   ${markdownSyntaxStyle}
   
