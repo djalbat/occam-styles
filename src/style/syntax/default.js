@@ -14,10 +14,6 @@ const defaultSyntaxStyle = `
     color: ${colour}; 
   }
   
-  .syntax > div > *::selection { 
-    background-color: transparent; 
-  }
-
   .syntax > div > * a {
     cursor: pointer;
     pointer-events: auto;
