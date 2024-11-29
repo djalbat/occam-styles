@@ -1,6 +1,6 @@
 "use strict";
 
-import { sushi, bonjour, sycamore, cadetBlue, razzmatazz, hokeyPokey } from "../../colours";
+import { sushi, sycamore, cadetBlue, razzmatazz, hokeyPokey, gainsborough } from "../../colours";
 
 export const typeColour = cadetBlue;
 
@@ -16,4 +16,4 @@ export const expressionColour = hokeyPokey;
 
 export const instructionColour = sycamore;
 
-export const variableNameColour = bonjour;
+export const variableNameColour = gainsborough;
