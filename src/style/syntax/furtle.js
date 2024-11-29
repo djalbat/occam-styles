@@ -9,16 +9,16 @@ const furtleSyntaxStyle = `
 
   .furtle.syntax > div > .special { color: ${specialColour}; }
   
+  .furtle.syntax > div > .keyword { color: ${keywordColour}; }
+  
   .furtle.syntax > div > .comment { color: ${commentColour}; }
   
   .furtle.syntax > div > .nonsense { color: ${nonsenseColour}; } 
 
   .furtle.syntax > div > .operator { color: ${operatorColour}; }
   
-  .furtle.syntax > div > .primary-keyword { color: ${keywordColour}; }
-  
-  .furtle.syntax > div > .secondary-keyword { color: ${keywordColour}; }
-  
+  .furtle.syntax > div > .primitive { color: ${primitiveColour}; }
+
   .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
   
