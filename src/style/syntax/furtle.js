@@ -1,6 +1,6 @@
 "use strict";
 
-import { typeColour, specialColour, keywordColour, operatorColour } from "../../scheme/syntax/furtle";
+import { typeColour, specialColour, keywordColour, operatorColour, primitiveColour } from "../../scheme/syntax/furtle";
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const furtleSyntaxStyle = `
