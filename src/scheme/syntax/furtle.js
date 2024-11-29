@@ -1,6 +1,6 @@
 "use strict";
 
-import { sushi, cadetBlue, razzmatazz } from "../../colours";
+import { sushi, sycamore, cadetBlue, razzmatazz, hokeyPokey } from "../../colours";
 
 export const typeColour = cadetBlue;
 
@@ -11,3 +11,7 @@ export const keywordColour = razzmatazz;
 export const operatorColour = sushi;
 
 export const primitiveColour = razzmatazz;
+
+export const expressionColour = hokeyPokey;
+
+export const instructionColour = sycamore;

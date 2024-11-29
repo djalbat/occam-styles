@@ -1,7 +1,7 @@
 "use strict";
 
-import { typeColour, specialColour, keywordColour, operatorColour, primitiveColour } from "../../scheme/syntax/furtle";
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { typeColour, specialColour, keywordColour, operatorColour, primitiveColour, expressionColour, instructionColour } from "../../scheme/syntax/furtle";
 
 const furtleSyntaxStyle = `
 
@@ -19,8 +19,11 @@ const furtleSyntaxStyle = `
   
   .furtle.syntax > div > .primitive { color: ${primitiveColour}; }
 
-  .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
+  .furtle.syntax > div > .expression { color: ${expressionColour}; }
 
+  .furtle.syntax > div > .instruction { color: ${instructionColour}; }
+
+  .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
   
   .furtle.syntax > div > .error {
     color: ${errorColour};
