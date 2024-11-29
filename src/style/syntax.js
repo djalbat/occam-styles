@@ -1,6 +1,7 @@
 "use strict";
 
 import jsonSyntaxStyle from "../style/syntax/json";
+import furtleSyntaxStyle from "../style/syntax/furtle";
 import defaultSyntaxStyle from "../style/syntax/default";
 import nominalSyntaxStyle from "../style/syntax/nominal";
 import markdownSyntaxStyle from "../style/syntax/markdown";
@@ -12,6 +13,8 @@ import customGrammarPatternNeSyntaxStyle from "../style/syntax/customGrammarPatt
 const syntaxStyle = `
     
   ${defaultSyntaxStyle}
+  
+  ${furtleSyntaxStyle}
   
   ${jsonSyntaxStyle}
 
