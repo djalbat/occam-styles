@@ -10,8 +10,8 @@ import { typeColour,
          operatorColour,
          primitiveColour,
          expressionColour,
-         functionNameColour,
-         variableNameColour } from "../../scheme/syntax/furtle";
+         variableNameColour,
+         functionNameColour } from "../../scheme/syntax/furtle";
 
 const furtleSyntaxStyle = `
 
@@ -37,9 +37,9 @@ const furtleSyntaxStyle = `
 
   .furtle.syntax > div > .expression { color: ${expressionColour}; }
 
-  .furtle.syntax > div > .variable-name { color: ${functionNameColour}; }
-  
   .furtle.syntax > div > .variable-name { color: ${variableNameColour}; }
+  
+  .furtle.syntax > div > .function-name { color: ${functionNameColour}; }
   
   .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
   
