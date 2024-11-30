@@ -6,9 +6,11 @@ export const typeColour = cadetBlue;
 
 export const queryColour = sushi;
 
-export const specialColour = sushi;
-
 export const returnColour = razzmatazz;
+
+export const bracketColour = sushi;
+
+export const specialColour = sushi;
 
 export const keywordColour = razzmatazz;
 

@@ -4,6 +4,7 @@ import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorT
 import { typeColour,
          queryColour,
          returnColour,
+         bracketColour,
          specialColour,
          keywordColour,
          operatorColour,
@@ -19,6 +20,8 @@ const furtleSyntaxStyle = `
   .furtle.syntax > div > .query { color: ${queryColour}; }
 
   .furtle.syntax > div > .return { color: ${returnColour}; }
+  
+  .furtle.syntax > div > .bracket { color: ${bracketColour}; }
   
   .furtle.syntax > div > .special { color: ${specialColour}; }
   
