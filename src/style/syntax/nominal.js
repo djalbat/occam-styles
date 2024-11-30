@@ -2,15 +2,15 @@
 
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
+         labelColour,
          specialColour,
          keywordColour,
-         operatorColour,
          contextColour,
+         operatorColour,
          metaTypeColour,
-         labelColour,
+         referenceColour,
          labelHoverColour,
          disabledLabelColour,
-         referenceColour,
          referenceHoverColour,
          disabledReferenceColour } from "../../scheme/syntax/nominal";
 

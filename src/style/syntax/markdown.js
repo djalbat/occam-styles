@@ -1,7 +1,17 @@
 "use strict";
 
 import { errorColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { colour, pathColour, linkColour, tableColour, markerColour, bulletColour, listingColour, headingColour, referenceColour, directiveColour, pathHoverColour } from "../../scheme/syntax/markdown";
+import { colour,
+         pathColour,
+         linkColour,
+         tableColour,
+         markerColour,
+         bulletColour,
+         listingColour,
+         headingColour,
+         referenceColour,
+         directiveColour,
+         pathHoverColour } from "../../scheme/syntax/markdown";
 
 const markdownSyntaxStyle = `
 
