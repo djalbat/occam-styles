@@ -4,6 +4,8 @@ import { sushi, sycamore, cadetBlue, razzmatazz, hokeyPokey, gainsborough } from
 
 export const typeColour = cadetBlue;
 
+export const queryColour = sushi;
+
 export const specialColour = sushi;
 
 export const returnColour = razzmatazz;
@@ -16,6 +18,6 @@ export const primitiveColour = razzmatazz;
 
 export const expressionColour = hokeyPokey;
 
-export const instructionColour = sycamore;
+export const functionNameColour = sycamore;
 
 export const variableNameColour = gainsborough;

@@ -2,18 +2,21 @@
 
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
+         queryColour,
          returnColour,
          specialColour,
          keywordColour,
          operatorColour,
          primitiveColour,
          expressionColour,
-         instructionColour,
+         functionNameColour,
          variableNameColour } from "../../scheme/syntax/furtle";
 
 const furtleSyntaxStyle = `
 
   .furtle.syntax > div > .type { color: ${typeColour}; }
+
+  .furtle.syntax > div > .query { color: ${queryColour}; }
 
   .furtle.syntax > div > .return { color: ${returnColour}; }
   
@@ -31,8 +34,8 @@ const furtleSyntaxStyle = `
 
   .furtle.syntax > div > .expression { color: ${expressionColour}; }
 
-  .furtle.syntax > div > .instruction { color: ${instructionColour}; }
-
+  .furtle.syntax > div > .variable-name { color: ${functionNameColour}; }
+  
   .furtle.syntax > div > .variable-name { color: ${variableNameColour}; }
   
   .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
