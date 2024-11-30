@@ -2,6 +2,7 @@
 
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
+         returnColour,
          specialColour,
          keywordColour,
          operatorColour,
@@ -14,6 +15,8 @@ const furtleSyntaxStyle = `
 
   .furtle.syntax > div > .type { color: ${typeColour}; }
 
+  .furtle.syntax > div > .return { color: ${returnColour}; }
+  
   .furtle.syntax > div > .special { color: ${specialColour}; }
   
   .furtle.syntax > div > .keyword { color: ${keywordColour}; }

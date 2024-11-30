@@ -6,6 +6,8 @@ export const typeColour = cadetBlue;
 
 export const specialColour = sushi;
 
+export const returnColour = razzmatazz;
+
 export const keywordColour = razzmatazz;
 
 export const operatorColour = sushi;
