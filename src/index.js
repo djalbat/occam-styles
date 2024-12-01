@@ -3,8 +3,8 @@
 export { default as styles } from "./styles";
 export { default as colours } from "./colours";
 
-export { default as syntaxStyle } from "./style/syntax";
 export { default as juliaMonoStyle } from "./style/juliaMono";
+export { default as prettyPrinterStyle } from "./style/prettyPrinter";
 
 export { default as commonFontMixin } from "./mixin/font/common";
 export { default as juliaMonoFontMixin } from "./mixin/font/juliaMono";
