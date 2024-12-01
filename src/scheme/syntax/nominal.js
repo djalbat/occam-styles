@@ -4,6 +4,8 @@ import { sushi, pablo, celery, sycamore, cadetBlue, razzmatazz } from "../../col
 
 export const typeColour = cadetBlue;
 
+export const bracketColour = sushi;
+
 export const specialColour = sushi;
 
 export const keywordColour = razzmatazz;
