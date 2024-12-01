@@ -6,10 +6,7 @@ const defaultSyntaxStyle = `
 
   .syntax > div * { 
     color: ${colour}; 
-  }
-
-  .syntax > div * { 
-    display: inline-block;
+    display: inline;
     font-size: inherit;
     line-height: inherit;
     font-family: inherit;
