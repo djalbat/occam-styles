@@ -2,18 +2,18 @@
 
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
-         labelColour,
          bracketColour,
          specialColour,
          keywordColour,
          contextColour,
          operatorColour,
          metaTypeColour,
-         referenceColour,
-         labelHoverColour,
-         disabledLabelColour,
-         referenceHoverColour,
-         disabledReferenceColour } from "../../scheme/syntax/nominal";
+         labelNameColour,
+         referenceNameColour,
+         labelNameHoverColour,
+         disabledLabelNameColour,
+         referenceNameHoverColour,
+         disabledReferenceNameColour } from "../../scheme/syntax/nominal";
 
 const nominalSyntaxStyle = `
 
@@ -39,17 +39,17 @@ const nominalSyntaxStyle = `
   
   .nominal.syntax > div > .string-literal { color: ${stringLiteralColour}; }
 
-  .nominal.syntax > div > .label { color: ${labelColour}; }
+  .nominal.syntax > div > .label-name { color: ${labelNameColour}; }
   
-  .nominal.syntax > div > .label:hover { color: ${labelHoverColour}; }
+  .nominal.syntax > div > .label-name:hover { color: ${labelNameHoverColour}; }
 
-  .nominal.syntax > div > .label:disabled { color: ${disabledLabelColour}; }
+  .nominal.syntax > div > .label-name:disabled { color: ${disabledLabelNameColour}; }
   
-  .nominal.syntax > div > .reference { color: ${referenceColour}; }
+  .nominal.syntax > div > .reference-name { color: ${referenceNameColour}; }
   
-  .nominal.syntax > div > .reference:hover { color: ${referenceHoverColour}; }
+  .nominal.syntax > div > .reference-name:hover { color: ${referenceNameHoverColour}; }
 
-  .nominal.syntax > div > .reference:disabled { color: ${disabledReferenceColour}; }
+  .nominal.syntax > div > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
   
   .nominal.syntax > div > .error {
     color: ${errorColour};

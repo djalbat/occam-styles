@@ -16,14 +16,14 @@ export const contextColour = cadetBlue;
 
 export const metaTypeColour = cadetBlue;
 
-export const labelColour = sycamore;
+export const labelNameColour = sycamore;
 
-export const labelHoverColour = celery;
+export const referenceNameColour = sycamore;
 
-export const disabledLabelColour = pablo;
+export const labelNameHoverColour = celery;
 
-export const referenceColour = sycamore;
+export const referenceNameHoverColour = celery;
 
-export const referenceHoverColour = celery;
+export const disabledLabelNameColour = pablo;
 
-export const disabledReferenceColour = pablo;
+export const disabledReferenceNameColour = pablo;
