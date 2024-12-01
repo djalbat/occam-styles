@@ -19,7 +19,7 @@ const nominalSyntaxStyle = `
 
   .nominal.syntax > div > .type { color: ${typeColour}; }
 
-  .furtle.syntax > div > .bracket { color: ${bracketColour}; }
+  .nominal.syntax > div > .bracket { color: ${bracketColour}; }
   
   .nominal.syntax > div > .special { color: ${specialColour}; }
   
