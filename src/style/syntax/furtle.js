@@ -10,7 +10,12 @@ import { typeColour,
          operatorColour,
          primitiveColour,
          expressionColour,
-         functionNameColour } from "../../scheme/syntax/furtle";
+         labelNameColour,
+         referenceNameColour,
+         labelNameHoverColour,
+         disabledLabelNameColour,
+         referenceNameHoverColour,
+         disabledReferenceNameColour } from "../../scheme/syntax/furtle";
 
 const furtleSyntaxStyle = `
 
@@ -36,10 +41,20 @@ const furtleSyntaxStyle = `
 
   .furtle.syntax > div > .expression { color: ${expressionColour}; }
 
-  .furtle.syntax > div > .function-name { color: ${functionNameColour}; }
-  
   .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
   
+  .furtle.syntax > div > .label-name { color: ${labelNameColour}; }
+  
+  .furtle.syntax > div > .label-name:hover { color: ${labelNameHoverColour}; }
+
+  .furtle.syntax > div > .label-name:disabled { color: ${disabledLabelNameColour}; }
+  
+  .furtle.syntax > div > .reference-name { color: ${referenceNameColour}; }
+  
+  .furtle.syntax > div > .reference-name:hover { color: ${referenceNameHoverColour}; }
+
+  .furtle.syntax > div > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
+
   .furtle.syntax > div > .error {
     color: ${errorColour};
     text-decoration-line: underline;
