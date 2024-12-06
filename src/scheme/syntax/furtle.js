@@ -8,13 +8,13 @@ export const queryColour = sushi;
 
 export const returnColour = razzmatazz;
 
-export const bracketColour = sushi;
-
 export const specialColour = sushi;
 
 export const keywordColour = razzmatazz;
 
 export const operatorColour = sushi;
+
+export const delimiterColour = sushi;
 
 export const primitiveColour = razzmatazz;
 

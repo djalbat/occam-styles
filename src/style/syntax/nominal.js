@@ -2,13 +2,13 @@
 
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
-         bracketColour,
          specialColour,
          keywordColour,
          contextColour,
          operatorColour,
          metaTypeColour,
          labelNameColour,
+         delimiterColour,
          referenceNameColour,
          labelNameHoverColour,
          disabledLabelNameColour,
@@ -19,8 +19,6 @@ const nominalSyntaxStyle = `
 
   .nominal.syntax > div > .type { color: ${typeColour}; }
 
-  .nominal.syntax > div > .bracket { color: ${bracketColour}; }
-  
   .nominal.syntax > div > .special { color: ${specialColour}; }
   
   .nominal.syntax > div > .comment { color: ${commentColour}; }
@@ -33,6 +31,8 @@ const nominalSyntaxStyle = `
 
   .nominal.syntax > div > .meta-type { color: ${metaTypeColour}; }
 
+  .nominal.syntax > div > .delimiter { color: ${delimiterColour}; }
+  
   .nominal.syntax > div > .primary-keyword { color: ${keywordColour}; }
   
   .nominal.syntax > div > .secondary-keyword { color: ${keywordColour}; }
