@@ -1,6 +1,6 @@
 "use strict";
 
-import {sushi, sycamore, cadetBlue, razzmatazz, hokeyPokey, celery, pablo} from "../../colours";
+import { sushi, pablo, celery, sycamore, cadetBlue, razzmatazz, hokeyPokey } from "../../colours";
 
 export const typeColour = cadetBlue;
 
