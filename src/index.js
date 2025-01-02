@@ -33,7 +33,6 @@ export { default as CollapsedTitleSVG } from "./svg/title/collapsed";
 export { default as BottomOpenFoldSVG } from "./svg/fold/bottomOpen";
 export { default as EmbeddedModeMenuSVG } from "./svg/menu/embeddedMode";
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
-export { default as SynchroniseToolbarSVG } from "./svg/toolbar/synchronise";
 export { default as ShowReleasesToolbarSVG } from "./svg/toolbar/showReleases";
 export { default as HideReleasesToolbarSVG } from "./svg/toolbar/hideReleases";
 export { default as LeaveSessionToolbarSVG } from "./svg/toolbar/leaveSession";
@@ -46,6 +45,7 @@ export { default as CopySessionKeyToolbarSVG } from "./svg/toolbar/copySessionKe
 export { default as ClosedRubbishBinToolbarSVG } from "./svg/toolbar/closedRubbishBin";
 export { default as TogglePreviewPaneOnlyMenuSVG } from "./svg/menu/togglePreviewPaneOnly";
 export { default as TogglePreviewPaneSplitMenuSVG } from "./svg/menu/togglePreviewPaneSplit";
+export { default as SynchroniseDocumentToolbarSVG } from "./svg/toolbar/synchroniseDocument";
 export { default as FindInActiveDocumentToolbarSVG } from "./svg/toolbar/findInActiveDocument";
 export { default as ExportCustomGrammarsToolbarSVG } from "./svg/toolbar/exportCustomGrammars";
 export { default as TogglePrettyPrinterOnlyMenuSVG } from "./svg/menu/togglePrettyPrinterOnly";

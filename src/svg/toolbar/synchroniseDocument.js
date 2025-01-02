@@ -2,7 +2,7 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class SynchroniseToolbarSVG extends ToolbarSVG {
+export default class SynchroniseDocumentToolbarSVG extends ToolbarSVG {
   childElements() {
     return (
 
@@ -15,6 +15,6 @@ export default class SynchroniseToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
-    className: "synchronise"
+    className: "synchronise-document"
   };
 }
