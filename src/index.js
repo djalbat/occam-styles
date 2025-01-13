@@ -2,10 +2,12 @@
 
 export { default as styles } from "./styles";
 export { default as colours } from "./colours";
+export { default as constants } from "./constants";
 
 export { default as juliaMonoStyle } from "./style/juliaMono";
 export { default as prettyPrinterStyle } from "./style/prettyPrinter";
 
+export { default as scrollbarMixin } from "./mixin/scrollbar";
 export { default as commonFontMixin } from "./mixin/font/common";
 export { default as juliaMonoFontMixin } from "./mixin/font/juliaMono";
 
