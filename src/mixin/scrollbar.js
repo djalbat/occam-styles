@@ -14,6 +14,7 @@ const scrollbarMixin = `
     border-color: transparent;
     border-width: ${scrollbarThumbBorderWidth};
     border-radius: ${scrollbarThumbBorderRadius};
+    background-clip: content-box;
   }
 
   ::-webkit-scrollbar-track {
