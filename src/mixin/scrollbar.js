@@ -1,6 +1,6 @@
 "use strict";
 
-import { scrollbarThickness } from "../styles";
+import { scrollbarThickness, scrollbarThumbBorderWidth, scrollbarThumbBorderRadius } from "../styles";
 
 const scrollbarMixin = `
 
@@ -16,7 +16,6 @@ const scrollbarMixin = `
     border-width: ${scrollbarThumbBorderWidth};
     border-radius: ${scrollbarThumbBorderRadius};
     background-clip: content-box;
-    background-color: ${scrollbarThumbBackgroundColour};
   }
 
   ::-webkit-scrollbar-track {
