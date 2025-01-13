@@ -1,6 +1,6 @@
 "use strict";
 
-import { dawn, bonjour, bianca, woodsmoke, stormDust, walnut, tuatara, woodland, stardust, springWood } from "../colours";
+import { dawn, bianca, walnut, tuatara, bonjour, woodland, stardust, woodsmoke, stormDust, springWood, naturalGray } from "../colours";
 
 export const commonFill = tuatara;
 
@@ -38,7 +38,7 @@ export const hideReleasesCrossFill = walnut;
 
 export const tooltipBackgroundColour = bianca;
 
-export const scrollbarThumbBackgroundColour = stormDust;
+export const scrollbarThumbBackgroundColour = naturalGray;
 
 export default {
   commonFill,

@@ -7,6 +7,7 @@ export const bonjour = "#E5E2E0";
 export const gainsborough = "#D8D6D2";
 export const dawn = "#B8B3A8";
 export const stardust = "#9f9f9c";
+export const naturalGray = "#8c8c88";
 export const stormDust = "#646463";
 export const emperor = "#515150";
 export const tuatara = "#363534";
@@ -49,6 +50,7 @@ export default {
   gainsborough,
   dawn,
   stardust,
+  naturalGray,
   hurricane,
   stormDust,
   emperor,
