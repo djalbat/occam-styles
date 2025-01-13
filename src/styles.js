@@ -12,7 +12,7 @@ export const nameSVGMarginBottom = "0.4rem";
 export const markerSVGMarginLeft = "2.4rem";
 export const fileNameSVGPaddingLeft = "2.2rem";
 export const scrollbarThumbBorderWidth = "6px";
-export const scrollbarThumbBorderRadius = scrollbarThickness; ///
+export const scrollbarThumbBorderRadius = `${SCROLLBAR_THICKNESS / 2}px`;
 
 export default {
   nameSVGHeight,

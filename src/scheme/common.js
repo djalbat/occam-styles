@@ -26,12 +26,6 @@ export const commonDisabledInputColour = stormDust;
 
 export const commonDisabledButtonColour = stormDust;
 
-export const commonScrollbarThumbBorderColour = dawn;
-
-export const commonScrollbarTrackBackgroundColour = dawn;
-
-export const commonScrollbarThumbBackgroundColour = stormDust;
-
 export const glyphColour = stardust;
 
 export const clearConsoleFill = walnut;
@@ -43,6 +37,8 @@ export const showReleasesCrossFill = woodland;
 export const hideReleasesCrossFill = walnut;
 
 export const tooltipBackgroundColour = bianca;
+
+export const scrollbarThumbBackgroundColour = stormDust;
 
 export default {
   commonFill,
@@ -57,13 +53,11 @@ export default {
   commonDisabledFill,
   commonDisabledInputColour,
   commonDisabledButtonColour,
-  commonScrollbarThumbBorderColour,
-  commonScrollbarTrackBackgroundColour,
-  commonScrollbarThumbBackgroundColour,
   glyphColour,
   clearConsoleFill,
   expandedGlyphColour,
   showReleasesCrossFill,
   hideReleasesCrossFill,
-  tooltipBackgroundColour
+  tooltipBackgroundColour,
+  scrollbarThumbBackgroundColour
 };

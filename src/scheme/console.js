@@ -2,16 +2,19 @@
 
 import { commonBorderColour } from "../scheme/common";
 
-import { gainsborough, hunterGreen } from "../colours";
+import { stormDust, hunterGreen, gainsborough } from "../colours";
 
-const consoleColour =  gainsborough;
+export const consoleColour =  gainsborough;
 
-const consoleBorderColour =  commonBorderColour;  ///
+export const consoleBorderColour =  commonBorderColour;  ///
 
-const consoleBackgroundColour =  hunterGreen;
+export const consoleBackgroundColour =  hunterGreen;
+
+export const scrollbarThumbBackgroundColour = stormDust;
 
 export default {
   consoleColour,
   consoleBorderColour,
-  consoleBackgroundColour
+  consoleBackgroundColour,
+  scrollbarThumbBackgroundColour
 };
