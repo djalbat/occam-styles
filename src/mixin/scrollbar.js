@@ -11,6 +11,7 @@ const scrollbarMixin = `
 
   ::-webkit-scrollbar-thumb {
     cursor: default;
+    border-style: solid;
     border-color: transparent;
     border-width: ${scrollbarThumbBorderWidth};
     border-radius: ${scrollbarThumbBorderRadius};
