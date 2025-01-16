@@ -28,6 +28,8 @@ export const commonDisabledButtonColour = stormDust;
 
 export const glyphColour = stardust;
 
+export const selectedGlyphColour = bonjour;
+
 export const glyphBackgroundColour = woodsmoke;
 
 export const tooltipBackgroundColour = bianca;
@@ -54,6 +56,7 @@ export default {
   commonDisabledButtonColour,
   commonScrollbarThumbBackgroundColour,
   glyphColour,
+  selectedGlyphColour,
   glyphBackgroundColour,
   tooltipBackgroundColour,
   clearConsoleFill,
