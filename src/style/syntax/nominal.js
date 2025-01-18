@@ -7,7 +7,6 @@ import { typeColour,
          specialColour,
          keywordColour,
          contextColour,
-         operatorColour,
          metaTypeColour,
          labelNameColour,
          referenceNameColour,
@@ -30,8 +29,6 @@ const nominalSyntaxStyle = `
   
   .nominal.syntax > div > .nonsense { color: ${nonsenseColour}; } 
 
-  .nominal.syntax > div > .operator { color: ${operatorColour}; }
-  
   .nominal.syntax > div > .context { color: ${contextColour}; }
 
   .nominal.syntax > div > .meta-type { color: ${metaTypeColour}; }

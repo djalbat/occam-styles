@@ -14,8 +14,6 @@ export const keywordColour = razzmatazz;
 
 export const contextColour = cadetBlue;
 
-export const operatorColour = sushi;
-
 export const metaTypeColour = cadetBlue;
 
 export const labelNameColour = sycamore;
