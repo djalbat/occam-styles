@@ -6,9 +6,11 @@ export const typeColour = cadetBlue;
 
 export const stuffColour = pablo;
 
-export const bracketColour = sushi;
+export const symbolColour = sushi;
 
 export const specialColour = sushi;
+
+export const bracketColour = sushi;
 
 export const keywordColour = razzmatazz;
 
