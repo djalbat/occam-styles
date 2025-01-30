@@ -3,7 +3,6 @@
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
          stuffColour,
-         symbolColour,
          specialColour,
          bracketColour,
          keywordColour,
@@ -22,8 +21,6 @@ const nominalSyntaxStyle = `
 
   .nominal.syntax > div > .stuff { color: ${stuffColour}; }
 
-  .nominal.syntax > div > .symbol { color: ${symbolColour}; }
-  
   .nominal.syntax > div > .special { color: ${specialColour}; }
   
   .nominal.syntax > div > .bracket { color: ${bracketColour}; }
