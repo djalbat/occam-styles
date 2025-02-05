@@ -10,7 +10,7 @@ export const foldButtonStroke = pablo;
 
 export const backgroundColour = woodsmoke;
 
-export const lineNumbersColour = stormDust;
+export const lineNumberColour = stormDust;
 
 export const foldButtonHoverStroke = hurricane;
 
@@ -29,7 +29,7 @@ export default {
   selectedColour,
   foldButtonStroke,
   backgroundColour,
-  lineNumbersColour,
+  lineNumberColour,
   caretBackgroundColour,
   foldButtonHoverStroke,
   gutterBackgroundColour,

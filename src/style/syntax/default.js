@@ -4,7 +4,7 @@ import { colour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
-  .syntax > div * { 
+  div.lines > div.line > div.syntax * { 
     color: ${colour}; 
     display: inline;
     font-size: inherit;
@@ -12,14 +12,14 @@ const defaultSyntaxStyle = `
     font-family: inherit;
   }
   
-  .syntax > div > button {
+  div.lines > div.line > div.syntax > button {
     cursor: pointer;
     outline: none;
     pointer-events: auto;
     background-color: transparent;
   }
   
-  .syntax > div > button:disabled {
+  div.lines > div.line > div.syntax > button:disabled {
     cursor: default;
   }
 

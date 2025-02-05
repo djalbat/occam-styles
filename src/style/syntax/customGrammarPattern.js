@@ -4,7 +4,7 @@ import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/defa
 
 const customGrammarPatternSyntaxStyle = `
 
-  .custom-grammar-pattern.syntax > div > .error {
+  div.custom-grammar-pattern.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};

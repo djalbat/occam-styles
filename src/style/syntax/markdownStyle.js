@@ -5,27 +5,27 @@ import { colour, nameColour, valueColour, mediaColour, specialColour, ruleNameCo
 
 const markdownStyleSyntaxStyle = `
 
-  .markdown-style.syntax > div > * { color: ${colour}; }
+  div.markdown-style.lines > div.line > div.syntax > * { color: ${colour}; }
 
-  .markdown-style.syntax > div > .name { color: ${nameColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .name { color: ${nameColour}; }
 
-  .markdown-style.syntax > div > .value { color: ${valueColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .value { color: ${valueColour}; }
 
-  .markdown-style.syntax > div > .media { color: ${mediaColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .media { color: ${mediaColour}; }
 
-  .markdown-style.syntax > div > .special { color: ${specialColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .special { color: ${specialColour}; }
 
-  .markdown-style.syntax > div > .nonsense { color: ${nonsenseColour}; } 
+  div.markdown-style.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
-  .markdown-style.syntax > div > .rule-name { color: ${ruleNameColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .rule-name { color: ${ruleNameColour}; }
 
-  .markdown-style.syntax > div > .delimiter { color: ${delimiterColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .delimiter { color: ${delimiterColour}; }
 
-  .markdown-style.syntax > div > .media-type { color: ${mediaTypeColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .media-type { color: ${mediaTypeColour}; }
 
-  .markdown-style.syntax > div > .string-literal { color: ${stringLiteralColour}; }
+  div.markdown-style.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 
-  .markdown-style.syntax > div > .error {
+  div.markdown-style.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};

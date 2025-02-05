@@ -19,43 +19,43 @@ import { typeColour,
 
 const furtleSyntaxStyle = `
 
-  .furtle.syntax > div > .type { color: ${typeColour}; }
+  div.furtle.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
-  .furtle.syntax > div > .query { color: ${queryColour}; }
+  div.furtle.lines > div.line > div.syntax > .query { color: ${queryColour}; }
 
-  .furtle.syntax > div > .return { color: ${returnColour}; }
+  div.furtle.lines > div.line > div.syntax > .return { color: ${returnColour}; }
   
-  .furtle.syntax > div > .bracket { color: ${bracketColour}; }
+  div.furtle.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
   
-  .furtle.syntax > div > .special { color: ${specialColour}; }
+  div.furtle.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
-  .furtle.syntax > div > .keyword { color: ${keywordColour}; }
+  div.furtle.lines > div.line > div.syntax > .keyword { color: ${keywordColour}; }
   
-  .furtle.syntax > div > .comment { color: ${commentColour}; }
+  div.furtle.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
   
-  .furtle.syntax > div > .nonsense { color: ${nonsenseColour}; } 
+  div.furtle.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
-  .furtle.syntax > div > .operator { color: ${operatorColour}; }
+  div.furtle.lines > div.line > div.syntax > .operator { color: ${operatorColour}; }
   
-  .furtle.syntax > div > .primitive { color: ${primitiveColour}; }
+  div.furtle.lines > div.line > div.syntax > .primitive { color: ${primitiveColour}; }
 
-  .furtle.syntax > div > .expression { color: ${expressionColour}; }
+  div.furtle.lines > div.line > div.syntax > .expression { color: ${expressionColour}; }
 
-  .furtle.syntax > div > .string-literal { color: ${stringLiteralColour}; }
+  div.furtle.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
   
-  .furtle.syntax > div > .label-name { color: ${labelNameColour}; }
+  div.furtle.lines > div.line > div.syntax > .label-name { color: ${labelNameColour}; }
   
-  .furtle.syntax > div > .label-name:hover { color: ${labelNameHoverColour}; }
+  div.furtle.lines > div.line > div.syntax > .label-name:hover { color: ${labelNameHoverColour}; }
 
-  .furtle.syntax > div > .label-name:disabled { color: ${disabledLabelNameColour}; }
+  div.furtle.lines > div.line > div.syntax > .label-name:disabled { color: ${disabledLabelNameColour}; }
   
-  .furtle.syntax > div > .reference-name { color: ${referenceNameColour}; }
+  div.furtle.lines > div.line > div.syntax > .reference-name { color: ${referenceNameColour}; }
   
-  .furtle.syntax > div > .reference-name:hover { color: ${referenceNameHoverColour}; }
+  div.furtle.lines > div.line > div.syntax > .reference-name:hover { color: ${referenceNameHoverColour}; }
 
-  .furtle.syntax > div > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
+  div.furtle.lines > div.line > div.syntax > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
 
-  .furtle.syntax > div > .error {
+  div.furtle.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};

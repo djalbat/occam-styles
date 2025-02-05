@@ -5,17 +5,17 @@ import { errorColour, nonsenseColour, stringLiteralColour, errorTextDecorationCo
 
 const jsonSyntaxStyle = `
 
-  [class$="-json"].syntax > div > .null { color: ${nullColour}; }
+  div[class$="-json"].lines > div.line > div.syntax > .null { color: ${nullColour}; }
 
-  [class$="-json"].syntax > div > .number { color: ${numberColour}; }
+  div[class$="-json"].lines > div.line > div.syntax > .number { color: ${numberColour}; }
 
-  [class$="-json"].syntax > div > .boolean { color: ${booleanColour}; }
+  div[class$="-json"].lines > div.line > div.syntax > .boolean { color: ${booleanColour}; }
 
-  [class$="-json"].syntax > div > .nonsense { color: ${nonsenseColour}; } 
+  div[class$="-json"].lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
-  [class$="-json"].syntax > div > .string-literal { color: ${stringLiteralColour}; }
+  div[class$="-json"].lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 
-  [class$="-json"].syntax > div > .error {
+  div[class$="-json"].lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};

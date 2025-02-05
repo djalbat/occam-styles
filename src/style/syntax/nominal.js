@@ -17,41 +17,41 @@ import { typeColour,
 
 const nominalSyntaxStyle = `
 
-  .nominal.syntax > div > .type { color: ${typeColour}; }
+  div.nominal.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
-  .nominal.syntax > div > .stuff { color: ${stuffColour}; }
+  div.nominal.lines > div.line > div.syntax > .stuff { color: ${stuffColour}; }
 
-  .nominal.syntax > div > .special { color: ${specialColour}; }
+  div.nominal.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
-  .nominal.syntax > div > .bracket { color: ${bracketColour}; }
+  div.nominal.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
   
-  .nominal.syntax > div > .comment { color: ${commentColour}; }
+  div.nominal.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
   
-  .nominal.syntax > div > .nonsense { color: ${nonsenseColour}; } 
+  div.nominal.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
-  .nominal.syntax > div > .context { color: ${contextColour}; }
+  div.nominal.lines > div.line > div.syntax > .context { color: ${contextColour}; }
 
-  .nominal.syntax > div > .meta-type { color: ${metaTypeColour}; }
+  div.nominal.lines > div.line > div.syntax > .meta-type { color: ${metaTypeColour}; }
 
-  .nominal.syntax > div > .primary-keyword { color: ${keywordColour}; }
+  div.nominal.lines > div.line > div.syntax > .primary-keyword { color: ${keywordColour}; }
   
-  .nominal.syntax > div > .secondary-keyword { color: ${keywordColour}; }
+  div.nominal.lines > div.line > div.syntax > .secondary-keyword { color: ${keywordColour}; }
   
-  .nominal.syntax > div > .string-literal { color: ${stringLiteralColour}; }
+  div.nominal.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 
-  .nominal.syntax > div > .label-name { color: ${labelNameColour}; }
+  div.nominal.lines > div.line > div.syntax > .label-name { color: ${labelNameColour}; }
   
-  .nominal.syntax > div > .label-name:hover { color: ${labelNameHoverColour}; }
+  div.nominal.lines > div.line > div.syntax > .label-name:hover { color: ${labelNameHoverColour}; }
 
-  .nominal.syntax > div > .label-name:disabled { color: ${disabledLabelNameColour}; }
+  div.nominal.lines > div.line > div.syntax > .label-name:disabled { color: ${disabledLabelNameColour}; }
   
-  .nominal.syntax > div > .reference-name { color: ${referenceNameColour}; }
+  div.nominal.lines > div.line > div.syntax > .reference-name { color: ${referenceNameColour}; }
   
-  .nominal.syntax > div > .reference-name:hover { color: ${referenceNameHoverColour}; }
+  div.nominal.lines > div.line > div.syntax > .reference-name:hover { color: ${referenceNameHoverColour}; }
 
-  .nominal.syntax > div > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
+  div.nominal.lines > div.line > div.syntax > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
   
-  .nominal.syntax > div > .error {
+  div.nominal.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};

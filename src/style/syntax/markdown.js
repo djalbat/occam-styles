@@ -15,31 +15,31 @@ import { colour,
 
 const markdownSyntaxStyle = `
 
-  .markdown.syntax > div > * { color: ${colour}; }
+  div.markdown.lines > div.line > div.syntax > * { color: ${colour}; }
 
-  .markdown.syntax > div > .path { color: ${pathColour}; }
+  div.markdown.lines > div.line > div.syntax > .path { color: ${pathColour}; }
 
-  .markdown.syntax > div > .path:hover { color: ${pathHoverColour}; }
+  div.markdown.lines > div.line > div.syntax > .path:hover { color: ${pathHoverColour}; }
 
-  .markdown.syntax > div > .link { color: ${linkColour}; }
+  div.markdown.lines > div.line > div.syntax > .link { color: ${linkColour}; }
 
-  .markdown.syntax > div > .table { color: ${tableColour}; }
+  div.markdown.lines > div.line > div.syntax > .table { color: ${tableColour}; }
 
-  .markdown.syntax > div > .marker { color: ${markerColour}; }
+  div.markdown.lines > div.line > div.syntax > .marker { color: ${markerColour}; }
 
-  .markdown.syntax > div > .bullet { color: ${bulletColour}; }
+  div.markdown.lines > div.line > div.syntax > .bullet { color: ${bulletColour}; }
 
-  .markdown.syntax > div > .listing { color: ${listingColour}; }
+  div.markdown.lines > div.line > div.syntax > .listing { color: ${listingColour}; }
 
-  .markdown.syntax > div > .heading { color: ${headingColour}; }
+  div.markdown.lines > div.line > div.syntax > .heading { color: ${headingColour}; }
 
-  .markdown.syntax > div > .nonsense { color: ${nonsenseColour}; } 
+  div.markdown.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
-  .markdown.syntax > div > .reference { color: ${referenceColour}; }
+  div.markdown.lines > div.line > div.syntax > .reference { color: ${referenceColour}; }
 
-  .markdown.syntax > div > .directive { color: ${directiveColour}; }
+  div.markdown.lines > div.line > div.syntax > .directive { color: ${directiveColour}; }
 
-  .markdown.syntax > div > .error {
+  div.markdown.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};

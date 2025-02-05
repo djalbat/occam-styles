@@ -5,13 +5,13 @@ import { errorColour, stringLiteralColour, errorTextDecorationColour } from "../
 
 const customGrammarBNFSyntaxStyle = `
 
-  .custom-grammar-bnf.syntax > div > .name { color: ${nameColour}; }
+  div.custom-grammar-bnf.lines > div.line > div.syntax > .name { color: ${nameColour}; }
 
-  .custom-grammar-bnf.syntax > div > .type { color: ${typeColour}; }
+  div.custom-grammar-bnf.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
-  .custom-grammar-bnf.syntax > div > .string-literal { color: ${stringLiteralColour}; }
+  div.custom-grammar-bnf.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
   
-  .custom-grammar-bnf.syntax > div > .error {
+  div.custom-grammar-bnf.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};
