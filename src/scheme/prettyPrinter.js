@@ -1,6 +1,6 @@
 "use strict";
 
-import { korma, pablo, bonjour, logCabin, stormDust, woodsmoke, hurricane, blackOlive, springWood } from "../colours";
+import { dune, korma, pablo, bonjour, logCabin, stormDust, woodsmoke, hurricane, blackOlive, springWood } from "../colours";
 
 export const foldFill = woodsmoke;
 
@@ -22,6 +22,8 @@ export const selectionBackgroundColour = korma;
 
 export const scrollbarThumbBackgroundColour = stormDust;
 
+export const scrollbarTrackBackgroundColour = stormDust;
+
 export const remoteSelectionsBackgroundColour = logCabin;
 
 export default {
@@ -35,5 +37,6 @@ export default {
   gutterBackgroundColour,
   selectionBackgroundColour,
   scrollbarThumbBackgroundColour,
+  scrollbarTrackBackgroundColour,
   remoteSelectionsBackgroundColour
 };
