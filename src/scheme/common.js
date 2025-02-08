@@ -1,6 +1,6 @@
 "use strict";
 
-import { dawn, bianca, walnut, tuatara, bonjour, woodland, stardust, woodsmoke, stormDust, springWood, naturalGray } from "../colours";
+import { dawn, bianca, walnut, tuatara, bonjour, woodland, stardust, woodsmoke, stormDust, springWood, naturalGray, gainsborough } from "../colours";
 
 export const commonFill = tuatara;
 
@@ -27,6 +27,10 @@ export const commonDisabledInputColour = stormDust;
 export const commonDisabledButtonColour = stormDust;
 
 export const commonScrollbarThumbBackgroundColour = naturalGray;
+
+export const commonScrollbarTrackBackgroundColour = gainsborough;
+
+export const commonScrollbarCornerBackgroundColour = gainsborough;
 
 export const clearConsoleFill = walnut;
 
@@ -56,6 +60,8 @@ export default {
   commonDisabledInputColour,
   commonDisabledButtonColour,
   commonScrollbarThumbBackgroundColour,
+  commonScrollbarTrackBackgroundColour,
+  commonScrollbarCornerBackgroundColour,
   clearConsoleFill,
   showReleasesCrossFill,
   hideReleasesCrossFill,
