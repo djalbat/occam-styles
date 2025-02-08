@@ -20,9 +20,9 @@ export const gutterBackgroundColour = blackOlive;
 
 export const selectionBackgroundColour = korma;
 
-export const scrollbarThumbBackgroundColour = stormDust;
+export const scrollbarTrackBackgroundColour = dune;
 
-export const scrollbarTrackBackgroundColour = stormDust;
+export const scrollbarThumbBackgroundColour = stormDust;
 
 export const remoteSelectionsBackgroundColour = logCabin;
 
@@ -36,7 +36,7 @@ export default {
   foldButtonHoverStroke,
   gutterBackgroundColour,
   selectionBackgroundColour,
-  scrollbarThumbBackgroundColour,
   scrollbarTrackBackgroundColour,
+  scrollbarThumbBackgroundColour,
   remoteSelectionsBackgroundColour
 };
