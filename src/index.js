@@ -23,6 +23,7 @@ export { default as MarkerSVG } from "./svg/marker";
 export { default as FileNameSVG } from "./svg/name/file";
 export { default as UpToggleSVG } from "./svg/toggle/up";
 export { default as FoldLineSVG } from "./svg/fold/line";
+export { default as SimpleLogoSVG } from "./svg/simpleLogo";
 export { default as ZoomInMenuSVG } from "./svg/menu/zoomIn";
 export { default as DownToggleSVG } from "./svg/toggle/down";
 export { default as ClosedFoldSVG } from "./svg/fold/closed";
