@@ -3,6 +3,7 @@
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
          queryColour,
+         symbolColour,
          returnColour,
          bracketColour,
          specialColour,
@@ -22,6 +23,8 @@ const furtleSyntaxStyle = `
   div.furtle.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
   div.furtle.lines > div.line > div.syntax > .query { color: ${queryColour}; }
+
+  div.furtle.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
 
   div.furtle.lines > div.line > div.syntax > .return { color: ${returnColour}; }
   
