@@ -4,6 +4,7 @@ import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorT
 import { nameColour,
          typeColour,
          stuffColour,
+         symbolColour,
          specialColour,
          bracketColour,
          keywordColour,
@@ -24,24 +25,26 @@ const nominalSyntaxStyle = `
 
   div.nominal.lines > div.line > div.syntax > .stuff { color: ${stuffColour}; }
 
+  div.nominal.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
+
   div.nominal.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
   div.nominal.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
   
   div.nominal.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
-
   div.nominal.lines > div.line > div.syntax > .context { color: ${contextColour}; }
 
+  div.nominal.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
+
   div.nominal.lines > div.line > div.syntax > .meta-type { color: ${metaTypeColour}; }
+
+  div.nominal.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 
   div.nominal.lines > div.line > div.syntax > .primary-keyword { color: ${keywordColour}; }
   
   div.nominal.lines > div.line > div.syntax > .secondary-keyword { color: ${keywordColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
-
   div.nominal.lines > div.line > div.syntax > .label-name { color: ${labelNameColour}; }
   
   div.nominal.lines > div.line > div.syntax > .label-name:hover { color: ${labelNameHoverColour}; }
