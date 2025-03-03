@@ -1,6 +1,8 @@
 "use strict";
 
-import { sushi, pablo, celery, sycamore, cadetBlue, razzmatazz } from "../../colours";
+import { sushi, pablo, celery, sycamore, cadetBlue, razzmatazz, springWood } from "../../colours";
+
+export const nameColour = springWood;
 
 export const typeColour = cadetBlue;
 

@@ -1,7 +1,8 @@
 "use strict";
 
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { typeColour,
+import { nameColour,
+         typeColour,
          stuffColour,
          specialColour,
          bracketColour,
@@ -16,6 +17,8 @@ import { typeColour,
          disabledReferenceNameColour } from "../../scheme/syntax/nominal";
 
 const nominalSyntaxStyle = `
+
+  div.nominal.lines > div.line > div.syntax > .name { color: ${nameColour}; }
 
   div.nominal.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
