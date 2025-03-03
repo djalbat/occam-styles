@@ -22,7 +22,7 @@ export const lapis = "#0030e6";
 export const hurricane = "#908989";
 export const pablo = "#776f61";
 export const armadillo = "#49443C";
-export const sorrell = "#c7ba88";
+export const sorrell = "#b0a67d";
 
 export const woodland = "#3B552b";
 export const logCabin = "#2b3823";
