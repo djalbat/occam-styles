@@ -11,5 +11,8 @@ export const scrollbarTrackBackgroundColour = ebb;
 export const scrollbarCornerBackgroundColour = ebb;
 
 export default {
-  backgroundColour
+  backgroundColour,
+  scrollbarThumbBackgroundColour,
+  scrollbarTrackBackgroundColour,
+  scrollbarCornerBackgroundColour
 };
