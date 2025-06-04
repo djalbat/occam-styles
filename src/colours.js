@@ -3,9 +3,11 @@
 export const snowWhite = "#ffffff";
 export const springWood = "#f8f6f8";
 export const bianca = "#f8f7eb";
-export const bonjour = "#E5E2E0";
-export const gainsborough = "#D8D6D2";
-export const dawn = "#B8B3A8";
+export const ebb = "#f2eef0";
+export const nobel = "#b8b3b2";
+export const bonjour = "#e5e2e0";
+export const gainsborough = "#d8d6D2";
+export const dawn = "#b8b3a8";
 export const stardust = "#9f9f9c";
 export const naturalGray = "#8c8c88";
 export const stormDust = "#646463";
@@ -36,7 +38,7 @@ export const razzmatazz = "#e3256b";
 
 export const korma = "#99420f";
 export const walnut = "#59331c";
-export const terracotta = "#b52c2D";
+export const terracotta = "#b52c2d";
 
 export const hokeyPokey = "#c6b624";
 export const celery = "#c8c46d";
