@@ -8,13 +8,13 @@ import { ZoomInMenuSVG,
          ZoomOutMenuSVG,
          ReverseMenuSVG,
          EmbeddedModeMenuSVG,
-         ShowScrollbarsMenuSVG,
-         HideScrollbarsMenuSVG,
          PresentationModeMenuSVG,
          TogglePreviewPaneOnlyMenuSVG,
          TogglePreviewPaneSplitMenuSVG,
          TogglePrettyPrinterOnlyMenuSVG,
-         TogglePrettyPrinterSplitMenuSVG } from "../../../index"; ///
+         TogglePrettyPrinterSplitMenuSVG,
+         ShowPreviewPaneScrollbarsMenuSVG,
+         HidePreviewPaneScrollbarsMenuSVG } from "../../../index"; ///
 
 export default class MenuDiv extends Element {
   childElements() {
@@ -24,12 +24,12 @@ export default class MenuDiv extends Element {
             ReverseMenuSVG,
             EmbeddedModeMenuSVG,
             PresentationModeMenuSVG,
-            ShowScrollbarsMenuSVG,
-            HideScrollbarsMenuSVG,
             TogglePreviewPaneOnlyMenuSVG,
             TogglePreviewPaneSplitMenuSVG,
             TogglePrettyPrinterOnlyMenuSVG,
-            TogglePrettyPrinterSplitMenuSVG
+            TogglePrettyPrinterSplitMenuSVG,
+            ShowPreviewPaneScrollbarsMenuSVG,
+            HidePreviewPaneScrollbarsMenuSVG
           ],
           childElements = ToolbarSVGs.map((ToolbarSVG) =>
 
