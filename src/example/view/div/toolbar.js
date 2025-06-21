@@ -7,15 +7,15 @@ import { Element } from "easy";
 import Div from "../div";
 
 import { JoinSessionToolbarSVG,
-         SynchroniseToolbarSVG,
          ShowReleasesToolbarSVG,
          HideReleasesToolbarSVG,
          LeaveSessionToolbarSVG,
          ClearConsoleToolbarSVG,
          CreateSessionToolbarSVG,
-         CopySessionKeyToolbarSVG,
          OpenRubbishBinToolbarSVG,
+         CopySessionKeyToolbarSVG,
          ClosedRubbishBinToolbarSVG,
+         SynchroniseDocumentToolbarSVG,
          FindInActiveDocumentToolbarSVG,
          ExportCustomGrammarsToolbarSVG,
          CreateProjectsFilePathToolbarSVG,
@@ -29,7 +29,7 @@ class ToolbarDiv extends Element {
     const ToolbarSVGs = [
             OpenRubbishBinToolbarSVG,
             ClosedRubbishBinToolbarSVG,
-            SynchroniseToolbarSVG,
+            SynchroniseDocumentToolbarSVG,
             RenameSelectedProjectsPathToolbarSVG,
             ShowReleasesToolbarSVG,
             HideReleasesToolbarSVG,

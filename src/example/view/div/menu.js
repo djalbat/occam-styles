@@ -4,25 +4,28 @@ import { Element } from "easy";
 
 import Div from "../div";
 
-import { FlipMenuSVG,
+import { ZoomInMenuSVG,
+         ZoomOutMenuSVG,
+         ReverseMenuSVG,
          EmbeddedModeMenuSVG,
-         IncreaseFontSizeMenuSVG,
-         DecreaseFontSizeMenuSVG,
+         ShowScrollbarsMenuSVG,
+         HideScrollbarsMenuSVG,
          PresentationModeMenuSVG,
          TogglePreviewPaneOnlyMenuSVG,
          TogglePreviewPaneSplitMenuSVG,
          TogglePrettyPrinterOnlyMenuSVG,
          TogglePrettyPrinterSplitMenuSVG } from "../../../index"; ///
 
-
 export default class MenuDiv extends Element {
   childElements() {
     const ToolbarSVGs = [
-            FlipMenuSVG,
+            ZoomInMenuSVG,
+            ZoomOutMenuSVG,
+            ReverseMenuSVG,
             EmbeddedModeMenuSVG,
             PresentationModeMenuSVG,
-            IncreaseFontSizeMenuSVG,
-            DecreaseFontSizeMenuSVG,
+            ShowScrollbarsMenuSVG,
+            HideScrollbarsMenuSVG,
             TogglePreviewPaneOnlyMenuSVG,
             TogglePreviewPaneSplitMenuSVG,
             TogglePrettyPrinterOnlyMenuSVG,
