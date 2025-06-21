@@ -37,13 +37,13 @@ export { default as ZoomInMenuSVG } from "./svg/menu/zoomIn";
 export { default as ZoomOutMenuSVG } from "./svg/menu/zoomOut";
 export { default as ReverseMenuSVG } from "./svg/menu/reverse";
 export { default as EmbeddedModeMenuSVG } from "./svg/menu/embeddedMode";
+export { default as ShowScrollbarsMenuSVG } from "./svg/menu/showScrollbars";
+export { default as HideScrollbarsMenuSVG } from "./svg/menu/hideScrollbars";
 export { default as PresentationModeMenuSVG } from "./svg/menu/presentationMode";
 export { default as TogglePreviewPaneOnlyMenuSVG } from "./svg/menu/togglePreviewPaneOnly";
 export { default as TogglePreviewPaneSplitMenuSVG } from "./svg/menu/togglePreviewPaneSplit";
 export { default as TogglePrettyPrinterOnlyMenuSVG } from "./svg/menu/togglePrettyPrinterOnly";
 export { default as TogglePrettyPrinterSplitMenuSVG } from "./svg/menu/togglePrettyPrinterSplit";
-export { default as ShowPreviewPaneScrollbarsMenuSVG } from "./svg/menu/showPreviewPaneScrollbars";
-export { default as HidePreviewPaneScrollbarsMenuSVG } from "./svg/menu/hidePreviewPaneScrollbars";
 
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
 export { default as ShowReleasesToolbarSVG } from "./svg/toolbar/showReleases";
