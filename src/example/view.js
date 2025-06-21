@@ -13,10 +13,10 @@ class View extends Element {
   childElements() {
     return ([
 
-      // <LogoSVG/>,
+      <LogoSVG/>,
       <MenuDiv/>,
-      // <ToolbarDiv/>,
-      // <MonospaceParagraph/>
+      <ToolbarDiv/>,
+      <MonospaceParagraph/>
 
     ]);
   }
