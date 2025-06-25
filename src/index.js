@@ -36,6 +36,7 @@ export { default as ReleaseDirectoryNameSVG } from "./svg/name/directory/release
 export { default as ZoomInMenuSVG } from "./svg/menu/zoomIn";
 export { default as ZoomOutMenuSVG } from "./svg/menu/zoomOut";
 export { default as ReverseMenuSVG } from "./svg/menu/reverse";
+export { default as ResetZoomMenuSVG } from "./svg/menu/resetZoom";
 export { default as EmbeddedModeMenuSVG } from "./svg/menu/embeddedMode";
 export { default as ShowScrollbarsMenuSVG } from "./svg/menu/showScrollbars";
 export { default as HideScrollbarsMenuSVG } from "./svg/menu/hideScrollbars";
