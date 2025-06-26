@@ -7,6 +7,7 @@ import Div from "../div";
 import { ZoomInMenuSVG,
          ZoomOutMenuSVG,
          ReverseMenuSVG,
+         ResetZoomMenuSVG,
          EmbeddedModeMenuSVG,
          ShowScrollbarsMenuSVG,
          HideScrollbarsMenuSVG,
@@ -20,6 +21,7 @@ export default class MenuDiv extends Element {
   childElements() {
     const ToolbarSVGs = [
             ZoomInMenuSVG,
+            ResetZoomMenuSVG,
             ZoomOutMenuSVG,
             ReverseMenuSVG,
             EmbeddedModeMenuSVG,
