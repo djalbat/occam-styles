@@ -2,9 +2,9 @@
 
 import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
-const customGrammarPatternSyntaxStyle = `
+const customGrammarVocabularySyntaxStyle = `
 
-  div.custom-grammar-pattern.lines > div.line > div.syntax > .error {
+  div.custom-grammar-vocabulary.lines > div.line > div.syntax > .error {
     color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};
@@ -12,4 +12,4 @@ const customGrammarPatternSyntaxStyle = `
 
 `;
 
-export default customGrammarPatternSyntaxStyle;
+export default customGrammarVocabularySyntaxStyle;
