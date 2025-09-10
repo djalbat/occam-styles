@@ -45,6 +45,7 @@ unzip JuliaMono.zip
 ```
 
 All the files bar the `JuliaMono-Regular.ttf` file can be deleted, as can the `webfonts` directory.
+A copy of this file is kept in the `ttf/` directory, by the way, but it may not be the latest.
 
 Ligatures and their like can be removed with the using `pyftsubset`:
 
