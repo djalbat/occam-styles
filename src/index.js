@@ -4,6 +4,7 @@ export { default as styles } from "./styles";
 export { default as colours } from "./colours";
 export { default as constants } from "./constants";
 
+export { default as stixStyle } from "./style/stix";
 export { default as juliaMonoStyle } from "./style/juliaMono";
 export { default as prettyPrinterStyle } from "./style/prettyPrinter";
 
