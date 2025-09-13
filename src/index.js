@@ -63,3 +63,14 @@ export { default as FindInProjectsAndReleasesToolbarSVG } from "./svg/toolbar/fi
 export { default as ReloadProjectsAndReleasesToolbarSVG } from "./svg/toolbar/reloadProjectsAndReleases";
 export { default as RenameSelectedProjectsPathToolbarSVG } from "./svg/toolbar/renameSelectedProjectsPath";
 export { default as CreateProjectsDirectoryPathToolbarSVG } from "./svg/toolbar/createProjectsDirectoryPath";
+
+export { default as FrakturAlphaNumericSVG } from "./svg/alphaNumeric/fraktur";
+export { default as MonospaceAlphaNumericSVG } from "./svg/alphaNumeric/monospace";
+export { default as DoubleStruckAlphaNumericSVG } from "./svg/alphaNumeric/doubleStruck";
+export { default as SerifBoldAlphaNumericSVG } from "./svg/alphaNumeric/serifBold";
+export { default as SerifItalicAlphaNumericSVG } from "./svg/alphaNumeric/serifItalic";
+export { default as SerifBoldItalicAlphaNumericSVG } from "./svg/alphaNumeric/serifBoldItalic";
+export { default as SansSerifAlphaNumericSVG } from "./svg/alphaNumeric/sansSerif";
+export { default as SansSerifBoldAlphaNumericSVG } from "./svg/alphaNumeric/sansSerifBold";
+export { default as SansSerifItalicAlphaNumericSVG } from "./svg/alphaNumeric/sansSerifItalic";
+export { default as SansSerifBoldItalicAlphaNumericSVG } from "./svg/alphaNumeric/sansSerifBoldItalic";

@@ -1,0 +1,20 @@
+"use strict";
+
+import AlphaNumericSVG from "../../svg/alphaNumeric";
+
+export default class FrakturAlphaNumericSVG extends AlphaNumericSVG {
+  childElements() {
+    return (
+
+      <g>
+        <path d="M659-63L647-84L585-58C575-69 559-85 559-121L559-463C559-558 562-616 655-645L648-671L447-588C454-541 454-485 454-414L454-132L321-63C289-94 256-130 208-157C326-228 408-318 408-452C408-596 314-670 208-670C114-670 41-612 41-526C41-425 141-410 141-336C141-288 100-259 75-249L83-227C145-243 230-299 230-379C230-465 130-501 130-577C130-620 163-641 199-641C281-641 296-534 296-451C296-262 219-177 80-115L80-100C128-84 207-29 244 22L454-100C457-36 478-1 521 23Z" />
+      </g>
+
+    );
+  }
+
+  static defaultProperties = {
+    viewBox: "41 -671 618 694",
+    className: "fraktur"
+  };
+}
