@@ -66,6 +66,7 @@ export { default as RenameSelectedProjectsPathToolbarSVG } from "./svg/toolbar/r
 export { default as CreateProjectsDirectoryPathToolbarSVG } from "./svg/toolbar/createProjectsDirectoryPath";
 
 export { default as CancelAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/cancel";
+export { default as ScriptAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/script";
 export { default as FrakturAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/fraktur";
 export { default as SerifBoldAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/serifBold";
 export { default as MonospaceAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/monospace";
