@@ -1,8 +1,8 @@
 "use strict";
 
-import AlphaNumericSVG from "../../svg/alphaNumeric";
+import AlphaNumericToolbarSVG from "../../../svg/toolbar/alphaNumeric";
 
-export default class DoubleStruckAlphaNumericSVG extends AlphaNumericSVG {
+export default class DoubleStruckAlphaNumericToolbarSVG extends AlphaNumericToolbarSVG {
   childElements() {
     return (
 
@@ -18,3 +18,4 @@ export default class DoubleStruckAlphaNumericSVG extends AlphaNumericSVG {
     className: "double-struck"
   };
 }
+

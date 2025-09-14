@@ -6,7 +6,6 @@ import SVG from "../svg";
 
 class ToolbarSVG extends SVG {
   static defaultProperties = {
-    viewBox: "0 0 25 25",
     className: "toolbar"
   };
 }

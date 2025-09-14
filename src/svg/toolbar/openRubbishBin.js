@@ -27,6 +27,7 @@ export default class OpenRubbishBinToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "open-rubbish-bin"
   };
 }

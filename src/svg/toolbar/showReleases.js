@@ -32,6 +32,7 @@ export default class ShowReleasesToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "show-releases"
   };
 }

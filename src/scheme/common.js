@@ -38,6 +38,8 @@ export const showReleasesCrossFill = woodland;
 
 export const hideReleasesCrossFill = walnut;
 
+export const cancelCharacterMapFill = walnut;
+
 export const tooltipBackgroundColour = bianca;
 
 export const glyphUnicodeCharacterColour = stardust;
@@ -65,6 +67,7 @@ export default {
   clearConsoleFill,
   showReleasesCrossFill,
   hideReleasesCrossFill,
+  cancelCharacterMapFill,
   tooltipBackgroundColour,
   glyphUnicodeCharacterColour,
   selectedGlyphUnicodeCharacterColour,

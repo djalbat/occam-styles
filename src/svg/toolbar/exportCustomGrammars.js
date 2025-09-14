@@ -20,6 +20,7 @@ export default class ExportCustomGrammarsToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "export-custom-grammars"
   };
 }

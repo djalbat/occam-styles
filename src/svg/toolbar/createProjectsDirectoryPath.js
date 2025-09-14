@@ -21,6 +21,7 @@ export default class CreateProjectsDirectoryPathToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "create-projects-directory-path"
   };
 }

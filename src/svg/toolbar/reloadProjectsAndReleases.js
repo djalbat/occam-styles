@@ -15,6 +15,7 @@ export default class ReloadProjectsAndReleasesToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "reload-projects-and-releases"
   };
 }

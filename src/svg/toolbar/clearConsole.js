@@ -16,6 +16,7 @@ export default class ClearConsoleToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "clear-console"
   };
 }

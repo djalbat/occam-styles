@@ -27,6 +27,7 @@ export default class CreateSessionToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "create-session"
   };
 }

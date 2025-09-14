@@ -21,6 +21,7 @@ export default class CopySessionKeyToolbarSVG extends ToolbarSVG {
   }
 
   static defaultProperties = {
+    viewBox: "0 0 25 25",
     className: "copy-session-key"
   };
 }
