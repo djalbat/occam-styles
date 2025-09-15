@@ -1,8 +1,8 @@
 "use strict";
 
-import AlphaNumericToolbarSVG from "../../../svg/toolbar/alphaNumeric";
+import CharacterMapToolbarSVG from "../characterMap";
 
-export default class SansSerifBoldItalicAlphaNumericToolbarSVG extends AlphaNumericToolbarSVG {
+export default class SansSerifBoldItalicCharacterMapToolbarSVG extends CharacterMapToolbarSVG {
   childElements() {
     return (
 

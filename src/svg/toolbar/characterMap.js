@@ -2,8 +2,8 @@
 
 import ToolbarSVG from "../../svg/toolbar";
 
-export default class AlphaNumericToolbarSVG extends ToolbarSVG {
+export default class CharacterMapToolbarSVG extends ToolbarSVG {
   static defaultProperties = {
-    className: "alpha-numeric"
+    className: "character-map"
   };
 }

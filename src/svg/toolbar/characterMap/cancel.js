@@ -1,10 +1,10 @@
 "use strict";
 
-import AlphaNumericToolbarSVG from "../../../svg/toolbar/alphaNumeric";
+import CharacterMapToolbarSVG from "../characterMap";
 
 import { cancelCharacterMapFill } from "../../../scheme/common";
 
-export default class CancelAlphaNumericToolbarSVG extends AlphaNumericToolbarSVG {
+export default class CancelCharacterMapToolbarSVG extends CharacterMapToolbarSVG {
   childElements() {
     return (
 

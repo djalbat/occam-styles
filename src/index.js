@@ -65,15 +65,15 @@ export { default as ReloadProjectsAndReleasesToolbarSVG } from "./svg/toolbar/re
 export { default as RenameSelectedProjectsPathToolbarSVG } from "./svg/toolbar/renameSelectedProjectsPath";
 export { default as CreateProjectsDirectoryPathToolbarSVG } from "./svg/toolbar/createProjectsDirectoryPath";
 
-export { default as CancelAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/cancel";
-export { default as ScriptAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/script";
-export { default as FrakturAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/fraktur";
-export { default as SerifBoldAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/serifBold";
-export { default as MonospaceAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/monospace";
-export { default as SansSerifAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/sansSerif";
-export { default as SerifItalicAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/serifItalic";
-export { default as DoubleStruckAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/doubleStruck";
-export { default as SansSerifBoldAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/sansSerifBold";
-export { default as SansSerifItalicAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/sansSerifItalic";
-export { default as SerifBoldItalicAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/serifBoldItalic";
-export { default as SansSerifBoldItalicAlphaNumericToolbarSVG } from "./svg/toolbar/alphaNumeric/sansSerifBoldItalic";
+export { default as CancelCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/cancel";
+export { default as ScriptCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/script";
+export { default as FrakturCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/fraktur";
+export { default as SerifBoldCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/serifBold";
+export { default as MonospaceCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/monospace";
+export { default as SansSerifCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/sansSerif";
+export { default as SerifItalicCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/serifItalic";
+export { default as DoubleStruckCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/doubleStruck";
+export { default as SansSerifBoldCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/sansSerifBold";
+export { default as SansSerifItalicCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/sansSerifItalic";
+export { default as SerifBoldItalicCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/serifBoldItalic";
+export { default as SansSerifBoldItalicCharacterMapToolbarSVG } from "./svg/toolbar/characterMap/sansSerifBoldItalic";
