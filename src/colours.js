@@ -31,7 +31,7 @@ export const logCabin = "#2b3823";
 export const blackOlive = "#1c2412";
 export const hunterGreen = "#161d10";
 
-export const cadetBlue = "#7a9e9e";
+export const cadetBlue = "#688e8e";
 export const spanishGreen = "#84b07b";
 
 export const razzmatazz = "#e3256b";
