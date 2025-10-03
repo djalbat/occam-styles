@@ -12,13 +12,13 @@ export const symbolColour = sorrell;
 
 export const specialColour = sushi;
 
-export const bracketColour = sushi;
-
 export const keywordColour = razzmatazz;
 
 export const contextColour = cadetBlue;
 
 export const metaTypeColour = cadetBlue;
+
+export const delimiterColour = sushi;
 
 export const labelNameColour = sycamore;
 

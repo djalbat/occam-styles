@@ -6,10 +6,10 @@ import { nameColour,
          stuffColour,
          symbolColour,
          specialColour,
-         bracketColour,
          keywordColour,
          contextColour,
          metaTypeColour,
+         delimiterColour,
          labelNameColour,
          referenceNameColour,
          labelNameHoverColour,
@@ -29,8 +29,6 @@ const nominalSyntaxStyle = `
 
   div.nominal.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
-  
   div.nominal.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
   
   div.nominal.lines > div.line > div.syntax > .context { color: ${contextColour}; }
@@ -38,6 +36,8 @@ const nominalSyntaxStyle = `
   div.nominal.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
   div.nominal.lines > div.line > div.syntax > .meta-type { color: ${metaTypeColour}; }
+  
+  div.nominal.lines > div.line > div.syntax > .delimiter { color: ${delimiterColour}; }
 
   div.nominal.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 
