@@ -9,7 +9,7 @@ import { nameColour,
          keywordColour,
          contextColour,
          metaTypeColour,
-         delimiterColour,
+         primitiveColour,
          labelNameColour,
          referenceNameColour,
          labelNameHoverColour,
@@ -37,7 +37,7 @@ const nominalSyntaxStyle = `
 
   div.nominal.lines > div.line > div.syntax > .meta-type { color: ${metaTypeColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .delimiter { color: ${delimiterColour}; }
+  div.nominal.lines > div.line > div.syntax > .primitive { color: ${primitiveColour}; }
 
   div.nominal.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 

@@ -18,7 +18,7 @@ export const contextColour = cadetBlue;
 
 export const metaTypeColour = cadetBlue;
 
-export const delimiterColour = sushi;
+export const primitiveColour = sushi;
 
 export const labelNameColour = sycamore;
 
