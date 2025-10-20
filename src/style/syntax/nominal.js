@@ -15,7 +15,8 @@ import { nameColour,
          labelNameHoverColour,
          disabledLabelNameColour,
          referenceNameHoverColour,
-         disabledReferenceNameColour } from "../../scheme/syntax/nominal";
+         disabledReferenceNameColour,
+         simpleReferenceNameHoverColour } from "../../scheme/syntax/nominal";
 
 const nominalSyntaxStyle = `
 
@@ -56,6 +57,8 @@ const nominalSyntaxStyle = `
   div.nominal.lines > div.line > div.syntax > .reference-name:hover { color: ${referenceNameHoverColour}; }
 
   div.nominal.lines > div.line > div.syntax > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
+  
+  div.nominal.lines > div.line > div.syntax > .simple-reference-name:hover { color: ${simpleReferenceNameHoverColour}; }
   
   div.nominal.lines > div.line > div.syntax > .error {
     color: ${errorColour};

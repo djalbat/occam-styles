@@ -28,6 +28,8 @@ export const labelNameHoverColour = celery;
 
 export const referenceNameHoverColour = celery;
 
+export const simpleReferenceNameHoverColour = celery;
+
 export const disabledLabelNameColour = pablo;
 
 export const disabledReferenceNameColour = pablo;
