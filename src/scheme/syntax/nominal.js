@@ -26,10 +26,14 @@ export const referenceNameColour = sycamore;
 
 export const labelNameHoverColour = celery;
 
-export const referenceNameHoverColour = celery;
-
-export const simpleReferenceNameHoverColour = celery;
-
 export const disabledLabelNameColour = pablo;
 
+export const referenceNameHoverColour = celery;
+
 export const disabledReferenceNameColour = pablo;
+
+export const procedureReferenceNameColour = sycamore;
+
+export const procedureReferenceNameHoverColour = celery;
+
+export const disabledProcedureReferenceNameColour = pablo;

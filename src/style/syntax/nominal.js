@@ -16,7 +16,9 @@ import { nameColour,
          disabledLabelNameColour,
          referenceNameHoverColour,
          disabledReferenceNameColour,
-         simpleReferenceNameHoverColour } from "../../scheme/syntax/nominal";
+         procedureReferenceNameColour,
+         procedureReferenceNameHoverColour,
+         disabledProcedureReferenceNameColour } from "../../scheme/syntax/nominal";
 
 const nominalSyntaxStyle = `
 
@@ -58,7 +60,11 @@ const nominalSyntaxStyle = `
 
   div.nominal.lines > div.line > div.syntax > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .simple-reference-name:hover { color: ${simpleReferenceNameHoverColour}; }
+  div.nominal.lines > div.line > div.syntax > .procedure-reference-name { color: ${procedureReferenceNameColour}; }
+  
+  div.nominal.lines > div.line > div.syntax > .procedure-reference-name:hover { color: ${procedureReferenceNameHoverColour}; }
+
+  div.nominal.lines > div.line > div.syntax > .procedure-reference-name:disabled { color: ${disabledProcedureReferenceNameColour}; }
   
   div.nominal.lines > div.line > div.syntax > .error {
     color: ${errorColour};
