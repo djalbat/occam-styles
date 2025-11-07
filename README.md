@@ -34,12 +34,9 @@ You can also clone the repository with [Git](https://git-scm.com/)...
 
 You can also run a development server, see the section on building later on.
 
-### JuliaMono and Inconsolata
+### JuliaMono
 
 The `JuliaMono.zip` file can be downloaded from the releases page of the JulaMono repository on [GitHub](https://github.com/cormullion/juliamono/releases).
-The Inconsolata font can be downloaded from [Google Fonts](https://fonts.google.com/specimen/Inconsolata).
-The instructions that follow are for JuliaMono but exactly the same process works for Inconsolata.
-
 Once downloaded, unzip the file:
 
 ```
