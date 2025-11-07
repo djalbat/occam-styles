@@ -34,9 +34,11 @@ You can also clone the repository with [Git](https://git-scm.com/)...
 
 You can also run a development server, see the section on building later on.
 
-### JuliaMono
+### JuliaMono and Inconsolata
 
 The `JuliaMono.zip` file can be downloaded from the releases page of the JulaMono repository on [GitHub](https://github.com/cormullion/juliamono/releases).
+The Inconsolata font can be downloaded from [Google Fonts](https://fonts.google.com/specimen/Inconsolata).
+The instructions that follow are for JuliaMono but exactly the same process works for Inconsolata.
 
 Once downloaded, unzip the file:
 
@@ -113,8 +115,13 @@ Automation is done with [npm scripts](https://docs.npmjs.com/misc/scripts), have
 
 * Occam's pretty printer uses the [JuliaMono](https://juliamono.netlify.app/) font distributed under the [SIL Open Font License (OFL)](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl).
 
-* [Fredrik Ekre](https://fredrikekre.se/) provided the script to strip out ligatures and contextual alternate characters from JuliaMono.
+* [Fredrik Ekre](https://fredrikekre.se/) provided the script for removing ligatures and contextual alternate characters.
 
 ## Contact
 
 * james.smith@djalbat.com
+
+```
+pyftsubset Inconsolata-Regular.ttf '*' --output-file=Inconsolata-Regular.ttf  --layout-features-=calt,liga
+
+```

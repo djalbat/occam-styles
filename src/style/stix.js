@@ -37,6 +37,20 @@ const stixStyle = `
     font-style: italic;
   }      
       
+  @font-face {
+    src: url("font/Inconsolata-Regular.woff2");
+    font-family: "Inconsolata";
+    font-weight: normal;
+    font-style: normal;
+  }
+    
+  @font-face {
+    src: url("font/Inconsolata-Bold.woff2");
+    font-family: "Inconsolata";
+    font-weight: bold;
+    font-style: normal;
+  }
+    
 `;
 
 export default stixStyle;
