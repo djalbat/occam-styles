@@ -1,6 +1,6 @@
 "use strict";
 
-import { sushi, walnut, stardust, cadetBlue, razzmatazz, gainsborough } from "../../colours";
+import { sushi, walnut, pumice,  stardust, cadetBlue, razzmatazz, gainsborough } from "../../colours";
 
 export const colour = gainsborough;
 
@@ -11,6 +11,8 @@ export const valueColour = gainsborough;
 export const mediaColour = razzmatazz;
 
 export const specialColour = sushi;
+
+export const verbatimColour = pumice;
 
 export const ruleNameColour = cadetBlue;
 

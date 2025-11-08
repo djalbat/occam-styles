@@ -4,6 +4,7 @@ export const snowWhite = "#ffffff";
 export const springWood = "#f8f6f8";
 export const bianca = "#f8f7eb";
 export const ebb = "#f2eef0";
+export const pumice = "#d5d1d1";
 export const nobel = "#b8b3b2";
 export const bonjour = "#e5e2e0";
 export const gainsborough = "#d8d6D2";
