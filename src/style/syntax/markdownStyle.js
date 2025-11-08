@@ -6,11 +6,11 @@ import { colour,
          valueColour,
          mediaColour,
          specialColour,
+         contentColour,
          ruleNameColour,
-         verbatimColour,
          delimiterColour,
          mediaTypeColour,
-         verbatimBackgroundColour } from "../../scheme/syntax/markdownStyle";
+         contentBackgroundColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
 
@@ -24,9 +24,9 @@ const markdownStyleSyntaxStyle = `
 
   div.markdown-style.lines > div.line > div.syntax > .special { color: ${specialColour}; }
 
-  div.markdown-style.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
+  div.markdown-style.lines > div.line > div.syntax > .content { color: ${contentColour}; } 
 
-  div.markdown-style.lines > div.line > div.syntax > .verbatim { color: ${verbatimColour}; } 
+  div.markdown-style.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
   div.markdown-style.lines > div.line > div.syntax > .rule-name { color: ${ruleNameColour}; }
 
@@ -36,7 +36,7 @@ const markdownStyleSyntaxStyle = `
 
   div.markdown-style.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
 
-  div.markdown-style.lines > div.line > div.syntax > .verbatim { background-color: ${verbatimBackgroundColour}; } 
+  div.markdown-style.lines > div.line > div.syntax > .content { background-color: ${contentBackgroundColour}; } 
 
   div.markdown-style.lines > div.line > div.syntax > .error {
     color: ${errorColour};

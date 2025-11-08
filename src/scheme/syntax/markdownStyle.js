@@ -12,7 +12,7 @@ export const mediaColour = razzmatazz;
 
 export const specialColour = sushi;
 
-export const verbatimColour = pumice;
+export const contentColour = pumice;
 
 export const ruleNameColour = cadetBlue;
 
@@ -20,4 +20,4 @@ export const delimiterColour = sushi;
 
 export const mediaTypeColour = gainsborough;
 
-export const verbatimBackgroundColour = walnut;
+export const contentBackgroundColour = walnut;
