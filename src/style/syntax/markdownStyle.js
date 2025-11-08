@@ -1,7 +1,7 @@
 "use strict";
 
 import { errorColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
-import { colour, nameColour, valueColour, mediaColour, specialColour, ruleNameColour, delimiterColour, mediaTypeColour } from "../../scheme/syntax/markdownStyle";
+import { colour, nameColour, valueColour, mediaColour, specialColour, ruleNameColour, delimiterColour, mediaTypeColour, verbatimBackgroundColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
 
@@ -24,6 +24,8 @@ const markdownStyleSyntaxStyle = `
   div.markdown-style.lines > div.line > div.syntax > .media-type { color: ${mediaTypeColour}; }
 
   div.markdown-style.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
+
+  div.markdown-style.lines > div.line > div.syntax > .verbatim { background-color: ${verbatimBackgroundColour}; } 
 
   div.markdown-style.lines > div.line > div.syntax > .error {
     color: ${errorColour};
