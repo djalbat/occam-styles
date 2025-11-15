@@ -1,8 +1,8 @@
 "use strict";
 
-import { ebb, nobel, snowWhite } from "../colours";
+import { ebb, nobel, pumice } from "../colours";
 
-export const backgroundColour = snowWhite;
+export const backgroundColour = pumice;
 
 export const scrollbarThumbBackgroundColour = nobel;
 
