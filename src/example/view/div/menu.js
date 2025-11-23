@@ -8,26 +8,27 @@ import { ZoomInMenuSVG,
          ZoomOutMenuSVG,
          ReverseMenuSVG,
          ResetZoomMenuSVG,
+         DraftModeMenuSVG,
          EmbeddedModeMenuSVG,
-         ShowScrollbarsMenuSVG,
-         HideScrollbarsMenuSVG,
+         FullScreenModeMenuSVG,
          PresentationModeMenuSVG,
          TogglePreviewPaneOnlyMenuSVG,
          TogglePreviewPaneSplitMenuSVG,
          TogglePrettyPrinterOnlyMenuSVG,
          TogglePrettyPrinterSplitMenuSVG } from "../../../index"; ///
 
+
 export default class MenuDiv extends Element {
   childElements() {
     const ToolbarSVGs = [
             ZoomInMenuSVG,
-            ResetZoomMenuSVG,
             ZoomOutMenuSVG,
+            ResetZoomMenuSVG,
             ReverseMenuSVG,
             EmbeddedModeMenuSVG,
+            FullScreenModeMenuSVG,
+            DraftModeMenuSVG,
             PresentationModeMenuSVG,
-            ShowScrollbarsMenuSVG,
-            HideScrollbarsMenuSVG,
             TogglePreviewPaneOnlyMenuSVG,
             TogglePreviewPaneSplitMenuSVG,
             TogglePrettyPrinterOnlyMenuSVG,
