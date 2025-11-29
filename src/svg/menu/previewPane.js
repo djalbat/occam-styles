@@ -2,7 +2,7 @@
 
 import MenuSVG from "../../svg/menu";
 
-export default class PreviewPaneOnlyMenuSVG extends MenuSVG {
+export default class PreviewPaneMenuSVG extends MenuSVG {
   childElements() {
     return (
 
@@ -17,6 +17,6 @@ export default class PreviewPaneOnlyMenuSVG extends MenuSVG {
   }
 
   static defaultProperties = {
-    className: "preview-pane-only"
+    className: "preview-pane"
   };
 }

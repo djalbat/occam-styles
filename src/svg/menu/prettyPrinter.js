@@ -2,7 +2,7 @@
 
 import MenuSVG from "../../svg/menu";
 
-export default class PrettyPrinterOnlyMenuSVG extends MenuSVG {
+export default class PrettyPrinterMenuSVG extends MenuSVG {
   childElements() {
     return (
 
@@ -14,6 +14,6 @@ export default class PrettyPrinterOnlyMenuSVG extends MenuSVG {
   }
 
   static defaultProperties = {
-    className: "pretty-printer-only"
+    className: "pretty-printer"
   };
 }

@@ -37,11 +37,11 @@ export { default as ZoomInMenuSVG } from "./svg/menu/zoomIn";
 export { default as ZoomOutMenuSVG } from "./svg/menu/zoomOut";
 export { default as ResetZoomMenuSVG } from "./svg/menu/resetZoom";
 export { default as DraftModeMenuSVG } from "./svg/menu/draftMode";
+export { default as PreviewPaneMenuSVG } from "./svg/menu/previewPane";
 export { default as EmbeddedModeMenuSVG } from "./svg/menu/embeddedMode";
+export { default as PrettyPrinterMenuSVG } from "./svg/menu/prettyPrinter";
 export { default as FullScreenModeMenuSVG } from "./svg/menu/fullScreenMode";
-export { default as PreviewPaneOnlyMenuSVG } from "./svg/menu/previewPaneOnly";
 export { default as PresentationModeMenuSVG } from "./svg/menu/presentationMode";
-export { default as PrettyPrinterOnlyMenuSVG } from "./svg/menu/prettyPrinterOnly";
 export { default as PreviewPanePrettyPrinterMenuSVG } from "./svg/menu/previewPanePrettyPrinter";
 export { default as PrettyPrinterPreviewPaneMenuSVG } from "./svg/menu/prettyPrinterPreviewPane";
 
