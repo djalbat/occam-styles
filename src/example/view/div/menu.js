@@ -6,16 +6,15 @@ import Div from "../div";
 
 import { ZoomInMenuSVG,
          ZoomOutMenuSVG,
-         ReverseMenuSVG,
          ResetZoomMenuSVG,
          DraftModeMenuSVG,
          EmbeddedModeMenuSVG,
          FullScreenModeMenuSVG,
+         PreviewPaneOnlyMenuSVG,
          PresentationModeMenuSVG,
-         TogglePreviewPaneOnlyMenuSVG,
-         TogglePreviewPaneSplitMenuSVG,
-         TogglePrettyPrinterOnlyMenuSVG,
-         TogglePrettyPrinterSplitMenuSVG } from "../../../index"; ///
+         PrettyPrinterOnlyMenuSVG,
+         PreviewPanePrettyPrinterMenuSVG,
+         PrettyPrinterPreviewPaneMenuSVG } from "../../../index"; ///
 
 
 export default class MenuDiv extends Element {
@@ -24,15 +23,14 @@ export default class MenuDiv extends Element {
             ZoomInMenuSVG,
             ZoomOutMenuSVG,
             ResetZoomMenuSVG,
-            ReverseMenuSVG,
             EmbeddedModeMenuSVG,
             FullScreenModeMenuSVG,
             DraftModeMenuSVG,
             PresentationModeMenuSVG,
-            TogglePreviewPaneOnlyMenuSVG,
-            TogglePreviewPaneSplitMenuSVG,
-            TogglePrettyPrinterOnlyMenuSVG,
-            TogglePrettyPrinterSplitMenuSVG
+            PreviewPaneOnlyMenuSVG,
+            PrettyPrinterOnlyMenuSVG,
+            PreviewPanePrettyPrinterMenuSVG,
+            PrettyPrinterPreviewPaneMenuSVG
           ],
           childElements = ToolbarSVGs.map((ToolbarSVG) =>
 

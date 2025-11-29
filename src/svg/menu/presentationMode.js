@@ -7,10 +7,14 @@ export default class PresentationModeMenuSVG extends MenuSVG {
     return (
 
       <g>
-        <path transform="rotate(0, 12.5, 12.5) translate(17, 12.5)" d="m 0,0 v -2 h 2 v -2 l 4,4 -4,4 v -2 h -2 z" />
-        <path transform="rotate(90, 12.5, 12.5) translate(17, 12.5)" d="m 0,0 v -2 h 2 v -2 l 4,4 -4,4 v -2 h -2 z" />
-        <path transform="rotate(180, 12.5, 12.5) translate(17, 12.5)" d="m 0,0 v -2 h 2 v -2 l 4,4 -4,4 v -2 h -2 z" />
-        <path transform="rotate(270, 12.5, 12.5) translate(17, 12.5)" d="m 0,0 v -2 h 2 v -2 l 4,4 -4,4 v -2 h -2 z" />
+        <rect width="19" height="2" x="3" y="5" />
+        <rect width="19" height="2" x="3" y="18" />
+        <rect width="2" height="11" x="3" y="7" />
+        <rect width="2" height="11" x="20" y="7" />
+        <circle cx="8" cy="10.5" r="1"/>
+        <rect width="8" height="1" x="10.5" y="10" />
+        <circle cx="8" cy="14.5" r="1"/>
+        <rect width="8" height="1" x="10.5" y="14" />
       </g>
 
     );

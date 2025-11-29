@@ -7,14 +7,8 @@ export default class EmbeddedModeMenuSVG extends MenuSVG {
     return (
 
       <g>
-        <rect width="6" height="2" x="16" y="14" />
-        <rect width="14" height="2" x="8" y="3" />
-        <rect width="2" height="6" x="8" y="5" />
-        <rect width="2" height="9" x="20" y="5" />
-        <rect width="2" height="10" x="3" y="12" />
-        <rect width="8" height="2" x="5" y="20" />
-        <rect width="2" height="10" x="13" y="12" />
-        <rect width="8" height="2" x="5" y="12" />
+        <path transform="rotate(135, 12.5, 12.5) translate(15, 12.5) scale(1.5)" d="m 0,0 l 4,-4 v 2 h 2 v 4 h -2 v 2 l -4,-4 z" />
+        <path transform="rotate(315, 12.5, 12.5) translate(15, 12.5) scale(1.5)" d="m 0,0 l 4,-4 v 2 h 2 v 4 h -2 v 2 l -4,-4 z" />
       </g>
 
     );

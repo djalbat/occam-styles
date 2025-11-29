@@ -35,16 +35,15 @@ export { default as ReleaseDirectoryNameSVG } from "./svg/name/directory/release
 
 export { default as ZoomInMenuSVG } from "./svg/menu/zoomIn";
 export { default as ZoomOutMenuSVG } from "./svg/menu/zoomOut";
-export { default as ReverseMenuSVG } from "./svg/menu/reverse";
 export { default as ResetZoomMenuSVG } from "./svg/menu/resetZoom";
 export { default as DraftModeMenuSVG } from "./svg/menu/draftMode";
 export { default as EmbeddedModeMenuSVG } from "./svg/menu/embeddedMode";
 export { default as FullScreenModeMenuSVG } from "./svg/menu/fullScreenMode";
+export { default as PreviewPaneOnlyMenuSVG } from "./svg/menu/previewPaneOnly";
 export { default as PresentationModeMenuSVG } from "./svg/menu/presentationMode";
-export { default as TogglePreviewPaneOnlyMenuSVG } from "./svg/menu/togglePreviewPaneOnly";
-export { default as TogglePreviewPaneSplitMenuSVG } from "./svg/menu/togglePreviewPaneSplit";
-export { default as TogglePrettyPrinterOnlyMenuSVG } from "./svg/menu/togglePrettyPrinterOnly";
-export { default as TogglePrettyPrinterSplitMenuSVG } from "./svg/menu/togglePrettyPrinterSplit";
+export { default as PrettyPrinterOnlyMenuSVG } from "./svg/menu/prettyPrinterOnly";
+export { default as PreviewPanePrettyPrinterMenuSVG } from "./svg/menu/previewPanePrettyPrinter";
+export { default as PrettyPrinterPreviewPaneMenuSVG } from "./svg/menu/prettyPrinterPreviewPane";
 
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
 export { default as ShowReleasesToolbarSVG } from "./svg/toolbar/showReleases";
