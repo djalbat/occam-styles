@@ -4,15 +4,11 @@ import { scrollbarThickness, scrollbarThumbBorderWidth, scrollbarThumbBorderRadi
 
 const scrollbarMixin = `
 
-  scrollbar-width: none;
-
   ::-webkit-scrollbar {
     display: none;
   }
   
   @media (pointer: fine) {
-    scrollbar-width: auto;
-
     ::-webkit-scrollbar {
       display: block;
       width: ${scrollbarThickness};
