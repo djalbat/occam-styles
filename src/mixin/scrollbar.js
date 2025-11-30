@@ -30,11 +30,6 @@ const scrollbarMixin = `
   
     ::-webkit-scrollbar-track {
       cursor: default;
-      background: transparent;
-    }
-  
-    ::-webkit-scrollbar-corner {
-      background: transparent;
     }
   }
 
