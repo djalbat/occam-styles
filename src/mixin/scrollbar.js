@@ -4,27 +4,38 @@ import { scrollbarThickness, scrollbarThumbBorderWidth, scrollbarThumbBorderRadi
 
 const scrollbarMixin = `
 
+  scrollbar-width: none;
+
   ::-webkit-scrollbar {
-    width: ${scrollbarThickness};
-    height: ${scrollbarThickness};
+    display: none;
   }
+  
+  @media (pointer: fine) {
+    scrollbar-width: auto;
 
-  ::-webkit-scrollbar-thumb {
-    cursor: default;
-    border-style: solid;
-    border-color: transparent;
-    border-width: ${scrollbarThumbBorderWidth};
-    border-radius: ${scrollbarThumbBorderRadius};
-    background-clip: content-box;
-  }
-
-  ::-webkit-scrollbar-track {
-    cursor: default;
-    background: transparent;
-  }
-
-  ::-webkit-scrollbar-corner {
-    background: transparent;
+    ::-webkit-scrollbar {
+      display: block;
+      width: ${scrollbarThickness};
+      height: ${scrollbarThickness};
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      cursor: default;
+      border-style: solid;
+      border-color: transparent;
+      border-width: ${scrollbarThumbBorderWidth};
+      border-radius: ${scrollbarThumbBorderRadius};
+      background-clip: content-box;
+    }
+  
+    ::-webkit-scrollbar-track {
+      cursor: default;
+      background: transparent;
+    }
+  
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
   }
 
 `;
