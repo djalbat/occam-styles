@@ -9,8 +9,8 @@ import { ZoomInMenuSVG,
          ResetZoomMenuSVG,
          DraftModeMenuSVG,
          PreviewPaneMenuSVG,
-         PrettyPrinterMenuSVG,
          EmbeddedModeMenuSVG,
+         PrettyPrinterMenuSVG,
          FullScreenModeMenuSVG,
          PresentationModeMenuSVG,
          PreviewPanePrettyPrinterMenuSVG,
@@ -27,10 +27,10 @@ export default class MenuDiv extends Element {
             FullScreenModeMenuSVG,
             DraftModeMenuSVG,
             PresentationModeMenuSVG,
-            PreviewPaneMenuSVG,
             PrettyPrinterMenuSVG,
+            PrettyPrinterPreviewPaneMenuSVG,
             PreviewPanePrettyPrinterMenuSVG,
-            PrettyPrinterPreviewPaneMenuSVG
+            PreviewPaneMenuSVG
           ],
           childElements = ToolbarSVGs.map((ToolbarSVG) =>
 
