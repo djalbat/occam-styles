@@ -11,7 +11,7 @@ export default class PreviewPanePrettyPrinterMenuSVG extends MenuSVG {
         <rect width="1.5" height="16" x="3" y="4.5" />
         <rect width="19" height="1.5" x="3" y="3" />
         <rect width="19" height="1.5" x="3" y="20.5" />
-        <rect width="8" height="16" x="12.5" y="4.5" />
+        <rect width="8" height="16" x="4.5" y="4.5" />
       </g>
 
     );
