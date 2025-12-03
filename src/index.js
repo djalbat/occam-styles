@@ -40,6 +40,7 @@ export { default as DraftModeMenuSVG } from "./svg/menu/draftMode";
 export { default as PreviewPaneMenuSVG } from "./svg/menu/previewPane";
 export { default as EmbeddedModeMenuSVG } from "./svg/menu/embeddedMode";
 export { default as PrettyPrinterMenuSVG } from "./svg/menu/prettyPrinter";
+export { default as InvertColoursMenuSVG } from "./svg/menu/invertColouirs";
 export { default as FullScreenModeMenuSVG } from "./svg/menu/fullScreenMode";
 export { default as PresentationModeMenuSVG } from "./svg/menu/presentationMode";
 export { default as PreviewPanePrettyPrinterMenuSVG } from "./svg/menu/previewPanePrettyPrinter";
