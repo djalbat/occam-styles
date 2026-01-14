@@ -2,7 +2,7 @@
 
 import { commonBorderColour } from "../scheme/common";
 
-import { korma, bonjour, hunterGreen, gainsborough } from "../colours";
+import { korma, bonjour, woodsmoke, gainsborough } from "../colours";
 
 export const logoFill = bonjour;
 
@@ -14,7 +14,7 @@ export const versionColour = gainsborough;
 
 export const headingColour = gainsborough;
 
-export const backgroundColour = hunterGreen;
+export const backgroundColour = woodsmoke;
 
 export const bulletPointColour = korma;
 
