@@ -1,14 +1,14 @@
 "use strict";
 
-import { dune, korma, pablo, bonjour, logCabin, stormDust, woodsmoke, hurricane, blackOlive, springWood } from "../colours";
+import { dune, korma, pablo, bonjour, logCabin, stormDust, pitchBlack, hurricane, blackOlive, springWood } from "../colours";
 
-export const foldFill = woodsmoke;
+export const foldFill = pitchBlack;
 
 export const selectedColour = springWood;
 
 export const foldButtonStroke = pablo;
 
-export const backgroundColour = woodsmoke;
+export const backgroundColour = pitchBlack;
 
 export const lineNumberColour = stormDust;
 
