@@ -4,14 +4,13 @@ import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorT
 import { typeColour,
          queryColour,
          symbolColour,
-         returnColour,
          bracketColour,
          specialColour,
          keywordColour,
          operatorColour,
+         labelNameColour,
          primitiveColour,
          expressionColour,
-         labelNameColour,
          referenceNameColour,
          labelNameHoverColour,
          disabledLabelNameColour,
@@ -26,8 +25,6 @@ const furtleSyntaxStyle = `
 
   div.furtle.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
 
-  div.furtle.lines > div.line > div.syntax > .return { color: ${returnColour}; }
-  
   div.furtle.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
   
   div.furtle.lines > div.line > div.syntax > .special { color: ${specialColour}; }
