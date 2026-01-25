@@ -8,6 +8,8 @@ export const queryColour = sushi;
 
 export const symbolColour = sushi;
 
+export const returnColour = razzmatazz;
+
 export const bracketColour = sushi;
 
 export const specialColour = sushi;

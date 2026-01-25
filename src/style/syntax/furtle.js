@@ -5,6 +5,7 @@ import { typeColour,
          queryColour,
          symbolColour,
          bracketColour,
+         returnColour,
          specialColour,
          keywordColour,
          operatorColour,
@@ -25,6 +26,8 @@ const furtleSyntaxStyle = `
 
   div.furtle.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
 
+  div.furtle.lines > div.line > div.syntax > .return { color: ${returnColour}; }
+  
   div.furtle.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
   
   div.furtle.lines > div.line > div.syntax > .special { color: ${specialColour}; }
