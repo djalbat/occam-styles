@@ -5,15 +5,15 @@ import { typeColour,
          queryColour,
          symbolColour,
          bracketColour,
-         returnColour,
          specialColour,
-         keywordColour,
          operatorColour,
          labelNameColour,
          primitiveColour,
          expressionColour,
          referenceNameColour,
          labelNameHoverColour,
+         priimaryKeywordColour,
+         secondaryKeywordColour,
          disabledLabelNameColour,
          referenceNameHoverColour,
          disabledReferenceNameColour } from "../../scheme/syntax/furtle";
@@ -26,13 +26,9 @@ const furtleSyntaxStyle = `
 
   div.furtle.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
 
-  div.furtle.lines > div.line > div.syntax > .return { color: ${returnColour}; }
-  
   div.furtle.lines > div.line > div.syntax > .bracket { color: ${bracketColour}; }
   
   div.furtle.lines > div.line > div.syntax > .special { color: ${specialColour}; }
-  
-  div.furtle.lines > div.line > div.syntax > .keyword { color: ${keywordColour}; }
   
   div.furtle.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
   
@@ -45,6 +41,10 @@ const furtleSyntaxStyle = `
   div.furtle.lines > div.line > div.syntax > .expression { color: ${expressionColour}; }
 
   div.furtle.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
+  
+  div.furtle.lines > div.line > div.syntax > .primary-keyword { color: ${priimaryKeywordColour}; }
+  
+  div.furtle.lines > div.line > div.syntax > .secondary-keyword { color: ${secondaryKeywordColour}; }
   
   div.furtle.lines > div.line > div.syntax > .label-name { color: ${labelNameColour}; }
   

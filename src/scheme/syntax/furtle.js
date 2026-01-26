@@ -8,13 +8,9 @@ export const queryColour = sushi;
 
 export const symbolColour = sushi;
 
-export const returnColour = razzmatazz;
-
 export const bracketColour = sushi;
 
 export const specialColour = sushi;
-
-export const keywordColour = razzmatazz;
 
 export const operatorColour = sushi;
 
@@ -25,6 +21,10 @@ export const labelNameColour = sycamore;
 export const referenceNameColour = sycamore;
 
 export const labelNameHoverColour = celery;
+
+export const priimaryKeywordColour = razzmatazz;
+
+export const secondaryKeywordColour = razzmatazz;
 
 export const referenceNameHoverColour = celery;
 
