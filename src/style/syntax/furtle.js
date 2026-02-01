@@ -41,7 +41,7 @@ const furtleSyntaxStyle = `
   
   div.furtle.lines > div.line > div.syntax > .boolean { color: ${booleanColour}; }
 
-  div.furtle.lines > div.line > div.syntax > .expression { color: ${expressionColour}; }
+  div.furtle.lines > div.line > div.syntax > .expression { color: ${expressionColour}; 
 
   div.furtle.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
   
