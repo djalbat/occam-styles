@@ -4,6 +4,8 @@ import { sushi, pablo, celery, sycamore, cadetBlue, razzmatazz } from "../../col
 
 export const typeColour = cadetBlue;
 
+export const nullColour = razzmatazz;
+
 export const queryColour = sushi;
 
 export const symbolColour = sushi;
@@ -12,9 +14,9 @@ export const bracketColour = sushi;
 
 export const specialColour = sushi;
 
-export const operatorColour = sushi;
+export const booleanColour = razzmatazz;
 
-export const primitiveColour = razzmatazz;
+export const operatorColour = sushi;
 
 export const labelNameColour = sycamore;
 
