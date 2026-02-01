@@ -10,7 +10,6 @@ import { typeColour,
          booleanColour,
          operatorColour,
          labelNameColour,
-         expressionColour,
          referenceNameColour,
          labelNameHoverColour,
          priimaryKeywordColour,
@@ -35,14 +34,12 @@ const furtleSyntaxStyle = `
   
   div.furtle.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
   
+  div.furtle.lines > div.line > div.syntax > .boolean { color: ${booleanColour}; }
+
   div.furtle.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
   div.furtle.lines > div.line > div.syntax > .operator { color: ${operatorColour}; }
   
-  div.furtle.lines > div.line > div.syntax > .boolean { color: ${booleanColour}; }
-
-  div.furtle.lines > div.line > div.syntax > .expression { color: ${expressionColour}; 
-
   div.furtle.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
   
   div.furtle.lines > div.line > div.syntax > .primary-keyword { color: ${priimaryKeywordColour}; }
