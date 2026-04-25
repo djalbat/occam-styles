@@ -1,6 +1,6 @@
 "use strict";
 
-import { nameColour, typeColour } from "../../scheme/syntax/customGrammarBNF"
+import { nameColour, typeColour } from "../../scheme/syntax/bnf"
 import { errorColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const bnfSyntaxStyle = `
