@@ -7,10 +7,8 @@ export default class ZoomInMenuSVG extends MenuSVG {
     return (
 
       <g>
-        <rect width="2" height="15" x="4" y="5" />
-        <rect width="2" height="15" x="19" y="5" />
-        <rect width="8" height="2" x="8.5" y="11.5" />
-        <rect width="2" height="8" x="11.5" y="8.5" />
+        <rect width="10" height="3" x="7.5" y="11" />
+        <rect width="3" height="10" x="11" y="7.5" />
       </g>
 
     );
