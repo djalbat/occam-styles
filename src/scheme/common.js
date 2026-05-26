@@ -26,12 +26,6 @@ export const commonDisabledInputColour = stormDust;
 
 export const commonDisabledButtonColour = stormDust;
 
-export const commonScrollbarThumbBackgroundColour = naturalGray;
-
-export const commonScrollbarTrackBackgroundColour = gainsborough;
-
-export const commonScrollbarCornerBackgroundColour = gainsborough;
-
 export const clearConsoleFill = walnut;
 
 export const showReleasesCrossFill = woodland;
@@ -61,9 +55,6 @@ export default {
   commonButtonBackgroundColour,
   commonDisabledInputColour,
   commonDisabledButtonColour,
-  commonScrollbarThumbBackgroundColour,
-  commonScrollbarTrackBackgroundColour,
-  commonScrollbarCornerBackgroundColour,
   clearConsoleFill,
   showReleasesCrossFill,
   hideReleasesCrossFill,
