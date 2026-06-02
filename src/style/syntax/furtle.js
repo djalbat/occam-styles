@@ -3,13 +3,13 @@
 import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 import { typeColour,
          nullColour,
-         queryColour,
          symbolColour,
          bracketColour,
          specialColour,
          booleanColour,
          operatorColour,
          labelNameColour,
+         functionNameColour,
          referenceNameColour,
          labelNameHoverColour,
          priimaryKeywordColour,
@@ -23,8 +23,6 @@ const furtleSyntaxStyle = `
   div.furtle.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
   div.furtle.lines > div.line > div.syntax > .null { color: ${nullColour}; }
-
-  div.furtle.lines > div.line > div.syntax > .query { color: ${queryColour}; }
 
   div.furtle.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
 
@@ -40,6 +38,8 @@ const furtleSyntaxStyle = `
 
   div.furtle.lines > div.line > div.syntax > .operator { color: ${operatorColour}; }
   
+  div.furtle.lines > div.line > div.syntax > .function-name { color: ${functionNameColour}; }
+
   div.furtle.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
   
   div.furtle.lines > div.line > div.syntax > .primary-keyword { color: ${priimaryKeywordColour}; }

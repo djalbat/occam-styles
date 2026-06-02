@@ -6,8 +6,6 @@ export const typeColour = cadetBlue;
 
 export const nullColour = razzmatazz;
 
-export const queryColour = sushi;
-
 export const symbolColour = sushi;
 
 export const bracketColour = sushi;
@@ -19,6 +17,8 @@ export const booleanColour = razzmatazz;
 export const operatorColour = sushi;
 
 export const labelNameColour = sycamore;
+
+export const functionNameColour = sushi;
 
 export const referenceNameColour = sycamore;
 
