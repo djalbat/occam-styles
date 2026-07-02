@@ -18,6 +18,8 @@ export const contextColour = cadetBlue;
 
 export const metaTypeColour = cadetBlue;
 
+export const backtickColour = pablo;
+
 export const primitiveColour = sushi;
 
 export const labelNameColour = sycamore;
