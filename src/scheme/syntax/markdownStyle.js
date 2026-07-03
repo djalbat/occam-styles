@@ -2,8 +2,6 @@
 
 import { sushi, walnut, pumice,  stardust, cadetBlue, razzmatazz, gainsborough } from "../../colours";
 
-export const colour = gainsborough;
-
 export const nameColour = stardust;
 
 export const valueColour = gainsborough;

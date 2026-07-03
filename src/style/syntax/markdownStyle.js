@@ -1,7 +1,6 @@
 "use strict";
 
-import { colour,
-         nameColour,
+import { nameColour,
          valueColour,
          mediaColour,
          specialColour,
@@ -12,8 +11,6 @@ import { colour,
          contentBackgroundColour } from "../../scheme/syntax/markdownStyle";
 
 const markdownStyleSyntaxStyle = `
-
-  div.markdown-style.lines > div.line > div.syntax > * { color: ${colour}; }
 
   div.markdown-style.lines > div.line > div.syntax > .name { color: ${nameColour}; }
 

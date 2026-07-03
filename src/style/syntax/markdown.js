@@ -1,7 +1,6 @@
 "use strict";
 
-import { colour,
-         pathColour,
+import { pathColour,
          linkColour,
          tableColour,
          markerColour,
@@ -13,8 +12,6 @@ import { colour,
          pathHoverColour } from "../../scheme/syntax/markdown";
 
 const markdownSyntaxStyle = `
-
-  div.markdown.lines > div.line > div.syntax > * { color: ${colour}; }
 
   div.markdown.lines > div.line > div.syntax > .link { color: ${linkColour}; }
 

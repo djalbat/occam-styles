@@ -1,9 +1,11 @@
 "use strict";
 
-import { colour, errorColour, stuffColour, commentColour, nonsenseColour, stringLiteralColour, regularExpressionColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { colour, stuffColour, commentColour, nonsenseColour, stringLiteralColour, regularExpressionColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
+  div.lines > div.line > div.syntax > * { color: ${colour}; }
+  
   div.lines > div.line > div.syntax > .stuff { color: ${stuffColour}; }
 
   div.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
@@ -15,7 +17,6 @@ const defaultSyntaxStyle = `
   div.lines > div.line > div.syntax > .regular-expression { color: ${regularExpressionColour}; }
 
   div.lines > div.line > div.syntax * { 
-    color: ${colour}; 
     display: inline;
     font-size: inherit;
     line-height: inherit;
@@ -34,7 +35,6 @@ const defaultSyntaxStyle = `
   }
   
   div.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
     text-decoration-line: underline;
     text-decoration-color: ${errorTextDecorationColour};
   } 

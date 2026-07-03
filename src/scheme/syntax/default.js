@@ -1,10 +1,8 @@
 "use strict";
 
-import { pablo, sorrell, springWood, pomegranate, hokeyPokey, gainsborough } from "../../colours";
+import { pablo, sorrell, pomegranate, hokeyPokey, gainsborough } from "../../colours";
 
-export const colour = springWood;
-
-export const errorColour = gainsborough;
+export const colour = gainsborough;
 
 export const stuffColour = pablo;
 

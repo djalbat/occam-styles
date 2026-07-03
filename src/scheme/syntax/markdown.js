@@ -2,8 +2,6 @@
 
 import { celery, stardust, sycamore, cadetBlue, hokeyPokey, spanishGreen, gainsborough } from "../../colours";
 
-export const colour = gainsborough;
-
 export const pathColour = celery;
 
 export const linkColour = stardust;
