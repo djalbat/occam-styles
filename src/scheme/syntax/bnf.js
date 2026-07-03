@@ -1,9 +1,9 @@
 "use strict";
 
-import { stardust, cadetBlue, spanishGreen } from "../../colours";
+import { sorrell, cadetBlue, spanishGreen } from "../../colours";
 
 export const nameColour = cadetBlue;
 
 export const typeColour = spanishGreen;
 
-export const regularExpressionColour = stardust;
+export const regularExpressionColour = sorrell;
