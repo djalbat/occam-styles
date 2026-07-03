@@ -1,6 +1,5 @@
 "use strict";
 
-import { nonsenseColour } from "../../scheme/syntax/default";
 import { colour,
          nameColour,
          valueColour,
@@ -25,8 +24,6 @@ const markdownStyleSyntaxStyle = `
   div.markdown-style.lines > div.line > div.syntax > .special { color: ${specialColour}; }
 
   div.markdown-style.lines > div.line > div.syntax > .content { color: ${contentColour}; } 
-
-  div.markdown-style.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
   div.markdown-style.lines > div.line > div.syntax > .rule-name { color: ${ruleNameColour}; }
 

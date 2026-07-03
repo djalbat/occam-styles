@@ -1,8 +1,18 @@
 "use strict";
 
-import { colour, errorColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { colour, errorColour, stuffColour, commentColour, nonsenseColour, stringLiteralColour, regularExpressionColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
+
+  div.lines > div.line > div.syntax > .stuff { color: ${stuffColour}; }
+
+  div.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
+  
+  div.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
+
+  div.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
+  
+  div.lines > div.line > div.syntax > .regular-expression { color: ${regularExpressionColour}; }
 
   div.lines > div.line > div.syntax * { 
     color: ${colour}; 
@@ -22,8 +32,6 @@ const defaultSyntaxStyle = `
   div.lines > div.line > div.syntax > button:disabled {
     cursor: default;
   }
-  
-  div.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
   
   div.lines > div.line > div.syntax > .error {
     color: ${errorColour};

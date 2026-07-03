@@ -6,8 +6,6 @@ export const nameColour = springWood;
 
 export const typeColour = cadetBlue;
 
-export const stuffColour = pablo;
-
 export const symbolColour = sorrell;
 
 export const specialColour = sushi;

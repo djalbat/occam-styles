@@ -1,6 +1,5 @@
 "use strict";
 
-import { nonsenseColour } from "../../scheme/syntax/default";
 import { nullColour, numberColour, booleanColour } from "../../scheme/syntax/json";
 
 const jsonSyntaxStyle = `
@@ -10,8 +9,6 @@ const jsonSyntaxStyle = `
   div.json.lines > div.line > div.syntax > .number { color: ${numberColour}; }
 
   div.json.lines > div.line > div.syntax > .boolean { color: ${booleanColour}; }
-
-  div.json.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
 `;
 

@@ -1,6 +1,5 @@
 "use strict";
 
-import { commentColour, nonsenseColour } from "../../scheme/syntax/default";
 import { typeColour,
          nullColour,
          symbolColour,
@@ -30,11 +29,7 @@ const furtleSyntaxStyle = `
   
   div.furtle.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
-  div.furtle.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
-  
   div.furtle.lines > div.line > div.syntax > .boolean { color: ${booleanColour}; }
-
-  div.furtle.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
   div.furtle.lines > div.line > div.syntax > .operator { color: ${operatorColour}; }
   

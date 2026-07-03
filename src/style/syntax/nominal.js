@@ -1,9 +1,7 @@
 "use strict";
 
-import { commentColour, nonsenseColour } from "../../scheme/syntax/default";
 import { nameColour,
          typeColour,
-         stuffColour,
          symbolColour,
          specialColour,
          keywordColour,
@@ -27,17 +25,11 @@ const nominalSyntaxStyle = `
 
   div.nominal.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
-  div.nominal.lines > div.line > div.syntax > .stuff { color: ${stuffColour}; }
-
   div.nominal.lines > div.line > div.syntax > .symbol { color: ${symbolColour}; }
 
   div.nominal.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .comment { color: ${commentColour}; }
-  
   div.nominal.lines > div.line > div.syntax > .context { color: ${contextColour}; }
-
-  div.nominal.lines > div.line > div.syntax > .nonsense { color: ${nonsenseColour}; } 
 
   div.nominal.lines > div.line > div.syntax > .backtick { color: ${backtickColour}; }
 
