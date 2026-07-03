@@ -1,7 +1,6 @@
 "use strict";
 
-import { nameColour, typeColour } from "../../scheme/syntax/bnf"
-import { errorColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { nameColour, typeColour, regularExpressionColour } from "../../scheme/syntax/bnf"
 
 const bnfSyntaxStyle = `
 
@@ -9,13 +8,7 @@ const bnfSyntaxStyle = `
 
   div.bnf.lines > div.line > div.syntax > .type { color: ${typeColour}; }
 
-  div.bnf.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
-  
-  div.bnf.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${errorTextDecorationColour};
-  } 
+  div.bnf.lines > div.line > div.syntax > .regular-expression { color: ${regularExpressionColour}; }
 
 `;
 

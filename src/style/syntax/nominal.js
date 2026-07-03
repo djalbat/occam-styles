@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { commentColour, nonsenseColour } from "../../scheme/syntax/default";
 import { nameColour,
          typeColour,
          stuffColour,
@@ -45,8 +45,6 @@ const nominalSyntaxStyle = `
   
   div.nominal.lines > div.line > div.syntax > .primitive { color: ${primitiveColour}; }
 
-  div.nominal.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
-
   div.nominal.lines > div.line > div.syntax > .primary-keyword { color: ${keywordColour}; }
   
   div.nominal.lines > div.line > div.syntax > .secondary-keyword { color: ${keywordColour}; }
@@ -69,12 +67,6 @@ const nominalSyntaxStyle = `
 
   div.nominal.lines > div.line > div.syntax > .procedure-reference-name:disabled { color: ${disabledProcedureReferenceNameColour}; }
   
-  div.nominal.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${errorTextDecorationColour};
-  } 
-
 `;
 
 export default nominalSyntaxStyle;

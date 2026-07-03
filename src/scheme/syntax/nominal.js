@@ -24,11 +24,11 @@ export const primitiveColour = sushi;
 
 export const labelNameColour = sycamore;
 
-export const referenceNameColour = sycamore;
-
 export const labelNameHoverColour = celery;
 
 export const disabledLabelNameColour = pablo;
+
+export const referenceNameColour = sycamore;
 
 export const referenceNameHoverColour = celery;
 

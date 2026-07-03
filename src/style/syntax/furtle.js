@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, commentColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { commentColour, nonsenseColour } from "../../scheme/syntax/default";
 import { typeColour,
          nullColour,
          symbolColour,
@@ -40,8 +40,6 @@ const furtleSyntaxStyle = `
   
   div.furtle.lines > div.line > div.syntax > .function-name { color: ${functionNameColour}; }
 
-  div.furtle.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
-  
   div.furtle.lines > div.line > div.syntax > .primary-keyword { color: ${priimaryKeywordColour}; }
   
   div.furtle.lines > div.line > div.syntax > .secondary-keyword { color: ${secondaryKeywordColour}; }
@@ -57,12 +55,6 @@ const furtleSyntaxStyle = `
   div.furtle.lines > div.line > div.syntax > .reference-name:hover { color: ${referenceNameHoverColour}; }
 
   div.furtle.lines > div.line > div.syntax > .reference-name:disabled { color: ${disabledReferenceNameColour}; }
-
-  div.furtle.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${errorTextDecorationColour};
-  } 
 
 `;
 

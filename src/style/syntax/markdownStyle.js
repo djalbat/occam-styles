@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, nonsenseColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { nonsenseColour } from "../../scheme/syntax/default";
 import { colour,
          nameColour,
          valueColour,
@@ -34,15 +34,7 @@ const markdownStyleSyntaxStyle = `
 
   div.markdown-style.lines > div.line > div.syntax > .media-type { color: ${mediaTypeColour}; }
 
-  div.markdown-style.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
-
   div.markdown-style.lines > div.line > div.syntax > .content { background-color: ${contentBackgroundColour}; } 
-
-  div.markdown-style.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${errorTextDecorationColour};
-  } 
 
 `;
 

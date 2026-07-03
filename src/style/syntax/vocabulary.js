@@ -1,14 +1,10 @@
 "use strict";
 
-import { errorColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { colour } from "../../scheme/syntax/vocabulary";
 
 const vocabularySyntaxStyle = `
 
-  div.vocabulary.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${errorTextDecorationColour};
-  } 
+  div.vocabulary.lines > div.line > div.syntax > * { color: ${colour}; }
 
 `;
 

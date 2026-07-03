@@ -1,6 +1,6 @@
 "use strict";
 
-import { colour } from "../../scheme/syntax/default";
+import { colour, errorColour, stringLiteralColour, errorTextDecorationColour } from "../../scheme/syntax/default";
 
 const defaultSyntaxStyle = `
 
@@ -22,6 +22,14 @@ const defaultSyntaxStyle = `
   div.lines > div.line > div.syntax > button:disabled {
     cursor: default;
   }
+  
+  div.lines > div.line > div.syntax > .string-literal { color: ${stringLiteralColour}; }
+  
+  div.lines > div.line > div.syntax > .error {
+    color: ${errorColour};
+    text-decoration-line: underline;
+    text-decoration-color: ${errorTextDecorationColour};
+  } 
 
 `;
 

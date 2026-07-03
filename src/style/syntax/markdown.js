@@ -1,6 +1,6 @@
 "use strict";
 
-import { errorColour, nonsenseColour, errorTextDecorationColour } from "../../scheme/syntax/default";
+import { nonsenseColour } from "../../scheme/syntax/default";
 import { colour,
          pathColour,
          linkColour,
@@ -38,12 +38,6 @@ const markdownSyntaxStyle = `
   div.markdown.lines > div.line > div.syntax > .reference { color: ${referenceColour}; }
 
   div.markdown.lines > div.line > div.syntax > .directive { color: ${directiveColour}; }
-
-  div.markdown.lines > div.line > div.syntax > .error {
-    color: ${errorColour};
-    text-decoration-line: underline;
-    text-decoration-color: ${errorTextDecorationColour};
-  } 
 
 `;
 
