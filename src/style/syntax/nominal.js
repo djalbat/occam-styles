@@ -8,10 +8,13 @@ import { nameColour,
          contextColour,
          backtickColour,
          metaTypeColour,
+         linkNameColour,
          primitiveColour,
          labelNameColour,
+         linkNameHoverColour,
          referenceNameColour,
          labelNameHoverColour,
+         disabledLinkNameColour,
          disabledLabelNameColour,
          referenceNameHoverColour,
          disabledReferenceNameColour,
@@ -46,6 +49,12 @@ const nominalSyntaxStyle = `
   div.nominal.lines > div.line > div.syntax > .label-name:hover { color: ${labelNameHoverColour}; }
 
   div.nominal.lines > div.line > div.syntax > .label-name:disabled { color: ${disabledLabelNameColour}; }
+  
+  div.nominal.lines > div.line > div.syntax > .link-name { color: ${linkNameColour}; }
+  
+  div.nominal.lines > div.line > div.syntax > .link-name:hover { color: ${linkNameHoverColour}; }
+
+  div.nominal.lines > div.line > div.syntax > .link-name:disabled { color: ${disabledLinkNameColour}; }
   
   div.nominal.lines > div.line > div.syntax > .reference-name { color: ${referenceNameColour}; }
   

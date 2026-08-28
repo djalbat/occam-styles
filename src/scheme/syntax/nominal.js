@@ -26,6 +26,12 @@ export const labelNameHoverColour = celery;
 
 export const disabledLabelNameColour = pablo;
 
+export const linkNameColour = sycamore;
+
+export const linkNameHoverColour = celery;
+
+export const disabledLinkNameColour = pablo;
+
 export const referenceNameColour = sycamore;
 
 export const referenceNameHoverColour = celery;
