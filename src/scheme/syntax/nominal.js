@@ -38,8 +38,8 @@ export const referenceNameHoverColour = celery;
 
 export const disabledReferenceNameColour = pablo;
 
-export const procedureCallNameColour = sycamore;
+export const procedureReferenceNameColour = sycamore;
 
-export const procedureCallNameHoverColour = celery;
+export const procedureReferenceNameHoverColour = celery;
 
-export const disabledProcedureCallNameColour = pablo;
+export const disabledProcedureReferenceNameColour = pablo;
