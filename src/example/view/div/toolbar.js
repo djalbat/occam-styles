@@ -6,9 +6,8 @@ import { Element } from "easy";
 
 import Div from "../div";
 
-import { JoinSessionToolbarSVG,
-         ShowReleasesToolbarSVG,
-         HideReleasesToolbarSVG,
+import { ReleasesToolbarSVG,
+         JoinSessionToolbarSVG,
          LeaveSessionToolbarSVG,
          ClearConsoleToolbarSVG,
          CreateSessionToolbarSVG,
@@ -39,9 +38,8 @@ import { JoinSessionToolbarSVG,
 class ToolbarDiv extends Element {
   childElements() {
     const ToolbarSVGs = [
+            ReleasesToolbarSVG,
             JoinSessionToolbarSVG,
-            ShowReleasesToolbarSVG,
-            HideReleasesToolbarSVG,
             LeaveSessionToolbarSVG,
             ClearConsoleToolbarSVG,
             CreateSessionToolbarSVG,

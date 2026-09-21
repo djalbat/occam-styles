@@ -46,9 +46,8 @@ export { default as PresentationModeMenuSVG } from "./svg/menu/presentationMode"
 export { default as PreviewPanePrettyPrinterMenuSVG } from "./svg/menu/previewPanePrettyPrinter";
 export { default as PrettyPrinterPreviewPaneMenuSVG } from "./svg/menu/prettyPrinterPreviewPane";
 
+export { default as ReleasesToolbarSVG } from "./svg/toolbar/releases";
 export { default as JoinSessionToolbarSVG } from "./svg/toolbar/joinSession";
-export { default as ShowReleasesToolbarSVG } from "./svg/toolbar/showReleases";
-export { default as HideReleasesToolbarSVG } from "./svg/toolbar/hideReleases";
 export { default as LeaveSessionToolbarSVG } from "./svg/toolbar/leaveSession";
 export { default as ClearConsoleToolbarSVG } from "./svg/toolbar/clearConsole";
 export { default as CreateSessionToolbarSVG } from "./svg/toolbar/createSession";
