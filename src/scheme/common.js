@@ -1,6 +1,6 @@
 "use strict";
 
-import { dawn, bianca, walnut, tuatara, bonjour, woodland, stardust, woodsmoke, stormDust, springWood, naturalGray, gainsborough } from "../colours";
+import { dawn, bianca, walnut, tuatara, bonjour, woodland, stardust, woodsmoke, stormDust, springWood } from "../colours";
 
 export const commonFill = tuatara;
 
@@ -38,7 +38,11 @@ export const tooltipBackgroundColour = bianca;
 
 export const glyphUnicodeCharacterColour = stardust;
 
+export const selectedToolbarButtonBorderColour = stormDust;
+
 export const selectedGlyphUnicodeCharacterColour = bonjour;
+
+export const selectedToolbarButtonBackgroundColour = bonjour;
 
 export const glyphUnicodeCharacterBackgroundColour = woodsmoke;
 
@@ -61,6 +65,8 @@ export default {
   cancelCharacterMapFill,
   tooltipBackgroundColour,
   glyphUnicodeCharacterColour,
+  selectedToolbarButtonBorderColour,
   selectedGlyphUnicodeCharacterColour,
+  selectedToolbarButtonBackgroundColour,
   glyphUnicodeCharacterBackgroundColour
 };
