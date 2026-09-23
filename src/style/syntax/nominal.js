@@ -6,7 +6,6 @@ import { nameColour,
          specialColour,
          keywordColour,
          contextColour,
-         backtickColour,
          metaTypeColour,
          linkNameColour,
          primitiveColour,
@@ -33,8 +32,6 @@ const nominalSyntaxStyle = `
   div.nominal.lines > div.line > div.syntax > .special { color: ${specialColour}; }
   
   div.nominal.lines > div.line > div.syntax > .context { color: ${contextColour}; }
-
-  div.nominal.lines > div.line > div.syntax > .backtick { color: ${backtickColour}; }
 
   div.nominal.lines > div.line > div.syntax > .meta-type { color: ${metaTypeColour}; }
   
